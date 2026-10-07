@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-02",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-02-0001",
+   "concept": "minimum-uncertainty",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "The product \\(\\Delta x\\,\\Delta p\\) attains its minimum value \\(\\hbar/2\\) for a wave function that is:",
+   "options": {
+    "A": "a particle-in-a-box eigenstate",
+    "B": "a Dirac delta function in position",
+    "C": "a plane wave \\(e^{ikx}\\)",
+    "D": "a Gaussian wave packet"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "The Cauchy–Schwarz step in the derivation becomes an equality only for a Gaussian, so a Gaussian packet saturates \\(\\Delta x \\Delta p = \\hbar/2\\).",
+    "whyWrong": {
+     "A": "Box eigenstates have \\(\\Delta x\\,\\Delta p > \\hbar/2\\) (e.g. about \\(0.57\\hbar\\) for the ground state).",
+     "B": "A delta function has \\(\\Delta x = 0\\) but infinite \\(\\Delta p\\).",
+     "C": "A plane wave has \\(\\Delta p = 0\\) but \\(\\Delta x \\to \\infty\\); the product is not the minimum value."
+    },
+    "conceptTested": "Minimum-uncertainty states",
+    "trapUsed": "Choosing an extreme state where one uncertainty is zero.",
+    "howToModify": "Ask for the numerical value of \\(\\Delta x\\Delta p\\) for the ground state of the harmonic oscillator (also \\(\\hbar/2\\)).",
+    "howToAvoid": "Recall that the harmonic-oscillator ground state, a Gaussian, is the textbook minimum-uncertainty state."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-02-0002",
+   "concept": "position-momentum-uncertainty",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.1,
+    "c": 0.25
+   },
+   "stem": "An electron is localized within \\(\\Delta x = 1.0\\ \\text{Å}\\). The minimum uncertainty in its momentum is about (\\(\\hbar = 1.055\\times10^{-34}\\ \\text{J s}\\)):",
+   "options": {
+    "A": "\\(5.3\\times10^{-25}\\ \\text{kg m s}^{-1}\\)",
+    "B": "\\(1.1\\times10^{-24}\\ \\text{kg m s}^{-1}\\)",
+    "C": "\\(6.6\\times10^{-24}\\ \\text{kg m s}^{-1}\\)",
+    "D": "\\(5.3\\times10^{-35}\\ \\text{kg m s}^{-1}\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\Delta p \\ge \\hbar/(2\\Delta x) = 1.055\\times10^{-34}/(2\\times10^{-10}) \\approx 5.3\\times10^{-25}\\ \\text{kg m s}^{-1}\\).",
+    "whyWrong": {
+     "B": "Uses \\(\\hbar/\\Delta x\\), dropping the factor 1/2.",
+     "C": "Uses \\(h/\\Delta x\\) instead of \\(\\hbar/2\\Delta x\\).",
+     "D": "Forgets to convert Å to metres (uses \\(\\Delta x = 1\\))."
+    },
+    "conceptTested": "Heisenberg position–momentum relation",
+    "trapUsed": "Factor-of-2 and \\(h\\) versus \\(\\hbar\\) confusion.",
+    "howToModify": "Ask for the corresponding minimum kinetic energy estimate in eV.",
+    "howToAvoid": "Write the exact inequality \\(\\Delta x\\Delta p \\ge \\hbar/2\\) before substituting numbers, and convert units first."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "formula-confusion",
+    "D": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-02-0003",
+   "concept": "energy-time-uncertainty",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "An excited atomic state has a lifetime of about \\(10^{-8}\\ \\text{s}\\). The order of magnitude of the natural energy width of the level is (\\(\\hbar \\approx 6.6\\times10^{-16}\\ \\text{eV s}\\)):",
+   "options": {
+    "A": "\\(10^{-15}\\ \\text{eV}\\)",
+    "B": "\\(10^{-7}\\ \\text{eV}\\)",
+    "C": "\\(10^{-3}\\ \\text{eV}\\)",
+    "D": "\\(1\\ \\text{eV}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\Delta E \\sim \\hbar/\\tau = 6.6\\times10^{-16}/10^{-8} \\approx 6.6\\times10^{-8}\\ \\text{eV}\\), i.e. of order \\(10^{-7}\\ \\text{eV}\\).",
+    "whyWrong": {
+     "A": "Multiplies \\(\\hbar\\) by \\(\\tau\\) instead of dividing.",
+     "C": "Far too large; that is typical of fine-structure or vibrational scales, not lifetime broadening.",
+     "D": "Comparable to the transition energy itself — the line would be completely smeared."
+    },
+    "conceptTested": "Energy–time uncertainty and natural linewidth",
+    "trapUsed": "Multiplying instead of dividing by the lifetime.",
+    "howToModify": "Give the linewidth and ask for the lifetime, or ask for the width in frequency units.",
+    "howToAvoid": "Check dimensions: \\(\\hbar\\) in eV s divided by s gives eV."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "careless",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-02-0004",
+   "concept": "compatible-observables",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Which pair of observables can, in general, be measured simultaneously with arbitrary precision?",
+   "options": {
+    "A": "\\(x\\) and \\(p_x\\)",
+    "B": "\\(L_x\\) and \\(L_y\\)",
+    "C": "\\(L^2\\) and \\(L_z\\)",
+    "D": "\\(S_x\\) and \\(S_z\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\([L^2, L_z] = 0\\), so they share a common eigenbasis \\(|l,m\\rangle\\); the generalized uncertainty relation imposes no lower bound on their product.",
+    "whyWrong": {
+     "A": "\\([x,p_x] = i\\hbar\\); they obey Heisenberg's relation.",
+     "B": "\\([L_x,L_y] = i\\hbar L_z \\neq 0\\) in general.",
+     "D": "\\([S_x,S_z] = -i\\hbar S_y \\neq 0\\)."
+    },
+    "conceptTested": "Generalized uncertainty principle and commuting operators",
+    "trapUsed": "Listing components of the same vector, which look 'related' but do not commute.",
+    "howToModify": "Ask whether \\(x\\) and \\(p_y\\) are compatible (yes: they commute).",
+    "howToAvoid": "Use \\(\\sigma_A\\sigma_B \\ge \\tfrac12|\\langle[A,B]\\rangle|\\): zero commutator means no restriction."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-02-0005",
+   "concept": "zero-point-energy",
+   "type": "application",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "The uncertainty principle explains why:",
+   "options": {
+    "A": "the hydrogen spectrum consists of discrete lines",
+    "B": "electrons have intrinsic spin",
+    "C": "photons are massless",
+    "D": "a harmonic oscillator has a non-zero ground-state energy"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "If the oscillator sat at rest at \\(x=0\\), both \\(\\Delta x\\) and \\(\\Delta p\\) would vanish. Minimising \\(E \\sim \\Delta p^2/2m + m\\omega^2\\Delta x^2/2\\) subject to \\(\\Delta x\\Delta p \\ge \\hbar/2\\) gives \\(E_{min} = \\hbar\\omega/2\\).",
+    "whyWrong": {
+     "A": "Discrete lines follow from quantized bound-state energies (boundary conditions), not directly from the uncertainty relation.",
+     "B": "Spin is an intrinsic property arising from relativistic quantum mechanics/representation theory.",
+     "C": "Photon masslessness is a property of the electromagnetic field (gauge invariance)."
+    },
+    "conceptTested": "Physical consequences of the uncertainty principle",
+    "trapUsed": "Distractors that are true quantum facts but have different origins.",
+    "howToModify": "Ask for an estimate of the hydrogen ground-state energy using the uncertainty principle.",
+    "howToAvoid": "Ask: does the effect come from localisation costing momentum? If yes, it is an uncertainty argument."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-02-0006",
+   "concept": "wave-packet-spread",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "A minimum-uncertainty Gaussian wave packet has its position spread reduced to half its original value. Its momentum spread:",
+   "options": {
+    "A": "doubles",
+    "B": "increases four-fold",
+    "C": "is halved",
+    "D": "is unchanged"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "For a minimum-uncertainty packet \\(\\Delta x\\,\\Delta p = \\hbar/2\\) exactly, so halving \\(\\Delta x\\) doubles \\(\\Delta p\\).",
+    "whyWrong": {
+     "B": "Squares the factor, perhaps confusing with energy \\(\\propto p^2\\).",
+     "C": "Treats \\(\\Delta x\\) and \\(\\Delta p\\) as directly proportional.",
+     "D": "Ignores the trade-off imposed by the uncertainty relation."
+    },
+    "conceptTested": "Reciprocal relation between position and momentum spreads",
+    "trapUsed": "Squaring the factor (energy scales as \\(\\Delta p^2\\)).",
+    "howToModify": "Ask by what factor the kinetic-energy spread changes (four-fold).",
+    "howToAvoid": "For saturated relations, the product is fixed, so the factors are reciprocal."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

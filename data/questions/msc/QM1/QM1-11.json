@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-11",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-11-0001",
+   "concept": "central-potential-separation",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "For any central potential \\(V(r)\\), the angular part of the energy eigenfunctions is given by:",
+   "options": {
+    "A": "Spherical harmonics \\(Y_l^m(\\theta,\\phi)\\)",
+    "B": "Bessel functions",
+    "C": "Laguerre polynomials",
+    "D": "Hermite polynomials"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Because \\(V\\) depends only on \\(r\\), \\(\\psi = R(r)Y_l^m(\\theta,\\phi)\\); the angular equation is the eigenvalue problem of \\(\\hat L^2\\), independent of \\(V\\).",
+    "whyWrong": {
+     "B": "Appear in radial solutions of free particles/spherical wells.",
+     "C": "Appear in the hydrogen radial functions.",
+     "D": "Appear in the 1D oscillator."
+    },
+    "conceptTested": "Separation of variables in spherical coordinates",
+    "trapUsed": "Special functions belonging to other parts of the problem.",
+    "howToModify": "Ask which function gives hydrogen's radial part (associated Laguerre).",
+    "howToAvoid": "Angular part never depends on \\(V(r)\\): always \\(Y_l^m\\)."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-11-0002",
+   "concept": "spherical-harmonic-parity",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.1,
+    "c": 0.25
+   },
+   "stem": "Under parity \\((\\theta,\\phi)\\to(\\pi-\\theta,\\phi+\\pi)\\), the spherical harmonic \\(Y_l^m\\) transforms as:",
+   "options": {
+    "A": "\\(Y_l^m\\to(-1)^mY_l^m\\)",
+    "B": "\\(Y_l^m\\to(-1)^lY_l^m\\)",
+    "C": "\\(Y_l^m\\to Y_l^{-m}\\)",
+    "D": "\\(Y_l^m\\to Y_l^m\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Parity of \\(Y_l^m\\) is \\((-1)^l\\), independent of \\(m\\); this gives the dipole selection rule \\(\\Delta l = \\pm1\\).",
+    "whyWrong": {
+     "A": "Confuses parity with the phase relation \\(Y_l^{-m} = (-1)^mY_l^{m*}\\).",
+     "C": "That is complex conjugation up to a phase.",
+     "D": "Only even \\(l\\) are even."
+    },
+    "conceptTested": "Parity of spherical harmonics",
+    "trapUsed": "\\(l\\) vs \\(m\\) dependence.",
+    "howToModify": "Ask why \\(s\\to s\\) dipole transitions are forbidden.",
+    "howToAvoid": "Parity depends on \\(l\\) only."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-11-0003",
+   "concept": "cubic-box-degeneracy",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "For a particle in a cubic box, \\(E\\propto n_x^2+n_y^2+n_z^2\\). The degeneracy of the first excited level is:",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "6"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Ground state (1,1,1): sum 3. First excited: sum 6 from (2,1,1), (1,2,1), (1,1,2) — threefold degenerate.",
+    "whyWrong": {
+     "A": "Ignores permutations.",
+     "B": "Miscounts permutations.",
+     "D": "Treats all orderings of three distinct numbers."
+    },
+    "conceptTested": "Degeneracy in 3D boxes",
+    "trapUsed": "Permutation counting.",
+    "howToModify": "Ask for the degeneracy of the level with sum 14 ((1,2,3) permutations: 6).",
+    "howToAvoid": "List quantum-number triples explicitly."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "B": "careless",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-11-0004",
+   "concept": "effective-potential",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "The radial equation for \\(u(r) = rR(r)\\) contains the effective potential:",
+   "options": {
+    "A": "\\(V(r) + \\dfrac{\\hbar^2 l^2}{2mr}\\)",
+    "B": "\\(V(r)\\) only",
+    "C": "\\(V(r) - \\dfrac{\\hbar^2 l(l+1)}{2mr^2}\\)",
+    "D": "\\(V(r) + \\dfrac{\\hbar^2 l(l+1)}{2mr^2}\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "The centrifugal barrier \\(+\\hbar^2l(l+1)/2mr^2\\) is repulsive; it keeps \\(l\\neq0\\) wave functions away from the origin.",
+    "whyWrong": {
+     "A": "Wrong power of \\(r\\) and wrong \\(l\\) dependence.",
+     "B": "Ignores rotational kinetic energy.",
+     "C": "Sign error: the centrifugal term is repulsive."
+    },
+    "conceptTested": "Centrifugal barrier",
+    "trapUsed": "Sign of the centrifugal term.",
+    "howToModify": "Ask how \\(R(r)\\) behaves near \\(r=0\\) (\\(\\propto r^l\\)).",
+    "howToAvoid": "Rotational kinetic energy is positive → added to \\(V\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "concept-confusion",
+    "C": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-11-0005",
+   "concept": "isotropic-oscillator",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.25
+   },
+   "stem": "The 3D isotropic harmonic oscillator has \\(E_n = (n + \\tfrac32)\\hbar\\omega\\). The degeneracy of the level with \\(n=2\\) is:",
+   "options": {
+    "A": "6",
+    "B": "9",
+    "C": "3",
+    "D": "4"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Degeneracy \\(=(n+1)(n+2)/2 = 6\\): (2,0,0)×3 and (1,1,0)×3.",
+    "whyWrong": {
+     "B": "Uses \\(n^2\\)-like hydrogen formula with \\(n=3\\).",
+     "C": "Counts only (2,0,0) permutations.",
+     "D": "Guess."
+    },
+    "conceptTested": "Degeneracy of the 3D oscillator",
+    "trapUsed": "Hydrogen-style \\(n^2\\) degeneracy.",
+    "howToModify": "Ask for the \\(l\\) values contained in \\(n=2\\) (\\(l=0,2\\)).",
+    "howToAvoid": "Count non-negative integer solutions of \\(n_x+n_y+n_z=n\\)."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "careless",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-11-0006",
+   "concept": "radial-boundary",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "The reduced radial function \\(u(r) = rR(r)\\) must satisfy which boundary condition at the origin?",
+   "options": {
+    "A": "\\(u'(0) = 0\\)",
+    "B": "\\(u(0) = 0\\)",
+    "C": "none is needed",
+    "D": "\\(u(0) = 1\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "If \\(u(0)\\neq0\\), \\(R\\sim1/r\\) and \\(\\nabla^2(1/r) = -4\\pi\\delta^3(\\mathbf r)\\) would not satisfy the Schrödinger equation; hence \\(u(0)=0\\).",
+    "whyWrong": {
+     "A": "Confuses with symmetric 1D conditions.",
+     "C": "A condition is required to exclude singular solutions.",
+     "D": "Arbitrary normalization-like condition with no basis."
+    },
+    "conceptTested": "Boundary condition at the origin",
+    "trapUsed": "1D analogy.",
+    "howToModify": "Ask why the 3D problem maps onto a 1D problem on the half-line with an infinite wall at \\(r=0\\).",
+    "howToAvoid": "Think of \\(u\\) as a 1D wave function with a hard wall at \\(r=0\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

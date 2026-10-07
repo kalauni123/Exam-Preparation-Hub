@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "_ownerNote": "Blueprint numbers below are PLACEHOLDERS (null) on purpose. Fill questionCount, marksPerQuestion, negativeMarking and durationMinutes from the official notice. Until a section's questionCount is filled, score prediction for that profile falls back to a generic per-subject estimate and says so on screen.",
+  "profiles": [
+    {
+      "id": "tu-assistant-professor",
+      "name": "TU Assistant Professor",
+      "ownerMustFill": true,
+      "durationMinutes": null,
+      "papers": [
+        {
+          "id": "paper-1",
+          "name": "Paper I — General / Aptitude",
+          "sections": [
+            { "id": "teaching", "name": "Teaching Aptitude", "subjectIds": ["TECH"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.6 },
+            { "id": "research", "name": "Research Aptitude", "subjectIds": ["RESEARCH"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.5 },
+            { "id": "communication", "name": "Communication", "subjectIds": ["COMM"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.4 },
+            { "id": "ict", "name": "ICT", "subjectIds": ["ICT"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.4 },
+            { "id": "pse", "name": "People, Society and Environment", "subjectIds": ["PSE"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.4 },
+            { "id": "hes", "name": "Higher Education System", "subjectIds": ["HES"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.4 },
+            { "id": "tu-rules", "name": "TU Rules and Regulation", "subjectIds": ["TU"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.6 }
+          ]
+        },
+        {
+          "id": "paper-2",
+          "name": "Paper II — Subject (Physics)",
+          "sections": [
+            { "id": "qm", "name": "Quantum Mechanics", "subjectIds": ["QM1", "QM2"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.8 },
+            { "id": "stat", "name": "Statistical Mechanics", "subjectIds": ["STAT"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.7 },
+            { "id": "cm", "name": "Classical Mechanics", "subjectIds": ["CM_MSC"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.6 },
+            { "id": "ed", "name": "Electrodynamics", "subjectIds": ["ED1", "ED2"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.6 },
+            { "id": "math", "name": "Mathematical Physics", "subjectIds": ["MATH1", "MATH2"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.5 },
+            { "id": "others", "name": "Other MSc papers", "subjectIds": ["SSP_MSC", "ELEC_MSC", "PP", "QFT"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.4 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "net-physics",
+      "name": "NET Physics",
+      "ownerMustFill": true,
+      "durationMinutes": null,
+      "papers": [
+        {
+          "id": "part-a",
+          "name": "General Aptitude",
+          "sections": [
+            { "id": "aptitude", "name": "Aptitude", "subjectIds": ["TECH", "RESEARCH", "COMM", "ICT", "PSE", "HES"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.4 }
+          ]
+        },
+        {
+          "id": "part-bc",
+          "name": "Physical Sciences",
+          "sections": [
+            { "id": "core-qm", "name": "Quantum Mechanics", "subjectIds": ["QM1", "QM2"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.8 },
+            { "id": "core-stat", "name": "Thermal and Statistical Physics", "subjectIds": ["STAT", "THERMO"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.7 },
+            { "id": "core-cm", "name": "Classical Mechanics", "subjectIds": ["CM_MSC", "CM"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.7 },
+            { "id": "core-em", "name": "Electromagnetic Theory", "subjectIds": ["ED1", "ED2", "EM"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.7 },
+            { "id": "core-math", "name": "Mathematical Methods", "subjectIds": ["MATH1", "MATH2", "MATH"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.6 },
+            { "id": "core-elec", "name": "Electronics", "subjectIds": ["ELEC", "ELEC_MSC"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.5 },
+            { "id": "core-modern", "name": "Atomic, Nuclear, Particle and Condensed Matter", "subjectIds": ["MP", "NP", "PP", "SSP", "SSP_MSC"], "chapterIds": [], "questionCount": null, "marksPerQuestion": null, "negativeMarking": null, "importance": 0.5 }
+          ]
+        }
+      ]
+    }
+  ]
+}

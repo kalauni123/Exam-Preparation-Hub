@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-08",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-08-0001",
+   "concept": "planck-law",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "Planck's spectral energy density of blackbody radiation is:",
+   "options": {
+    "A": "\\(u(\\nu) = \\dfrac{8\\pi\\nu^2}{c^3}k_BT\\)",
+    "B": "\\(u(\\nu) = \\dfrac{8\\pi h\\nu^3}{c^3}\\dfrac{1}{e^{h\\nu/k_BT}-1}\\)",
+    "C": "\\(u(\\nu) = \\dfrac{8\\pi h\\nu^3}{c^3}e^{-h\\nu/k_BT}\\)",
+    "D": "\\(u(\\nu) = \\dfrac{8\\pi h\\nu^3}{c^3}\\dfrac{1}{e^{h\\nu/k_BT}+1}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Mode density \\(8\\pi\\nu^2/c^3\\) × energy per photon \\(h\\nu\\) × BE occupancy with \\(\\mu = 0\\).",
+    "whyWrong": {
+     "A": "Rayleigh–Jeans law (classical limit).",
+     "C": "Wien's approximation (high-frequency limit).",
+     "D": "Uses Fermi–Dirac occupancy."
+    },
+    "conceptTested": "Planck's radiation law",
+    "trapUsed": "Limiting forms as distractors.",
+    "howToModify": "Ask which option is valid when \\(h\\nu\\gg k_BT\\) (Wien).",
+    "howToAvoid": "Build the formula: modes × energy × occupancy."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-08-0002",
+   "concept": "wien-displacement",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "Using Wien's displacement law (\\(\\lambda_{max}T = 2.9\\times10^{-3}\\ \\text{m K}\\)), the peak wavelength of the Sun's radiation (\\(T\\approx5800\\ \\text{K}\\)) is about:",
+   "options": {
+    "A": "\\(10\\ \\mu\\text{m}\\)",
+    "B": "\\(50\\ \\text{nm}\\)",
+    "C": "\\(500\\ \\text{nm}\\)",
+    "D": "\\(5\\ \\mu\\text{m}\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\lambda_{max} = 2.9\\times10^{-3}/5800 = 5.0\\times10^{-7}\\ \\text{m} = 500\\ \\text{nm}\\) (visible, green).",
+    "whyWrong": {
+     "A": "Peak for a body near 290 K (Earth).",
+     "B": "Power-of-ten slip.",
+     "D": "Power-of-ten slip."
+    },
+    "conceptTested": "Wien's displacement law",
+    "trapUsed": "Exponent slips.",
+    "howToModify": "Ask for the peak wavelength of the human body (~9.4 μm).",
+    "howToAvoid": "Sun peaks in the visible — sanity check."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "unit-error",
+    "D": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-08-0003",
+   "concept": "stefan-boltzmann",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "If the absolute temperature of a blackbody is doubled, the total power it radiates increases by a factor of:",
+   "options": {
+    "A": "2",
+    "B": "4",
+    "C": "8",
+    "D": "16"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Stefan–Boltzmann law \\(P = \\sigma AT^4\\): \\(2^4 = 16\\).",
+    "whyWrong": {
+     "A": "Linear.",
+     "B": "Square.",
+     "C": "Cube (photon number density ∝ T³)."
+    },
+    "conceptTested": "Stefan–Boltzmann law",
+    "trapUsed": "Wrong power.",
+    "howToModify": "Ask how the peak wavelength changes (halves).",
+    "howToAvoid": "Radiated power ∝ T⁴."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "formula-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-08-0004",
+   "concept": "rayleigh-jeans-limit",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "Planck's law reduces to the Rayleigh–Jeans law in the limit:",
+   "options": {
+    "A": "\\(h\\nu \\ll k_BT\\)",
+    "B": "\\(T\\to0\\)",
+    "C": "\\(\\nu\\to\\infty\\)",
+    "D": "\\(h\\nu \\gg k_BT\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "For \\(x = h\\nu/k_BT\\ll1\\), \\(e^x-1\\approx x\\) and each mode carries \\(k_BT\\) (equipartition).",
+    "whyWrong": {
+     "B": "Low T pushes most modes into \\(h\\nu\\gg k_BT\\).",
+     "C": "High frequency is the Wien regime.",
+     "D": "That gives Wien's law."
+    },
+    "conceptTested": "Classical limit of Planck's law",
+    "trapUsed": "Reversing limits.",
+    "howToModify": "Ask for the Wien limit.",
+    "howToAvoid": "Classical ↔ small quantum (\\(h\\nu\\)) compared with thermal energy."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-08-0005",
+   "concept": "radiation-pressure",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "For isotropic blackbody radiation of energy density \\(u\\), the pressure is:",
+   "options": {
+    "A": "\\(u\\)",
+    "B": "\\(u/3\\)",
+    "C": "\\(2u/3\\)",
+    "D": "\\(3u\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "For ultra-relativistic particles (\\(E = pc\\)), \\(P = u/3\\). For a non-relativistic ideal gas, \\(P = 2u/3\\).",
+    "whyWrong": {
+     "A": "Would hold for a one-directional beam at normal incidence on an absorber.",
+     "C": "Non-relativistic gas.",
+     "D": "Inverted."
+    },
+    "conceptTested": "Photon gas thermodynamics",
+    "trapUsed": "Non-relativistic result.",
+    "howToModify": "Ask for the adiabatic law of a photon gas (\\(VT^3 =\\) const).",
+    "howToAvoid": "E = pc ⇒ factor 1/3."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-08-0006",
+   "concept": "photon-number-density",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "The number density of photons in a blackbody cavity scales with temperature as:",
+   "options": {
+    "A": "\\(T\\)",
+    "B": "\\(T^2\\)",
+    "C": "\\(T^3\\)",
+    "D": "\\(T^4\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(n \\propto \\int\\nu^2d\\nu/(e^{h\\nu/k_BT}-1) \\propto T^3\\) (≈ \\(2\\times10^7 T^3\\ \\text{m}^{-3}\\)); energy density scales as \\(T^4\\).",
+    "whyWrong": {
+     "A": "No basis.",
+     "B": "No basis.",
+     "D": "Energy density, not number density."
+    },
+    "conceptTested": "Photon gas scaling",
+    "trapUsed": "Number vs energy density.",
+    "howToModify": "Ask for the mean photon energy (≈ \\(2.7k_BT\\)).",
+    "howToAvoid": "Energy = number × mean energy (∝ T), so energy ∝ T⁴ ⇒ number ∝ T³."
+   },
+   "distractorTags": {
+    "A": "guessing",
+    "B": "guessing",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

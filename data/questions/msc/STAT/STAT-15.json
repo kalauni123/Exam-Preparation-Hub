@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-15",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-15-0001",
+   "concept": "h-theorem",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "Boltzmann's H-theorem states that, for a dilute gas obeying the Boltzmann equation, the quantity \\(H = \\int f\\ln f\\,d^3v\\):",
+   "options": {
+    "A": "never increases, reaching a minimum at the Maxwell distribution",
+    "B": "is conserved",
+    "C": "oscillates periodically",
+    "D": "increases monotonically"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(dH/dt\\le0\\); since entropy \\(S = -k_BH\\) (per volume, up to constants), entropy increases until the Maxwell–Boltzmann distribution is reached.",
+    "whyWrong": {
+     "B": "Only in equilibrium.",
+     "C": "Recurrence is excluded by the molecular-chaos assumption.",
+     "D": "Sign reversed (that is entropy)."
+    },
+    "conceptTested": "H-theorem",
+    "trapUsed": "Sign of H vs S.",
+    "howToModify": "Ask which assumption introduces irreversibility (Stosszahlansatz / molecular chaos).",
+    "howToAvoid": "H is minus entropy."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-15-0002",
+   "concept": "johnson-noise",
+   "type": "application",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "The Johnson–Nyquist noise of a resistor, \\(\\langle V^2\\rangle = 4k_BTR\\Delta f\\), is an example of the:",
+   "options": {
+    "A": "H-theorem",
+    "B": "fluctuation–dissipation theorem",
+    "C": "equipartition of energy only in solids",
+    "D": "Pauli exclusion principle"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "The same microscopic processes that cause dissipation (resistance R) cause equilibrium voltage fluctuations; the theorem quantitatively links them.",
+    "whyWrong": {
+     "A": "Concerns approach to equilibrium of gases.",
+     "C": "Equipartition enters the derivation but the theorem is FDT.",
+     "D": "Unrelated."
+    },
+    "conceptTested": "Fluctuation–dissipation theorem",
+    "trapUsed": "Related but distinct principles.",
+    "howToModify": "Ask how the noise power changes if T doubles (doubles).",
+    "howToAvoid": "Noise ↔ resistance: fluctuation ↔ dissipation."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-15-0003",
+   "concept": "onsager-reciprocity",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "Onsager's reciprocal relations state that, near equilibrium, the linear transport coefficients satisfy (no magnetic field):",
+   "options": {
+    "A": "\\(L_{ij} = 1/L_{ji}\\)",
+    "B": "\\(L_{ij} = -L_{ji}\\)",
+    "C": "\\(L_{ij} = L_{ji}\\)",
+    "D": "\\(L_{ii} = 0\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Microscopic time-reversal invariance makes the matrix of kinetic coefficients symmetric (e.g. Peltier and Seebeck coefficients are related: Kelvin relation).",
+    "whyWrong": {
+     "A": "No basis.",
+     "B": "Antisymmetry holds only for certain coefficients in a magnetic field (Hall-type).",
+     "D": "Diagonal coefficients (conductivities) are positive."
+    },
+    "conceptTested": "Onsager reciprocity",
+    "trapUsed": "Magnetic-field exception.",
+    "howToModify": "Ask how the relations change in a magnetic field (\\(L_{ij}(B) = L_{ji}(-B)\\)).",
+    "howToAvoid": "Time reversal ⇒ symmetric coefficients."
+   },
+   "distractorTags": {
+    "A": "guessing",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-15-0004",
+   "concept": "relaxation-time",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "In the relaxation-time approximation of the Boltzmann equation, the collision term is replaced by \\(-(f - f_0)/\\tau\\). This implies that a small deviation from equilibrium:",
+   "options": {
+    "A": "oscillates with period \\(\\tau\\)",
+    "B": "decays as \\(1/t\\)",
+    "C": "grows exponentially",
+    "D": "decays exponentially with time constant \\(\\tau\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Without driving forces, \\(\\partial(f-f_0)/\\partial t = -(f-f_0)/\\tau\\Rightarrow f-f_0\\propto e^{-t/\\tau}\\).",
+    "whyWrong": {
+     "A": "No oscillatory term.",
+     "B": "Power-law decay is not implied.",
+     "C": "Sign error."
+    },
+    "conceptTested": "Relaxation-time approximation",
+    "trapUsed": "Sign error.",
+    "howToModify": "Ask for the Drude conductivity in this approximation (\\(ne^2\\tau/m\\)).",
+    "howToAvoid": "Solve the simple first-order ODE."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "formula-confusion",
+    "C": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-15-0005",
+   "concept": "langevin-equation",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.1,
+    "c": 0.25
+   },
+   "stem": "The Langevin equation for a Brownian particle contains:",
+   "options": {
+    "A": "a friction force and a rapidly fluctuating random force, whose strengths are related",
+    "B": "a quantum tunnelling term",
+    "C": "only a deterministic friction force",
+    "D": "only a random force"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(m\\dot v = -\\gamma v + \\xi(t)\\) with \\(\\langle\\xi(t)\\xi(t')\\rangle = 2\\gamma k_BT\\delta(t-t')\\); the link between γ and the noise strength guarantees equipartition.",
+    "whyWrong": {
+     "B": "Classical model.",
+     "C": "The particle would stop — no thermal motion.",
+     "D": "Energy would grow without bound."
+    },
+    "conceptTested": "Langevin dynamics",
+    "trapUsed": "Missing one of the two ingredients.",
+    "howToModify": "Ask for \\(\\langle v^2\\rangle\\) in steady state (\\(k_BT/m\\)).",
+    "howToAvoid": "Thermal equilibrium requires both dissipation and noise."
+   },
+   "distractorTags": {
+    "B": "guessing",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-15-0006",
+   "concept": "noise-temperature",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "For a resistor in a fixed bandwidth, if the absolute temperature is doubled the mean-square Johnson noise voltage:",
+   "options": {
+    "A": "is unchanged",
+    "B": "doubles",
+    "C": "quadruples",
+    "D": "increases by \\(\\sqrt2\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\langle V^2\\rangle = 4k_BTR\\Delta f\\propto T\\). (The rms voltage increases by \\(\\sqrt2\\).)",
+    "whyWrong": {
+     "A": "Ignores temperature dependence.",
+     "C": "Squares.",
+     "D": "That is the rms voltage, not the mean-square."
+    },
+    "conceptTested": "Johnson noise scaling",
+    "trapUsed": "Mean-square vs rms.",
+    "howToModify": "Ask for the rms noise of 1 kΩ at 300 K in 1 MHz (≈ 4 μV).",
+    "howToAvoid": "Read carefully: mean-square or root-mean-square?"
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "formula-confusion",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

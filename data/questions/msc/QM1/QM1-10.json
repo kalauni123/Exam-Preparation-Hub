@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-10",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-10-0001",
+   "concept": "angular-momentum-commutator",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "The commutator \\([\\hat L_x, \\hat L_y]\\) equals:",
+   "options": {
+    "A": "\\(-i\\hbar\\hat L_z\\)",
+    "B": "\\(\\hbar\\hat L_z\\)",
+    "C": "\\(0\\)",
+    "D": "\\(i\\hbar\\hat L_z\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\([\\hat L_i,\\hat L_j] = i\\hbar\\varepsilon_{ijk}\\hat L_k\\); for the cyclic order \\(x\\to y\\to z\\), \\([\\hat L_x,\\hat L_y] = i\\hbar\\hat L_z\\).",
+    "whyWrong": {
+     "A": "Anti-cyclic order \\([\\hat L_y,\\hat L_x]\\).",
+     "B": "Missing the factor \\(i\\).",
+     "C": "Components of angular momentum do not commute."
+    },
+    "conceptTested": "Angular-momentum algebra",
+    "trapUsed": "Cyclic vs anti-cyclic order.",
+    "howToModify": "Ask for \\([\\hat L_z,\\hat L_x]\\) (\\(i\\hbar\\hat L_y\\)).",
+    "howToAvoid": "Use the cyclic rule xyz → +."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "B": "formula-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-10-0002",
+   "concept": "l-squared-eigenvalue",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "The eigenvalues of \\(\\hat L^2\\) are:",
+   "options": {
+    "A": "\\(l(l+1)\\hbar^2\\)",
+    "B": "\\((l+\\tfrac12)^2\\hbar^2\\)",
+    "C": "\\(m^2\\hbar^2\\)",
+    "D": "\\(l^2\\hbar^2\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\hat L^2|l,m\\rangle = l(l+1)\\hbar^2|l,m\\rangle\\), \\(l = 0,1,2,\\dots\\). The magnitude \\(\\sqrt{l(l+1)}\\hbar\\) always exceeds \\(|m|\\hbar_{max} = l\\hbar\\).",
+    "whyWrong": {
+     "B": "Semiclassical (Langer) substitution, not the exact eigenvalue.",
+     "C": "\\(m\\hbar\\) is the eigenvalue of \\(L_z\\).",
+     "D": "Bohr-model style; misses the quantum correction."
+    },
+    "conceptTested": "Eigenvalues of \\(L^2\\)",
+    "trapUsed": "Semi-classical forms.",
+    "howToModify": "Ask why \\(|\\mathbf L|\\) can never point exactly along \\(z\\).",
+    "howToAvoid": "\\(L^2\\to l(l+1)\\hbar^2\\), \\(L_z\\to m\\hbar\\)."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-10-0003",
+   "concept": "m-values",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.5,
+    "c": 0.25
+   },
+   "stem": "For orbital angular momentum quantum number \\(l = 3\\), the number of allowed values of \\(m_l\\) is:",
+   "options": {
+    "A": "6",
+    "B": "7",
+    "C": "4",
+    "D": "3"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(m_l = -l, \\dots, +l\\) gives \\(2l+1 = 7\\) values.",
+    "whyWrong": {
+     "A": "Forgets \\(m=0\\).",
+     "C": "Counts \\(0\\) to \\(3\\).",
+     "D": "Counts only positive values."
+    },
+    "conceptTested": "Magnetic quantum number",
+    "trapUsed": "Off-by-one counting.",
+    "howToModify": "Ask for the degeneracy including spin (\\(2(2l+1) = 14\\)).",
+    "howToAvoid": "Use \\(2l+1\\) and verify with \\(l=0\\) → 1."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-10-0004",
+   "concept": "raising-operator",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "The action of \\(\\hat L_+\\) on \\(|l,m\\rangle\\) is \\(\\hat L_+|l,m\\rangle =\\):",
+   "options": {
+    "A": "\\(\\hbar(m+1)|l,m+1\\rangle\\)",
+    "B": "\\(\\hbar\\sqrt{l(l+1)}\\,|l+1,m\\rangle\\)",
+    "C": "\\(\\hbar\\sqrt{l(l+1)-m(m+1)}\\,|l,m+1\\rangle\\)",
+    "D": "\\(\\hbar\\sqrt{l(l+1)-m(m-1)}\\,|l,m+1\\rangle\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\|\\hat L_+|l,m\\rangle\\|^2 = \\langle \\hat L^2 - \\hat L_z^2 - \\hbar\\hat L_z\\rangle = \\hbar^2[l(l+1)-m(m+1)]\\); this vanishes at \\(m = l\\), as it must.",
+    "whyWrong": {
+     "A": "Not a square-root form; would not vanish at \\(m=l\\).",
+     "B": "\\(\\hat L_\\pm\\) change \\(m\\), never \\(l\\).",
+     "D": "This coefficient belongs to \\(\\hat L_-\\)."
+    },
+    "conceptTested": "Ladder operators for angular momentum",
+    "trapUsed": "\\(L_+\\) / \\(L_-\\) coefficient swap.",
+    "howToModify": "Ask for \\(\\hat L_+|2,2\\rangle\\) (zero).",
+    "howToAvoid": "Check the coefficient vanishes at the top of the ladder."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-10-0005",
+   "concept": "simultaneous-components",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "\\(L_x\\) and \\(L_z\\) can both have definite (sharp) values only in the state with:",
+   "options": {
+    "A": "\\(m = 0\\)",
+    "B": "any state, because both are observables",
+    "C": "\\(m = l\\)",
+    "D": "\\(l = 0\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(\\sigma_{L_x}\\sigma_{L_z} \\ge \\tfrac{\\hbar}{2}|\\langle L_y\\rangle|\\), and a common eigenstate of all components requires \\(\\mathbf L = 0\\), i.e. \\(l = 0\\).",
+    "whyWrong": {
+     "A": "\\(m=0\\) states still have uncertain \\(L_x\\) unless \\(l=0\\).",
+     "B": "Being observables does not make them compatible.",
+     "C": "Even at \\(m = l\\), \\(L_x\\) and \\(L_y\\) fluctuate."
+    },
+    "conceptTested": "Incompatibility of angular-momentum components",
+    "trapUsed": "Exception trap: the trivial \\(l=0\\) case.",
+    "howToModify": "Ask for \\(\\langle L_x^2\\rangle\\) in \\(|l,m\\rangle\\) (\\(\\tfrac{\\hbar^2}{2}[l(l+1)-m^2]\\)).",
+    "howToAvoid": "Look for the special case where every component vanishes."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-10-0006",
+   "concept": "addition-angular-momentum",
+   "type": "application",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.1,
+    "c": 0.25
+   },
+   "stem": "Coupling \\(j_1 = 1\\) and \\(j_2 = \\tfrac12\\) gives total \\(j\\) values:",
+   "options": {
+    "A": "\\(\\tfrac32\\) and \\(\\tfrac12\\)",
+    "B": "\\(\\tfrac32, \\tfrac12\\) and \\(-\\tfrac12\\)",
+    "C": "\\(\\tfrac12\\) only",
+    "D": "\\(\\tfrac32\\) only"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(j = |j_1-j_2|,\\dots,j_1+j_2\\) → \\(\\tfrac12, \\tfrac32\\). Check: \\((2\\cdot1+1)(2\\cdot\\tfrac12+1) = 6 = 4 + 2\\) states.",
+    "whyWrong": {
+     "B": "\\(j\\) is never negative.",
+     "C": "Misses the stretched state.",
+     "D": "Misses the lower value."
+    },
+    "conceptTested": "Addition of angular momenta",
+    "trapUsed": "Including negative \\(j\\).",
+    "howToModify": "Ask for the Clebsch–Gordan decomposition of \\(|3/2, 1/2\\rangle\\).",
+    "howToAvoid": "Count states on both sides as a check."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

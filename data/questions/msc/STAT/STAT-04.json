@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-04",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-04-0001",
+   "concept": "grand-partition-function",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "The grand canonical partition function is:",
+   "options": {
+    "A": "\\(\\Xi = \\sum_{N,i}e^{-\\beta(E_i+\\mu N)}\\)",
+    "B": "\\(\\Xi = \\sum_{N,i}e^{-\\beta(E_i-\\mu N)}\\)",
+    "C": "\\(\\Xi = \\sum_i e^{-\\beta E_i}\\)",
+    "D": "\\(\\Xi = \\sum_N e^{\\beta\\mu N}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\Xi = \\sum_N\\sum_i e^{-\\beta(E_{N,i}-\\mu N)} = \\sum_N z^NZ_N\\), where \\(z = e^{\\beta\\mu}\\).",
+    "whyWrong": {
+     "A": "Sign of \\(\\mu N\\) reversed.",
+     "C": "Canonical partition function.",
+     "D": "Missing the energy weighting."
+    },
+    "conceptTested": "Grand canonical ensemble",
+    "trapUsed": "Sign of the chemical-potential term.",
+    "howToModify": "Ask for \\(\\langle N\\rangle\\) from \\(\\Xi\\).",
+    "howToAvoid": "Particles are 'bought' at price \\(\\mu\\): weight \\(e^{-\\beta(E-\\mu N)}\\)."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "C": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-04-0002",
+   "concept": "grand-potential",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "The grand potential \\(\\Phi_G = -k_BT\\ln\\Xi\\) is equal to:",
+   "options": {
+    "A": "\\(TS\\)",
+    "B": "\\(PV\\)",
+    "C": "\\(-PV\\)",
+    "D": "\\(\\mu N\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\Phi_G = E - TS - \\mu N = -PV\\) (using Euler's relation \\(E = TS - PV + \\mu N\\)).",
+    "whyWrong": {
+     "A": "Not a thermodynamic potential.",
+     "B": "Sign error.",
+     "D": "That is the Gibbs free energy for a one-component system."
+    },
+    "conceptTested": "Grand potential",
+    "trapUsed": "Sign and potential confusion.",
+    "howToModify": "Ask for the equation of state of an ideal gas from \\(\\ln\\Xi = zV/\\lambda^3\\).",
+    "howToAvoid": "Use Euler's relation to simplify \\(E - TS - \\mu N\\)."
+   },
+   "distractorTags": {
+    "A": "guessing",
+    "B": "sign-error",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-04-0003",
+   "concept": "number-fluctuations",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "For a classical ideal gas in the grand canonical ensemble, the relative fluctuation in particle number \\(\\Delta N/\\langle N\\rangle\\) is:",
+   "options": {
+    "A": "\\(\\sqrt{\\langle N\\rangle}\\)",
+    "B": "\\(1\\)",
+    "C": "\\(1/\\langle N\\rangle\\)",
+    "D": "\\(1/\\sqrt{\\langle N\\rangle}\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Poisson statistics: \\(\\langle\\Delta N^2\\rangle = \\langle N\\rangle\\), so \\(\\Delta N/\\langle N\\rangle = 1/\\sqrt{\\langle N\\rangle}\\) — negligible for macroscopic systems, which is why ensembles agree.",
+    "whyWrong": {
+     "A": "Absolute fluctuation, not relative.",
+     "B": "Huge fluctuations would make thermodynamics meaningless.",
+     "C": "Variance, not standard deviation, divided by \\(N^2\\)."
+    },
+    "conceptTested": "Particle-number fluctuations",
+    "trapUsed": "Relative vs absolute.",
+    "howToModify": "Ask near which point fluctuations become anomalously large (critical point, via compressibility).",
+    "howToAvoid": "Typical relative fluctuations go as \\(1/\\sqrt N\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-04-0004",
+   "concept": "fugacity",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "The fugacity \\(z\\) is defined as:",
+   "options": {
+    "A": "\\(z = e^{\\beta\\mu}\\)",
+    "B": "\\(z = e^{-\\beta\\mu}\\)",
+    "C": "\\(z = \\mu/k_BT\\)",
+    "D": "\\(z = \\beta\\mu^2\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(z = e^{\\mu/k_BT}\\); for a classical ideal gas \\(z = n\\lambda_T^3 \\ll 1\\).",
+    "whyWrong": {
+     "B": "Reciprocal.",
+     "C": "Exponent only.",
+     "D": "No such definition."
+    },
+    "conceptTested": "Fugacity",
+    "trapUsed": "Sign of exponent.",
+    "howToModify": "Ask for \\(z\\) of a classical ideal gas in terms of density and thermal wavelength.",
+    "howToAvoid": "Fugacity grows with \\(\\mu\\)."
+   },
+   "distractorTags": {
+    "B": "sign-error",
+    "C": "formula-confusion",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-04-0005",
+   "concept": "open-system-ensemble",
+   "type": "application",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.25
+   },
+   "stem": "Gas molecules adsorbing onto and desorbing from a surface in contact with a gas reservoir are most naturally described by the:",
+   "options": {
+    "A": "canonical ensemble",
+    "B": "grand canonical ensemble",
+    "C": "isobaric ensemble",
+    "D": "microcanonical ensemble"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "The surface exchanges both energy and particles with the reservoir, so \\(T\\) and \\(\\mu\\) are fixed — the grand canonical ensemble (giving the Langmuir isotherm).",
+    "whyWrong": {
+     "A": "Fixed \\(N\\), exchange of energy only.",
+     "C": "Fixed \\(N\\) with exchange of volume.",
+     "D": "Isolated system with fixed \\(E, N\\)."
+    },
+    "conceptTested": "Choosing an ensemble",
+    "trapUsed": "Choosing by habit rather than by what is exchanged.",
+    "howToModify": "Ask for the fractional coverage \\(\\theta\\) for single-occupancy sites (Fermi-like function).",
+    "howToAvoid": "Identify what the system exchanges with its surroundings."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-04-0006",
+   "concept": "mean-particle-number",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.1,
+    "c": 0.25
+   },
+   "stem": "The mean particle number in the grand canonical ensemble is:",
+   "options": {
+    "A": "\\(\\langle N\\rangle = \\ln\\Xi\\)",
+    "B": "\\(\\langle N\\rangle = \\mu\\,\\dfrac{\\partial\\ln\\Xi}{\\partial T}\\)",
+    "C": "\\(\\langle N\\rangle = k_BT\\,\\dfrac{\\partial\\ln\\Xi}{\\partial\\mu}\\)",
+    "D": "\\(\\langle N\\rangle = -\\dfrac{\\partial\\ln\\Xi}{\\partial\\beta}\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\langle N\\rangle = z\\,\\partial_z\\ln\\Xi = k_BT\\,\\partial_\\mu\\ln\\Xi\\) at fixed \\(T, V\\).",
+    "whyWrong": {
+     "A": "Equals \\(PV/k_BT\\), which coincides with \\(N\\) only for an ideal classical gas.",
+     "B": "Not a valid relation.",
+     "D": "Gives \\(\\langle E\\rangle - \\mu\\langle N\\rangle\\) at fixed \\(z\\)."
+    },
+    "conceptTested": "Grand canonical averages",
+    "trapUsed": "Coincidental ideal-gas equality.",
+    "howToModify": "Ask for \\(\\langle\\Delta N^2\\rangle\\) (\\(k_BT\\,\\partial\\langle N\\rangle/\\partial\\mu\\)).",
+    "howToAvoid": "Differentiate with respect to the variable conjugate to \\(N\\) (i.e. \\(\\mu\\))."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "guessing",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

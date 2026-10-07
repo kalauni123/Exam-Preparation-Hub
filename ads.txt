@@ -1,0 +1,2 @@
+# ads.txt template — replace pub-XXXXXXXXXXXXXXXX with your AdSense publisher id once approved.
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

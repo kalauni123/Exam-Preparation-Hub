@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-04",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-04-0001",
+   "concept": "momentum-operator",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.5,
+    "c": 0.25
+   },
+   "stem": "In the position representation, the momentum operator \\(\\hat p_x\\) is:",
+   "options": {
+    "A": "\\(i\\hbar\\,\\dfrac{\\partial}{\\partial x}\\)",
+    "B": "\\(-i\\hbar\\,\\dfrac{\\partial}{\\partial x}\\)",
+    "C": "\\(-\\dfrac{\\hbar^2}{2m}\\dfrac{\\partial^2}{\\partial x^2}\\)",
+    "D": "\\(-i\\hbar\\,\\dfrac{\\partial}{\\partial t}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\hat p_x = -i\\hbar\\,\\partial/\\partial x\\), so that \\(\\hat p_x e^{ikx} = \\hbar k\\,e^{ikx}\\) gives positive momentum for a wave moving in \\(+x\\).",
+    "whyWrong": {
+     "A": "Wrong sign — it would assign negative momentum to \\(e^{ikx}\\).",
+     "C": "This is the kinetic-energy operator.",
+     "D": "Energy operator is \\(+i\\hbar\\,\\partial_t\\), and it is not momentum."
+    },
+    "conceptTested": "Canonical operators",
+    "trapUsed": "Sign trap between \\(\\pm i\\hbar\\).",
+    "howToModify": "Ask for the momentum operator in the momentum representation's conjugate: \\(\\hat x = i\\hbar\\,\\partial/\\partial p\\).",
+    "howToAvoid": "Test the operator on \\(e^{ikx}\\): it must return \\(+\\hbar k\\)."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "C": "formula-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-04-0002",
+   "concept": "canonical-commutator",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "The commutator \\([\\hat x, \\hat p_x]\\) equals:",
+   "options": {
+    "A": "\\(0\\)",
+    "B": "\\(-i\\hbar\\)",
+    "C": "\\(i\\hbar\\)",
+    "D": "\\(\\hbar\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\([\\hat x,\\hat p]f = -i\\hbar x f' + i\\hbar(xf)' = i\\hbar f\\), so \\([\\hat x,\\hat p_x] = i\\hbar\\).",
+    "whyWrong": {
+     "A": "Only for different components (e.g. \\(x\\) and \\(p_y\\)).",
+     "B": "That is \\([\\hat p_x,\\hat x]\\).",
+     "D": "Missing the factor \\(i\\); a commutator of two Hermitian operators is anti-Hermitian."
+    },
+    "conceptTested": "Canonical commutation relation",
+    "trapUsed": "Order reversal changes the sign.",
+    "howToModify": "Ask for \\([\\hat x^2, \\hat p]\\) (answer \\(2i\\hbar \\hat x\\)).",
+    "howToAvoid": "Act on a test function \\(f(x)\\) and expand carefully."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "sign-error",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-04-0003",
+   "concept": "hermitian-operators",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "Hermitian operators are used to represent observables because:",
+   "options": {
+    "A": "they are always unitary",
+    "B": "their eigenvalues are always positive",
+    "C": "they always commute with the Hamiltonian",
+    "D": "their eigenvalues are real and eigenvectors of distinct eigenvalues are orthogonal"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Measurement results must be real numbers, and orthogonality/completeness of eigenvectors allows any state to be expanded with probabilities \\(|c_n|^2\\).",
+    "whyWrong": {
+     "A": "Unitary and Hermitian are different properties (only special operators like Pauli matrices are both).",
+     "B": "Eigenvalues can be negative (e.g. \\(\\hat x\\), \\(L_z\\)).",
+     "C": "Only conserved quantities commute with \\(H\\)."
+    },
+    "conceptTested": "Properties of Hermitian operators",
+    "trapUsed": "Over-generalisation ('always').",
+    "howToModify": "Ask to prove orthogonality of eigenvectors with distinct eigenvalues.",
+    "howToAvoid": "Watch for extreme words such as 'always' in distractors."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-04-0004",
+   "concept": "ehrenfest-theorem",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "Ehrenfest's theorem states that \\(\\dfrac{d\\langle p\\rangle}{dt}\\) equals:",
+   "options": {
+    "A": "\\(\\left\\langle -\\dfrac{\\partial V}{\\partial x}\\right\\rangle\\)",
+    "B": "\\(\\langle p\\rangle/m\\)",
+    "C": "zero for every potential",
+    "D": "\\(-\\dfrac{\\partial V(\\langle x\\rangle)}{\\partial \\langle x\\rangle}\\) exactly, for every potential"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\frac{d\\langle p\\rangle}{dt} = \\frac{i}{\\hbar}\\langle[H,p]\\rangle = \\langle -V'(x)\\rangle\\). It equals the classical force at \\(\\langle x\\rangle\\) only when \\(V'\\) is linear in \\(x\\) (e.g. harmonic, uniform field).",
+    "whyWrong": {
+     "B": "That is \\(d\\langle x\\rangle/dt\\).",
+     "C": "Momentum is conserved only for a constant potential.",
+     "D": "\\(\\langle V'(x)\\rangle \\neq V'(\\langle x\\rangle)\\) in general; equality holds only for at most quadratic potentials."
+    },
+    "conceptTested": "Ehrenfest theorem and the classical limit",
+    "trapUsed": "Average of a function vs function of the average.",
+    "howToModify": "Ask for which potentials the centre of a wave packet follows a classical trajectory exactly.",
+    "howToAvoid": "Remember averaging is applied to the force operator, not to its argument."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-04-0005",
+   "concept": "expectation-momentum",
+   "type": "application",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.1,
+    "c": 0.25
+   },
+   "stem": "For the ground state of a particle in an infinite square well, \\(\\psi_1(x) = \\sqrt{2/L}\\sin(\\pi x/L)\\), the expectation value \\(\\langle p\\rangle\\) is:",
+   "options": {
+    "A": "\\(\\pi\\hbar/L\\)",
+    "B": "\\(0\\)",
+    "C": "\\(\\hbar/L\\)",
+    "D": "\\(\\sqrt{2}\\pi\\hbar/L\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "For any real, normalizable \\(\\psi\\), \\(\\langle p\\rangle = -i\\hbar\\int\\psi\\psi'dx = -\\frac{i\\hbar}{2}[\\psi^2]_{0}^{L} = 0\\). The particle is equally likely to move left or right.",
+    "whyWrong": {
+     "A": "\\(\\pi\\hbar/L\\) is the magnitude \\(\\sqrt{\\langle p^2\\rangle}\\), not the mean.",
+     "C": "Has no physical basis in this problem.",
+     "D": "Invented combination of constants."
+    },
+    "conceptTested": "Expectation values for real stationary states",
+    "trapUsed": "Confusing \\(\\langle p\\rangle\\) with \\(\\sqrt{\\langle p^2\\rangle}\\).",
+    "howToModify": "Ask for \\(\\langle p^2\\rangle\\) (answer \\(\\pi^2\\hbar^2/L^2\\)).",
+    "howToAvoid": "A real bound-state wave function always gives zero average momentum."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "guessing",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-04-0006",
+   "concept": "conserved-quantities",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "An observable \\(\\hat A\\) with no explicit time dependence is a constant of motion if:",
+   "options": {
+    "A": "\\(\\langle\\hat A\\rangle = 0\\) initially",
+    "B": "\\(\\hat A\\) is Hermitian",
+    "C": "\\([\\hat H,\\hat A] = 0\\)",
+    "D": "\\(\\hat A^2 = 1\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Heisenberg's equation \\(\\frac{d\\langle A\\rangle}{dt} = \\frac{i}{\\hbar}\\langle[H,A]\\rangle + \\langle\\partial_t A\\rangle\\) vanishes for every state iff \\([H,A]=0\\) (and \\(\\partial_tA = 0\\)).",
+    "whyWrong": {
+     "A": "An initial value says nothing about the time evolution.",
+     "B": "All observables are Hermitian; that does not make them conserved.",
+     "D": "Involutions (e.g. parity) are conserved only if they commute with \\(H\\)."
+    },
+    "conceptTested": "Heisenberg equation and conservation laws",
+    "trapUsed": "Confusing a general property of observables with the conservation condition.",
+    "howToModify": "Ask which quantity is conserved for a free particle (momentum) or a central potential (\\(L^2\\), \\(L_z\\)).",
+    "howToAvoid": "Conservation ⇔ commutes with the Hamiltonian."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

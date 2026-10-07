@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-14",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-14-0001",
+   "concept": "random-walk-rms",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "A 1D random walk of \\(N\\) independent steps of length \\(l\\) (equal probability left or right) has rms displacement:",
+   "options": {
+    "A": "\\(l/\\sqrt N\\)",
+    "B": "\\(0\\)",
+    "C": "\\(Nl\\)",
+    "D": "\\(l\\sqrt N\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(\\langle x\\rangle = 0\\) but \\(\\langle x^2\\rangle = Nl^2\\), so \\(x_{rms} = l\\sqrt N\\).",
+    "whyWrong": {
+     "A": "Decreases with N — wrong.",
+     "B": "Mean displacement, not rms.",
+     "C": "Ballistic motion (all steps aligned)."
+    },
+    "conceptTested": "Random walk statistics",
+    "trapUsed": "Mean vs rms.",
+    "howToModify": "Ask for the rms displacement in 3D with N steps of length l (same \\(l\\sqrt N\\)).",
+    "howToAvoid": "Variances of independent steps add."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-14-0002",
+   "concept": "diffusion-msd",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "For one-dimensional diffusion with diffusion coefficient \\(D\\), the mean-square displacement after time \\(t\\) is:",
+   "options": {
+    "A": "\\(2Dt\\)",
+    "B": "\\(6Dt\\)",
+    "C": "\\(D t^2\\)",
+    "D": "\\(Dt\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\langle x^2\\rangle = 2Dt\\) in 1D; \\(2dDt\\) in \\(d\\) dimensions (\\(6Dt\\) in 3D).",
+    "whyWrong": {
+     "B": "3D result.",
+     "C": "Ballistic scaling.",
+     "D": "Missing factor 2."
+    },
+    "conceptTested": "Diffusion law",
+    "trapUsed": "Dimension factor.",
+    "howToModify": "Ask for the 2D result (4Dt).",
+    "howToAvoid": "Mean square displacement = 2 × dimension × D × t."
+   },
+   "distractorTags": {
+    "B": "careless",
+    "C": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-14-0003",
+   "concept": "diffusion-time-scaling",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "For a diffusing particle, if the observation time is increased four-fold, the rms displacement:",
+   "options": {
+    "A": "increases four-fold",
+    "B": "doubles",
+    "C": "is unchanged",
+    "D": "increases sixteen-fold"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(x_{rms}\\propto\\sqrt t\\); \\(\\sqrt4 = 2\\).",
+    "whyWrong": {
+     "A": "Linear (ballistic).",
+     "C": "Ignores diffusion.",
+     "D": "Squares."
+    },
+    "conceptTested": "Diffusive scaling",
+    "trapUsed": "Ballistic vs diffusive.",
+    "howToModify": "Ask how long it takes to diffuse 10× farther (100× longer).",
+    "howToAvoid": "Diffusion: distance ∝ √time."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-14-0004",
+   "concept": "einstein-relation",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "The Einstein relation connects the diffusion coefficient \\(D\\) and the mobility \\(\\mu\\) (drift velocity per unit force) as:",
+   "options": {
+    "A": "\\(D = k_BT/\\mu\\)",
+    "B": "\\(D = \\mu^2k_BT\\)",
+    "C": "\\(D = \\mu k_BT\\)",
+    "D": "\\(D = \\mu/k_BT\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(D = \\mu k_BT\\) — an early fluctuation–dissipation relation. For a sphere in a viscous fluid, \\(\\mu = 1/6\\pi\\eta a\\) gives Stokes–Einstein \\(D = k_BT/6\\pi\\eta a\\).",
+    "whyWrong": {
+     "A": "Inverted mobility.",
+     "B": "Dimension error.",
+     "D": "Dimension error."
+    },
+    "conceptTested": "Einstein relation",
+    "trapUsed": "Inverting the relation.",
+    "howToModify": "Ask for the electrical version \\(D = \\mu_e k_BT/e\\).",
+    "howToAvoid": "Hotter and more mobile ⇒ faster diffusion."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "unit-error",
+    "D": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-14-0005",
+   "concept": "relative-fluctuations",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.25
+   },
+   "stem": "For a macroscopic system with \\(N\\sim10^{20}\\) particles, relative fluctuations in extensive quantities are of order:",
+   "options": {
+    "A": "\\(10^{-5}\\)",
+    "B": "\\(1\\)",
+    "C": "\\(10^{-20}\\)",
+    "D": "\\(10^{-10}\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(\\Delta X/X\\sim1/\\sqrt N = 10^{-10}\\) — far too small to observe, which justifies thermodynamics.",
+    "whyWrong": {
+     "A": "Uses \\(N^{-1/4}\\).",
+     "B": "No suppression.",
+     "C": "Uses \\(1/N\\)."
+    },
+    "conceptTested": "Law of large numbers",
+    "trapUsed": "1/N vs 1/√N.",
+    "howToModify": "Ask for fluctuations in a nanoparticle of 10⁴ atoms (1%).",
+    "howToAvoid": "Square root of N."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "concept-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-14-0006",
+   "concept": "brownian-motion",
+   "type": "application",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "Perrin's experiments on Brownian motion (1908) were important because they:",
+   "options": {
+    "A": "confirmed Einstein's diffusion theory and allowed determination of Avogadro's number",
+    "B": "measured the charge of the electron",
+    "C": "demonstrated superfluidity",
+    "D": "proved that light consists of photons"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Measuring \\(\\langle x^2\\rangle = 2Dt\\) with \\(D = k_BT/6\\pi\\eta a\\) yields \\(k_B\\) and hence \\(N_A = R/k_B\\), convincing physicists of the reality of atoms.",
+    "whyWrong": {
+     "B": "Millikan.",
+     "C": "Kapitza, Allen and Misener (1938).",
+     "D": "Photoelectric effect / Compton scattering."
+    },
+    "conceptTested": "Brownian motion",
+    "trapUsed": "Famous experiments confusion.",
+    "howToModify": "Ask what Einstein's 1905 Brownian paper predicted.",
+    "howToAvoid": "Brownian motion ↔ reality of molecules ↔ Avogadro's number."
+   },
+   "distractorTags": {
+    "B": "factual-recall",
+    "C": "factual-recall",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "NeuroMCQ — Smart MCQ Practice",
+  "short_name": "NeuroMCQ",
+  "description": "Offline-ready MCQ practice with spaced repetition, analytics and battles for TU Assistant Professor, NET, BSc and MSc Physics.",
+  "id": "./",
+  "start_url": "./#/home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f4f6",
+  "theme_color": "#4338ca",
+  "lang": "en",
+  "categories": ["education"],
+  "icons": [
+    { "src": "./assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Due now", "short_name": "Due", "description": "Review questions due today", "url": "./#/review", "icons": [{ "src": "./assets/icons/shortcut-due.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Rapid-fire", "short_name": "Rapid", "description": "60-second rapid-fire round", "url": "./#/rapid", "icons": [{ "src": "./assets/icons/shortcut-rapid.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Study now", "short_name": "Study", "description": "Personal study plan for today", "url": "./#/study-now", "icons": [{ "src": "./assets/icons/shortcut-study.png", "sizes": "96x96", "type": "image/png" }] }
+  ]
+}

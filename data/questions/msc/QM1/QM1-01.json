@@ -1,0 +1,288 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-01",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-01-0001",
+   "concept": "photoelectric-effect",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "Light of photon energy \\({{E}}\\ \\text{eV}\\) falls on a metal of work function \\({{phi}}\\ \\text{eV}\\). The maximum kinetic energy of the emitted photoelectrons is:",
+   "options": {
+    "A": "\\({{E}}\\ \\text{eV}\\)",
+    "B": "\\({{E+phi}}\\ \\text{eV}\\)",
+    "C": "\\({{E-phi}}\\ \\text{eV}\\)",
+    "D": "\\({{phi}}\\ \\text{eV}\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Einstein's photoelectric equation gives \\(K_{max} = h\\nu - \\phi = {{E}} - {{phi}} = {{E-phi}}\\ \\text{eV}\\).",
+    "whyWrong": {
+     "A": "This is the full photon energy; part of it must be spent to free the electron.",
+     "B": "Adds the work function instead of subtracting it.",
+     "D": "This is the work function, the energy lost in escaping the surface, not the kinetic energy left over."
+    },
+    "conceptTested": "Einstein's photoelectric equation",
+    "trapUsed": "Sign trap: adding instead of subtracting the work function.",
+    "howToModify": "Give the wavelength instead of the photon energy so the learner must first compute \\(h c/\\lambda\\).",
+    "howToAvoid": "Write energy conservation explicitly: photon energy = escape energy + kinetic energy."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "sign-error",
+    "D": "concept-confusion"
+   },
+   "template": {
+    "vars": {
+     "E": [
+      3.5,
+      4.0,
+      4.5,
+      5.0
+     ],
+     "phi": [
+      2.1,
+      2.3,
+      2.6,
+      2.9
+     ]
+    },
+    "decimals": 2
+   },
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-01-0002",
+   "concept": "compton-scattering",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "In Compton scattering of X-rays by free electrons, the maximum possible wavelength shift is (\\(\\lambda_C = h/m_e c \\approx 2.43\\ \\text{pm}\\)):",
+   "options": {
+    "A": "\\(\\lambda_C/2\\), at \\(\\theta = 60^\\circ\\)",
+    "B": "zero, because the photon energy is conserved",
+    "C": "\\(\\lambda_C\\), at \\(\\theta = 90^\\circ\\)",
+    "D": "\\(2\\lambda_C\\), at \\(\\theta = 180^\\circ\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(\\Delta\\lambda = \\lambda_C(1-\\cos\\theta)\\) is largest when \\(\\cos\\theta = -1\\) (back-scattering), giving \\(\\Delta\\lambda_{max} = 2\\lambda_C \\approx 4.85\\ \\text{pm}\\).",
+    "whyWrong": {
+     "A": "At \\(60^\\circ\\) the shift is \\(\\lambda_C/2\\); again not the maximum.",
+     "B": "The photon gives energy to the recoiling electron, so its energy (and wavelength) changes.",
+     "C": "At \\(90^\\circ\\) the shift is \\(\\lambda_C\\), but this is not the maximum."
+    },
+    "conceptTested": "Compton shift formula and its angular dependence",
+    "trapUsed": "Confusing the Compton wavelength with the maximum shift.",
+    "howToModify": "Ask for the kinetic energy of the recoil electron at back-scattering for a given incident wavelength.",
+    "howToAvoid": "Remember \\(1-\\cos\\theta\\) ranges from 0 to 2, so the shift ranges from 0 to \\(2\\lambda_C\\)."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "B": "concept-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-01-0003",
+   "concept": "de-broglie",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.2,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "An electron at rest is accelerated through a potential difference of \\(100\\ \\text{V}\\). Its de Broglie wavelength is approximately:",
+   "options": {
+    "A": "\\(1.23\\ \\text{Å}\\)",
+    "B": "\\(123\\ \\text{Å}\\)",
+    "C": "\\(12.3\\ \\text{Å}\\)",
+    "D": "\\(0.123\\ \\text{Å}\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\lambda = h/\\sqrt{2meV} \\approx 12.27/\\sqrt{V}\\ \\text{Å}\\). For \\(V = 100\\ \\text{V}\\), \\(\\lambda \\approx 1.23\\ \\text{Å}\\), comparable to atomic spacings — which is why electrons diffract from crystals.",
+    "whyWrong": {
+     "B": "Multiplies instead of dividing by \\(\\sqrt{V}\\).",
+     "C": "Forgets to take the square root of 100 (divides by 1 instead of 10).",
+     "D": "Off by a factor of 10 — divides by 100 instead of \\(\\sqrt{100}\\)."
+    },
+    "conceptTested": "de Broglie wavelength of an accelerated electron",
+    "trapUsed": "Power-of-ten / square-root slip.",
+    "howToModify": "Use a proton or alpha particle instead of an electron, changing the mass and charge.",
+    "howToAvoid": "Memorise \\(\\lambda_e \\approx 12.27/\\sqrt{V}\\ \\text{Å}\\) and sanity-check: 100 V electrons have Å-scale wavelengths."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "careless",
+    "D": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-01-0004",
+   "concept": "electron-diffraction",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "Which experiment first gave direct confirmation of the wave nature of electrons?",
+   "options": {
+    "A": "Franck–Hertz experiment",
+    "B": "Davisson–Germer experiment",
+    "C": "Millikan oil-drop experiment",
+    "D": "Stern–Gerlach experiment"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Davisson and Germer (1927) observed diffraction maxima when electrons scattered from a nickel crystal, at angles matching the de Broglie wavelength.",
+    "whyWrong": {
+     "A": "Franck–Hertz showed quantized energy levels of atoms.",
+     "C": "Millikan measured the elementary charge.",
+     "D": "Stern–Gerlach demonstrated space quantization and electron spin."
+    },
+    "conceptTested": "Historical experiments of quantum physics",
+    "trapUsed": "Similar-sounding landmark experiments.",
+    "howToModify": "Ask which experiment confirmed quantized atomic energy levels (answer: Franck–Hertz).",
+    "howToAvoid": "Link each experiment to the single property it proved: spin, levels, waves, charge."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "factual-recall",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-01-0005",
+   "concept": "blackbody-quantization",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.25
+   },
+   "stem": "The ultraviolet catastrophe of the Rayleigh–Jeans law was removed by Planck's assumption that:",
+   "options": {
+    "A": "equipartition holds for every mode at all frequencies",
+    "B": "electromagnetic waves travel at speed \\(c\\) in every frame",
+    "C": "the oscillators exchange energy only in discrete amounts \\(nh\\nu\\)",
+    "D": "the number of modes per unit frequency is independent of \\(\\nu\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Quantized energy exchange makes high-frequency modes (with \\(h\\nu \\gg kT\\)) exponentially unlikely to be excited, so the energy density falls to zero at high \\(\\nu\\) instead of diverging.",
+    "whyWrong": {
+     "A": "Equipartition for every mode is exactly what causes the catastrophe.",
+     "B": "That is a postulate of special relativity, unrelated to blackbody spectra.",
+     "D": "The mode density grows as \\(\\nu^2\\); Planck kept this result."
+    },
+    "conceptTested": "Origin of Planck's quantum hypothesis",
+    "trapUsed": "Offering the very assumption that causes the failure as a 'solution'.",
+    "howToModify": "Ask in which limit Planck's law reduces to Rayleigh–Jeans (answer: \\(h\\nu \\ll kT\\)).",
+    "howToAvoid": "Ask yourself: which assumption makes high-frequency modes cost a large energy step?"
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-01-0006",
+   "concept": "photoelectric-effect",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "Monochromatic light above the threshold frequency falls on a photocathode. If the intensity is doubled while the frequency is kept fixed, then:",
+   "options": {
+    "A": "the threshold frequency halves",
+    "B": "the maximum kinetic energy of the photoelectrons doubles",
+    "C": "the stopping potential doubles",
+    "D": "the photocurrent roughly doubles while the maximum kinetic energy is unchanged"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Intensity at fixed frequency means more photons per second, each of the same energy. More photons free more electrons (larger current), but each electron still receives \\(h\\nu\\), so \\(K_{max}\\) and the stopping potential are unchanged.",
+    "whyWrong": {
+     "A": "Threshold frequency is \\(\\phi/h\\), a property of the metal.",
+     "B": "This is the classical wave prediction that the photoelectric effect disproved.",
+     "C": "Stopping potential measures \\(K_{max}/e\\), which depends only on frequency."
+    },
+    "conceptTested": "Intensity versus frequency in the photoelectric effect",
+    "trapUsed": "Classical-wave intuition (brighter light gives faster electrons).",
+    "howToModify": "Instead change the frequency at fixed intensity and ask what happens to the number of photons.",
+    "howToAvoid": "Separate 'how many photons' (intensity) from 'energy per photon' (frequency)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

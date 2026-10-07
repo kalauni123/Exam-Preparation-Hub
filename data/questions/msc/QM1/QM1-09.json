@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-09",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-09-0001",
+   "concept": "inner-product",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "In Dirac notation, \\(\\langle\\psi|\\phi\\rangle\\) is related to \\(\\langle\\phi|\\psi\\rangle\\) by:",
+   "options": {
+    "A": "\\(\\langle\\psi|\\phi\\rangle = 1/\\langle\\phi|\\psi\\rangle\\)",
+    "B": "\\(\\langle\\psi|\\phi\\rangle = \\langle\\phi|\\psi\\rangle\\)",
+    "C": "\\(\\langle\\psi|\\phi\\rangle = \\langle\\phi|\\psi\\rangle^*\\)",
+    "D": "\\(\\langle\\psi|\\phi\\rangle = -\\langle\\phi|\\psi\\rangle\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "The inner product is conjugate-symmetric (sesquilinear), which guarantees \\(\\langle\\psi|\\psi\\rangle\\) is real and non-negative.",
+    "whyWrong": {
+     "A": "No such relation exists.",
+     "B": "Holds only when the inner product is real.",
+     "D": "Antisymmetry is not a property of the inner product."
+    },
+    "conceptTested": "Inner product in Hilbert space",
+    "trapUsed": "Real-vector-space intuition.",
+    "howToModify": "Ask for \\(\\langle\\psi|c\\phi\\rangle\\) versus \\(\\langle c\\psi|\\phi\\rangle\\).",
+    "howToAvoid": "Swapping bra and ket always brings a complex conjugate."
+   },
+   "distractorTags": {
+    "A": "guessing",
+    "B": "concept-confusion",
+    "D": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-09-0002",
+   "concept": "completeness",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "For a complete orthonormal basis \\(\\{|n\\rangle\\}\\), the completeness (closure) relation is:",
+   "options": {
+    "A": "\\(\\langle m|n\\rangle = \\delta_{mn}\\)",
+    "B": "\\(\\sum_n |n\\rangle = 0\\)",
+    "C": "\\(\\sum_n \\langle n|n\\rangle = 1\\)",
+    "D": "\\(\\sum_n |n\\rangle\\langle n| = \\hat 1\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Inserting \\(\\hat 1 = \\sum_n|n\\rangle\\langle n|\\) expands any state: \\(|\\psi\\rangle = \\sum_n |n\\rangle\\langle n|\\psi\\rangle\\).",
+    "whyWrong": {
+     "A": "This is orthonormality, not completeness.",
+     "B": "Meaningless.",
+     "C": "Sums numbers equal to 1 each; it diverges for infinite bases."
+    },
+    "conceptTested": "Resolution of identity",
+    "trapUsed": "Confusing orthonormality with completeness.",
+    "howToModify": "Ask for the continuous version \\(\\int|x\\rangle\\langle x|dx = \\hat 1\\).",
+    "howToAvoid": "Completeness is an operator identity (ket-bra), orthonormality a number identity (bra-ket)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "guessing",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-09-0003",
+   "concept": "projection-operator",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "The operator \\(\\hat P = |n\\rangle\\langle n|\\) (with \\(\\langle n|n\\rangle = 1\\)) satisfies:",
+   "options": {
+    "A": "\\(\\hat P^2 = \\hat P\\)",
+    "B": "\\(\\hat P^2 = \\hat 1\\)",
+    "C": "\\(\\hat P^\\dagger = -\\hat P\\)",
+    "D": "\\(\\hat P^2 = 0\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\hat P^2 = |n\\rangle\\langle n|n\\rangle\\langle n| = |n\\rangle\\langle n| = \\hat P\\): projecting twice is the same as projecting once. \\(\\hat P\\) is also Hermitian with eigenvalues 0 and 1.",
+    "whyWrong": {
+     "B": "Involutions such as parity satisfy this.",
+     "C": "\\(\\hat P\\) is Hermitian, not anti-Hermitian.",
+     "D": "Nilpotent operators (e.g. \\(|1\\rangle\\langle 2|\\)) satisfy this."
+    },
+    "conceptTested": "Projection operators",
+    "trapUsed": "Confusing idempotent, nilpotent and involutory operators.",
+    "howToModify": "Ask for the eigenvalues of \\(\\hat P\\) (0 and 1).",
+    "howToAvoid": "Write out the product and use orthonormality."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "sign-error",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-09-0004",
+   "concept": "position-momentum-overlap",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.25
+   },
+   "stem": "The overlap between a position eigenket and a momentum eigenket (one dimension, delta-normalized) is \\(\\langle x|p\\rangle =\\):",
+   "options": {
+    "A": "\\(\\delta(x-p)\\)",
+    "B": "\\(\\dfrac{1}{\\sqrt{2\\pi\\hbar}}e^{ipx/\\hbar}\\)",
+    "C": "\\(\\dfrac{1}{\\sqrt{2\\pi\\hbar}}e^{-ipx/\\hbar}\\)",
+    "D": "\\(e^{ipx}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\langle x|p\\rangle\\) is the momentum eigenfunction in position space: \\((2\\pi\\hbar)^{-1/2}e^{ipx/\\hbar}\\), normalized so that \\(\\langle p|p'\\rangle = \\delta(p-p')\\).",
+    "whyWrong": {
+     "A": "Dimensionally inconsistent: \\(x\\) and \\(p\\) have different units.",
+     "C": "That is \\(\\langle p|x\\rangle\\).",
+     "D": "Missing \\(\\hbar\\) and normalization."
+    },
+    "conceptTested": "Change of representation",
+    "trapUsed": "Bra-ket order and normalization constants.",
+    "howToModify": "Ask for \\(\\langle p|\\psi\\rangle\\) in terms of \\(\\psi(x)\\) (Fourier transform).",
+    "howToAvoid": "Plane wave moving with momentum \\(p\\) has \\(+ipx/\\hbar\\) in position space."
+   },
+   "distractorTags": {
+    "A": "unit-error",
+    "C": "sign-error",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-09-0005",
+   "concept": "unitary-operator",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "A unitary operator \\(\\hat U\\) (\\(\\hat U^\\dagger\\hat U = \\hat 1\\)) in quantum mechanics:",
+   "options": {
+    "A": "changes the norm of the state vector",
+    "B": "always has real eigenvalues",
+    "C": "preserves inner products, hence probabilities",
+    "D": "must commute with the Hamiltonian"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\langle U\\psi|U\\phi\\rangle = \\langle\\psi|U^\\dagger U|\\phi\\rangle = \\langle\\psi|\\phi\\rangle\\). Time evolution \\(e^{-iHt/\\hbar}\\) is unitary, so total probability is conserved.",
+    "whyWrong": {
+     "A": "Unitary operators preserve the norm.",
+     "B": "Eigenvalues of unitary operators lie on the unit circle \\(e^{i\\theta}\\).",
+     "D": "Only symmetry operators commute with \\(H\\)."
+    },
+    "conceptTested": "Unitary operators and probability conservation",
+    "trapUsed": "Mixing up Hermitian and unitary properties.",
+    "howToModify": "Ask to show that \\(e^{i\\hat A}\\) is unitary when \\(\\hat A\\) is Hermitian.",
+    "howToAvoid": "Hermitian ↔ real eigenvalues; Unitary ↔ unit-modulus eigenvalues, norm-preserving."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-09-0006",
+   "concept": "hermitian-matrix",
+   "type": "application",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "Which of the following matrices is Hermitian?",
+   "options": {
+    "A": "\\(\\begin{pmatrix}i & 1\\\\ 1 & i\\end{pmatrix}\\)",
+    "B": "\\(\\begin{pmatrix}1 & 2\\\\ 3 & 4\\end{pmatrix}\\)",
+    "C": "\\(\\begin{pmatrix}1 & i\\\\ i & 2\\end{pmatrix}\\)",
+    "D": "\\(\\begin{pmatrix}1 & i\\\\ -i & 2\\end{pmatrix}\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "A Hermitian matrix equals its conjugate transpose: real diagonal and \\(A_{12} = A_{21}^*\\). Here \\(i = (-i)^*\\) and diagonal entries are real.",
+    "whyWrong": {
+     "A": "Diagonal entries must be real.",
+     "B": "Not symmetric, so not Hermitian.",
+     "C": "Symmetric but not Hermitian: \\(A_{12} = i \\neq A_{21}^* = -i\\)."
+    },
+    "conceptTested": "Hermitian matrices",
+    "trapUsed": "Symmetric vs Hermitian.",
+    "howToModify": "Ask for the eigenvalues of the Hermitian option (\\((3\\pm\\sqrt5)/2\\)).",
+    "howToAvoid": "Check: real diagonal, and off-diagonal entries are complex conjugates across the diagonal."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "B": "careless",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

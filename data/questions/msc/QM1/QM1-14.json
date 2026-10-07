@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-14",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-14-0001",
+   "concept": "fermion-symmetry",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "The total wave function of a system of identical fermions must be:",
+   "options": {
+    "A": "either, depending on the Hamiltonian",
+    "B": "real-valued",
+    "C": "symmetric under exchange of any two particles",
+    "D": "antisymmetric under exchange of any two particles"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Spin-statistics: half-integer spin particles have totally antisymmetric wave functions; integer-spin particles have symmetric ones.",
+    "whyWrong": {
+     "A": "Exchange symmetry is fixed by spin, not by the Hamiltonian.",
+     "B": "Reality is irrelevant to exchange symmetry.",
+     "C": "That is for bosons."
+    },
+    "conceptTested": "Exchange symmetry",
+    "trapUsed": "Boson/fermion swap.",
+    "howToModify": "Ask what happens to an antisymmetric wave function when two particles share all coordinates (it vanishes).",
+    "howToAvoid": "Fermions → minus sign (anti), Bosons → plus."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-14-0002",
+   "concept": "pauli-exclusion",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "The Pauli exclusion principle follows from:",
+   "options": {
+    "A": "antisymmetry of the many-fermion wave function",
+    "B": "Heisenberg's uncertainty principle",
+    "C": "conservation of angular momentum",
+    "D": "Coulomb repulsion between electrons"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "An antisymmetric product (Slater determinant) with two identical single-particle states has two equal rows/columns and vanishes.",
+    "whyWrong": {
+     "B": "Uncertainty does not forbid double occupancy.",
+     "C": "Unrelated.",
+     "D": "Pauli exclusion holds even for non-interacting fermions (e.g. neutrons in a star)."
+    },
+    "conceptTested": "Origin of the exclusion principle",
+    "trapUsed": "Attributing it to an interaction.",
+    "howToModify": "Ask why neutron stars resist collapse (neutron degeneracy pressure).",
+    "howToAvoid": "Exclusion is a symmetry effect, not a force."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-14-0003",
+   "concept": "two-fermions-box",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "Two non-interacting identical spin-\\(\\tfrac12\\) fermions in the same spin state are placed in a 1D infinite well with single-particle levels \\(E_n = n^2E_1\\). The ground-state energy of the pair is:",
+   "options": {
+    "A": "\\(2E_1\\)",
+    "B": "\\(5E_1\\)",
+    "C": "\\(4E_1\\)",
+    "D": "\\(8E_1\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Same spin state ⇒ spatial part antisymmetric ⇒ they must occupy different levels: \\(E_1 + E_2 = E_1 + 4E_1 = 5E_1\\).",
+    "whyWrong": {
+     "A": "Correct for bosons or for opposite spins (singlet).",
+     "C": "Uses only the second level.",
+     "D": "Both in \\(n=2\\): forbidden and not minimal."
+    },
+    "conceptTested": "Ground states of identical particles",
+    "trapUsed": "Ignoring the spin condition.",
+    "howToModify": "Ask for the answer when the spins form a singlet (\\(2E_1\\)).",
+    "howToAvoid": "Read the spin condition: same spin state → different orbitals."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-14-0004",
+   "concept": "exchange-force",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "Compared with distinguishable particles, identical particles in a spatially symmetric state tend to be:",
+   "options": {
+    "A": "unable to occupy the same region",
+    "B": "farther apart on average",
+    "C": "closer together on average",
+    "D": "at the same average separation"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\langle (x_1-x_2)^2\\rangle_\\pm = \\langle(x_1-x_2)^2\\rangle_d \\mp 2|\\langle x\\rangle_{ab}|^2\\): symmetric states bunch together ('exchange attraction'), antisymmetric states anti-bunch.",
+    "whyWrong": {
+     "A": "Describes antisymmetric states at coincident points.",
+     "B": "This applies to antisymmetric spatial states.",
+     "D": "Ignores the exchange term."
+    },
+    "conceptTested": "Exchange 'force'",
+    "trapUsed": "Swapping the bunching and anti-bunching cases.",
+    "howToModify": "Ask how this explains the covalent bond (symmetric spatial, spin singlet).",
+    "howToAvoid": "Symmetric = bunching (boson-like); antisymmetric = anti-bunching."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-14-0005",
+   "concept": "helium-ground-state",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.25
+   },
+   "stem": "In the ground state of helium (both electrons in \\(1s\\)), the spin state of the two electrons is:",
+   "options": {
+    "A": "an equal mixture of singlet and triplet",
+    "B": "undetermined",
+    "C": "a triplet, \\(S = 1\\)",
+    "D": "a singlet, \\(S = 0\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Both electrons in the symmetric spatial state \\(1s(1)1s(2)\\); total antisymmetry requires the antisymmetric spin singlet. Hence ground-state helium is para-helium.",
+    "whyWrong": {
+     "A": "Total spin is a good quantum number here; no mixing.",
+     "B": "Fixed by exchange symmetry.",
+     "C": "A triplet would require an antisymmetric spatial part, impossible with both in \\(1s\\)."
+    },
+    "conceptTested": "Spin–space correlation in helium",
+    "trapUsed": "Hund's-rule intuition misapplied.",
+    "howToModify": "Ask why the lowest ortho-helium state is \\(1s2s\\,^3S\\).",
+    "howToAvoid": "Spatially symmetric ⇒ spin antisymmetric (singlet) for fermions."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-14-0006",
+   "concept": "spin-statistics",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.7,
+    "c": 0.25
+   },
+   "stem": "Which of the following is a boson?",
+   "options": {
+    "A": "A \\(^4\\)He atom",
+    "B": "A \\(^3\\)He atom",
+    "C": "An electron",
+    "D": "A proton"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(^4\\)He has 2 protons, 2 neutrons, 2 electrons — an even number of fermions — so its total spin is an integer and it obeys Bose statistics.",
+    "whyWrong": {
+     "B": "Odd number (5) of fermions → fermion.",
+     "C": "Spin-1/2 fermion.",
+     "D": "Spin-1/2 fermion."
+    },
+    "conceptTested": "Spin–statistics for composite particles",
+    "trapUsed": "Isotope confusion.",
+    "howToModify": "Ask which isotope of helium becomes superfluid at 2.17 K (\\(^4\\)He).",
+    "howToAvoid": "Count constituent fermions: even → boson."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "factual-recall",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

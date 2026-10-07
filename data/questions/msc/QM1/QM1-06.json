@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-06",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-06-0001",
+   "concept": "box-energy-ratio",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "For a particle in a one-dimensional infinite square well, the ratio \\(E_2/E_1\\) is:",
+   "options": {
+    "A": "\\(\\sqrt2\\)",
+    "B": "\\(3\\)",
+    "C": "\\(2\\)",
+    "D": "\\(4\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(E_n = \\frac{n^2\\pi^2\\hbar^2}{2mL^2}\\propto n^2\\), so \\(E_2/E_1 = 4\\).",
+    "whyWrong": {
+     "A": "Square root of the correct factor.",
+     "B": "Uses \\(E_n \\propto n+1/2\\) pattern incorrectly.",
+     "C": "Assumes \\(E_n\\propto n\\) (like the harmonic oscillator spacing)."
+    },
+    "conceptTested": "Energy levels of the infinite well",
+    "trapUsed": "Mixing up box and oscillator spectra.",
+    "howToModify": "Ask for the wavelength of the photon emitted in the 3→2 transition.",
+    "howToAvoid": "Box: \\(n^2\\). Oscillator: \\(n+\\tfrac12\\). Hydrogen: \\(-1/n^2\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "formula-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-06-0002",
+   "concept": "box-width-scaling",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "If the width of an infinite square well is doubled, the ground-state energy becomes:",
+   "options": {
+    "A": "one quarter as large",
+    "B": "four times as large",
+    "C": "twice as large",
+    "D": "half as large"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(E_1 \\propto 1/L^2\\); doubling \\(L\\) reduces \\(E_1\\) by a factor 4 — less confinement, less kinetic energy.",
+    "whyWrong": {
+     "B": "Right power, wrong direction.",
+     "C": "Wrong direction and wrong power.",
+     "D": "Uses \\(1/L\\) instead of \\(1/L^2\\)."
+    },
+    "conceptTested": "Confinement energy scaling",
+    "trapUsed": "Power and direction errors.",
+    "howToModify": "Ask how \\(E_1\\) changes if the mass is doubled too.",
+    "howToAvoid": "More room → lower energy; check the exponent from \\(E \\propto 1/L^2\\)."
+   },
+   "distractorTags": {
+    "B": "sign-error",
+    "C": "formula-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-06-0003",
+   "concept": "nodes",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "The number of nodes inside an infinite square well (excluding the walls) for the \\(n\\)-th energy eigenstate is:",
+   "options": {
+    "A": "\\(n+1\\)",
+    "B": "\\(n-1\\)",
+    "C": "\\(2n\\)",
+    "D": "\\(n\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\sin(n\\pi x/L)\\) vanishes at \\(x = jL/n\\), \\(j=1,\\dots,n-1\\) inside the well: \\(n-1\\) interior nodes. More nodes → more curvature → higher energy.",
+    "whyWrong": {
+     "A": "Counts both walls.",
+     "C": "Counts both zeros and maxima.",
+     "D": "Counts one wall as a node."
+    },
+    "conceptTested": "Node theorem",
+    "trapUsed": "Including boundary zeros.",
+    "howToModify": "Ask for the number of radial nodes of the hydrogen 3s state (2).",
+    "howToAvoid": "Sketch \\(n=1\\) (no interior node) and generalise."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "C": "concept-confusion",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-06-0004",
+   "concept": "finite-well-bound-state",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "A one-dimensional finite square well of depth \\(V_0\\) and width \\(a\\):",
+   "options": {
+    "A": "has bound states only if it is deeper than the particle's rest energy",
+    "B": "has a bound state only if \\(V_0 a^2\\) exceeds a critical value",
+    "C": "always has at least one bound state, however shallow",
+    "D": "has infinitely many bound states"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "In one dimension the even ground state always exists (the graphical solution always intersects at least once). In three dimensions, by contrast, a minimum depth is needed.",
+    "whyWrong": {
+     "A": "Irrelevant relativistic condition.",
+     "B": "True for a spherical well in 3D, not for 1D.",
+     "D": "Only an infinitely deep well has infinitely many bound states."
+    },
+    "conceptTested": "Bound states of the finite well",
+    "trapUsed": "Importing the 3D result into 1D.",
+    "howToModify": "Ask for the condition for a bound state in a 3D spherical well (\\(V_0a^2 > \\pi^2\\hbar^2/8m\\)).",
+    "howToAvoid": "Remember the dimension: 1D and 2D always bind, 3D needs a threshold."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-06-0005",
+   "concept": "box-numerical",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "An electron is confined in a one-dimensional infinite well of width \\(1.0\\ \\text{nm}\\). Its ground-state energy is approximately:",
+   "options": {
+    "A": "\\(37.6\\ \\text{eV}\\)",
+    "B": "\\(3.76\\ \\text{eV}\\)",
+    "C": "\\(0.0376\\ \\text{eV}\\)",
+    "D": "\\(0.376\\ \\text{eV}\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(E_1 = \\frac{h^2}{8mL^2} = \\frac{(6.63\\times10^{-34})^2}{8(9.11\\times10^{-31})(10^{-18})} \\approx 6.0\\times10^{-20}\\ \\text{J} \\approx 0.376\\ \\text{eV}\\).",
+    "whyWrong": {
+     "A": "Uses \\(L = 0.1\\ \\text{nm}\\) (1 Å).",
+     "B": "Off by 10 — e.g. using \\(L = 0.316\\ \\text{nm}\\) or a slipped exponent.",
+     "C": "Off by 10 in the other direction."
+    },
+    "conceptTested": "Numerical confinement energies",
+    "trapUsed": "Power-of-ten slips with nm and Å.",
+    "howToModify": "Ask for the wavelength of the 2→1 photon (≈ 1.1 μm).",
+    "howToAvoid": "Memorise: \\(h^2/8m_e = 6.0\\times10^{-38}\\ \\text{J m}^2\\) → \\(0.376\\ \\text{eV}\\) for 1 nm."
+   },
+   "distractorTags": {
+    "A": "unit-error",
+    "B": "unit-error",
+    "C": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-06-0006",
+   "concept": "box-probability",
+   "type": "application",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.1,
+    "c": 0.25
+   },
+   "stem": "For the \\(n = 2\\) state of a particle in an infinite well \\(0 \\le x \\le L\\), the probability density at \\(x = L/2\\) is:",
+   "options": {
+    "A": "zero",
+    "B": "equal to \\(1/L\\)",
+    "C": "equal to \\(2/L\\)",
+    "D": "maximum"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\psi_2 = \\sqrt{2/L}\\sin(2\\pi x/L)\\) vanishes at \\(x = L/2\\) — the centre is a node, though \\(\\langle x\\rangle = L/2\\) still holds by symmetry.",
+    "whyWrong": {
+     "B": "The average density \\(1/L\\) is not the local value.",
+     "C": "Peak value of \\(|\\psi|^2\\) at maxima, not at the node.",
+     "D": "True for \\(n=1\\), not \\(n=2\\)."
+    },
+    "conceptTested": "Spatial probability in box states",
+    "trapUsed": "Confusing \\(\\langle x\\rangle\\) with the most probable position.",
+    "howToModify": "Ask for the probability of finding the particle in the left quarter for \\(n=2\\) (1/4).",
+    "howToAvoid": "Sketch the wave function before answering positional questions."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

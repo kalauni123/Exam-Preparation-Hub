@@ -1,0 +1,94 @@
+/* =========================================================================
+   NeuroMCQ design tokens — derived 1:1 from the owner's MCQ's-Portal style
+   (Inter, bold-by-default text, indigo #4338ca primary, #f3f4f6 background,
+   20px cards, 10px buttons, 12px options). Dark theme is a tonal mirror.
+   ========================================================================= */
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; font-display: swap; src: url('../vendor/fonts/inter-500.woff') format('woff'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url('../vendor/fonts/inter-600.woff') format('woff'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url('../vendor/fonts/inter-700.woff') format('woff'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 800; font-display: swap; src: url('../vendor/fonts/inter-800.woff') format('woff'); }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 900; font-display: swap; src: url('../vendor/fonts/inter-900.woff') format('woff'); }
+
+:root {
+  /* Brand (reference portal) */
+  --primary: #4338ca;
+  --primary-hover: #3730a3;
+  --primary-light: #e0e7ff;
+  --primary-contrast: #ffffff;
+  --bg: #f3f4f6;
+  --bg-glow: #e0e7ff;
+  --card: #ffffff;
+  --card-soft: #f9fafb;
+  --text-main: #1f2937;
+  --text-muted: #4b5563;
+  --border: #e5e7eb;
+  --success: #059669; --success-bg: #d1fae5; --success-border: #34d399; --success-text: #065f46;
+  --danger: #dc2626; --danger-bg: #fee2e2; --danger-border: #f87171; --danger-text: #991b1b;
+  --warning: #d97706; --warning-bg: #fef3c7; --warning-text: #92400e;
+  --info-bg: #eef2ff;
+
+  /* Memory status language 🟢🟡🟠🔴 */
+  --st-green: #059669; --st-green-bg: #d1fae5;
+  --st-yellow: #ca8a04; --st-yellow-bg: #fef9c3;
+  --st-orange: #ea580c; --st-orange-bg: #ffedd5;
+  --st-red: #dc2626; --st-red-bg: #fee2e2;
+  --st-none: #9ca3af; --st-none-bg: #f3f4f6;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+  --shadow-lg: 0 10px 25px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.04);
+  --shadow-primary: 0 4px 14px 0 rgba(67, 56, 202, 0.39);
+
+  /* Radii */
+  --r-card: 20px; --r-stat: 14px; --r-option: 12px; --r-btn: 10px; --r-label: 8px; --r-pill: 999px;
+
+  /* Spacing scale (rem) */
+  --s1: 0.25rem; --s2: 0.5rem; --s3: 0.75rem; --s4: 1rem; --s5: 1.25rem; --s6: 1.5rem; --s8: 2rem; --s10: 2.5rem;
+
+  /* Layout */
+  --container: 900px;
+  --header-h: 64px;
+  --nav-h: 64px;
+  --touch: 48px;
+
+  /* Type */
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Devanagari', sans-serif;
+  --fs-base: 15px;
+  --fs-sm: 0.85rem;
+  --fs-xs: 0.75rem;
+  --fs-h1: clamp(1.35rem, 1.1rem + 1.2vw, 1.75rem);
+  --fs-h2: clamp(1.15rem, 1rem + 0.8vw, 1.4rem);
+
+  --ease: cubic-bezier(.2,.7,.2,1);
+  --dur: 0.2s;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --primary: #818cf8;
+  --primary-hover: #6366f1;
+  --primary-light: #312e81;
+  --primary-contrast: #0b1020;
+  --bg: #0f172a;
+  --bg-glow: #1e1b4b;
+  --card: #1e293b;
+  --card-soft: #172033;
+  --text-main: #e5e7eb;
+  --text-muted: #a5b4c8;
+  --border: #334155;
+  --success: #34d399; --success-bg: #064e3b; --success-border: #10b981; --success-text: #a7f3d0;
+  --danger: #f87171; --danger-bg: #4c0519; --danger-border: #ef4444; --danger-text: #fecaca;
+  --warning: #fbbf24; --warning-bg: #422006; --warning-text: #fde68a;
+  --info-bg: #1e1b4b;
+  --st-green: #34d399; --st-green-bg: #064e3b;
+  --st-yellow: #facc15; --st-yellow-bg: #422006;
+  --st-orange: #fb923c; --st-orange-bg: #431407;
+  --st-red: #f87171; --st-red-bg: #4c0519;
+  --st-none: #64748b; --st-none-bg: #1e293b;
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.4);
+  --shadow-lg: 0 10px 25px -3px rgba(0,0,0,0.5);
+  --shadow-primary: 0 4px 14px 0 rgba(129, 140, 248, 0.35);
+  color-scheme: dark;
+}

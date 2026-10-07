@@ -1,0 +1,3 @@
+# Hash routing means every app URL is served by index.html already.
+# Keep real files as they are; anything unknown gets the friendly 404 page.
+/*    /404.html    404

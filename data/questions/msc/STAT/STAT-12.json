@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-12",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-12-0001",
+   "concept": "ising-1d",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "The one-dimensional Ising model with short-range interactions in zero field:",
+   "options": {
+    "A": "has a phase transition at \\(k_BT_c = 2J\\)",
+    "B": "has no phase transition at any non-zero temperature",
+    "C": "has a first-order transition",
+    "D": "is ferromagnetic at all temperatures"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Domain walls cost finite energy \\(2J\\) but gain entropy \\(\\sim k_B\\ln N\\); at any \\(T>0\\) long-range order is destroyed (Ising, 1925).",
+    "whyWrong": {
+     "A": "Mean-field-like estimate.",
+     "C": "No transition at all.",
+     "D": "Only at T = 0."
+    },
+    "conceptTested": "Absence of order in 1D",
+    "trapUsed": "Mean-field intuition.",
+    "howToModify": "Ask for the spin–spin correlation length in 1D (\\(\\xi\\propto e^{2J/k_BT}\\)).",
+    "howToAvoid": "Energy–entropy argument for domain walls."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-12-0002",
+   "concept": "onsager",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "The exact solution of the two-dimensional Ising model in zero field was obtained by:",
+   "options": {
+    "A": "Weiss",
+    "B": "Ising",
+    "C": "Onsager",
+    "D": "Landau"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Onsager (1944) solved the 2D square-lattice model, finding \\(k_BT_c = 2J/\\ln(1+\\sqrt2)\\approx2.27J\\).",
+    "whyWrong": {
+     "A": "Weiss introduced the molecular field.",
+     "B": "Ising solved only the 1D case.",
+     "D": "Landau developed phenomenological theory."
+    },
+    "conceptTested": "History of exactly solved models",
+    "trapUsed": "Name association.",
+    "howToModify": "Ask for Onsager's \\(T_c\\).",
+    "howToAvoid": "1D: Ising; 2D: Onsager; mean field: Weiss/Landau."
+   },
+   "distractorTags": {
+    "A": "factual-recall",
+    "B": "factual-recall",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-12-0003",
+   "concept": "order-parameter",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "The natural order parameter for the ferromagnetic–paramagnetic transition is:",
+   "options": {
+    "A": "the entropy",
+    "B": "the heat capacity",
+    "C": "the internal energy",
+    "D": "the spontaneous magnetization"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Magnetization is zero in the disordered phase and non-zero in the ordered phase, reflecting broken up–down symmetry.",
+    "whyWrong": {
+     "A": "Non-zero in both phases.",
+     "B": "A response function, not an order parameter.",
+     "C": "Non-zero in both phases."
+    },
+    "conceptTested": "Order parameters",
+    "trapUsed": "Thermodynamic quantities non-zero in both phases.",
+    "howToModify": "Ask for the order parameter of the liquid–gas transition (density difference).",
+    "howToAvoid": "Order parameter: zero above \\(T_c\\), non-zero below."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-12-0004",
+   "concept": "second-order-transition",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "A continuous (second-order) phase transition is characterized by:",
+   "options": {
+    "A": "continuous first derivatives of the free energy but singular second derivatives (e.g. heat capacity, susceptibility)",
+    "B": "a discontinuous order parameter",
+    "C": "coexistence of two phases at the transition",
+    "D": "latent heat and a jump in entropy"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "At a continuous transition the order parameter grows continuously from zero; response functions diverge or jump.",
+    "whyWrong": {
+     "B": "First-order signature.",
+     "C": "First-order signature.",
+     "D": "First-order signature."
+    },
+    "conceptTested": "Classification of phase transitions",
+    "trapUsed": "First-order properties as distractors.",
+    "howToModify": "Ask for an example of each type (boiling vs ferromagnet at \\(T_c\\)).",
+    "howToAvoid": "Second-order ⇒ no latent heat, singular response."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-12-0005",
+   "concept": "ising-energy",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "A 1D open chain of 4 Ising spins with \\(H = -J\\sum_{i=1}^{3}s_is_{i+1}\\) (\\(s_i=\\pm1\\)) is fully aligned. Its energy is:",
+   "options": {
+    "A": "\\(-4J\\)",
+    "B": "\\(-3J\\)",
+    "C": "\\(-2J\\)",
+    "D": "\\(0\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "An open chain of 4 spins has 3 nearest-neighbour bonds, each contributing \\(-J\\).",
+    "whyWrong": {
+     "A": "Counts 4 bonds (periodic chain).",
+     "C": "Miscount.",
+     "D": "Random configuration average."
+    },
+    "conceptTested": "Ising Hamiltonian",
+    "trapUsed": "Open vs periodic boundary conditions.",
+    "howToModify": "Ask for the energy with one spin flipped at an end (\\(-J\\)).",
+    "howToAvoid": "Count bonds, not spins."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "C": "careless",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-12-0006",
+   "concept": "critical-exponent-beta",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "Near \\(T_c\\), magnetization vanishes as \\(M\\propto(T_c-T)^\\beta\\). Mean-field theory predicts \\(\\beta =\\):",
+   "options": {
+    "A": "1/8",
+    "B": "1/3",
+    "C": "1/2",
+    "D": "1"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Minimizing Landau's \\(F = a(T-T_c)M^2 + bM^4\\) gives \\(M\\propto(T_c-T)^{1/2}\\). The exact 2D Ising value is 1/8; 3D Ising ≈ 0.326.",
+    "whyWrong": {
+     "A": "Exact 2D Ising exponent.",
+     "B": "Close to 3D Ising.",
+     "D": "No standard model gives this."
+    },
+    "conceptTested": "Critical exponents",
+    "trapUsed": "Model-specific exponents.",
+    "howToModify": "Ask for the mean-field susceptibility exponent γ (1).",
+    "howToAvoid": "Mean field: β = 1/2, γ = 1, δ = 3, α = 0 (jump)."
+   },
+   "distractorTags": {
+    "A": "factual-recall",
+    "B": "factual-recall",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

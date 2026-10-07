@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-10",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-10-0001",
+   "concept": "bec-tc-density",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "For an ideal Bose gas in three dimensions, the condensation temperature \\(T_c\\) depends on number density \\(n\\) as:",
+   "options": {
+    "A": "\\(T_c\\propto n^{1/3}\\)",
+    "B": "\\(T_c\\propto n^{3/2}\\)",
+    "C": "\\(T_c\\propto n\\)",
+    "D": "\\(T_c\\propto n^{2/3}\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(n\\lambda_{T_c}^3 = \\zeta(3/2)\\approx2.612\\) with \\(\\lambda_T\\propto T^{-1/2}\\) gives \\(T_c = \\frac{2\\pi\\hbar^2}{mk_B}\\left(\\frac{n}{2.612}\\right)^{2/3}\\).",
+    "whyWrong": {
+     "A": "Wrong power.",
+     "B": "Inverted power.",
+     "C": "Wrong power."
+    },
+    "conceptTested": "BEC transition temperature",
+    "trapUsed": "Inverting \\(\\lambda^3\\propto T^{-3/2}\\).",
+    "howToModify": "Ask how \\(T_c\\) changes if the density is multiplied by 8 (×4).",
+    "howToAvoid": "From \\(n\\propto T^{3/2}\\), invert to \\(T\\propto n^{2/3}\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "formula-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-10-0002",
+   "concept": "condensate-fraction",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "For an ideal 3D Bose gas, the condensate fraction is \\(N_0/N = 1-(T/T_c)^{3/2}\\). At \\(T = T_c/2\\) it is about:",
+   "options": {
+    "A": "0.65",
+    "B": "0.35",
+    "C": "0.75",
+    "D": "0.50"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\((1/2)^{3/2} = 0.354\\); \\(N_0/N = 1-0.354 \\approx 0.65\\).",
+    "whyWrong": {
+     "B": "This is the excited (thermal) fraction.",
+     "C": "Uses \\((T/T_c)^2\\).",
+     "D": "Assumes linear dependence."
+    },
+    "conceptTested": "Condensate fraction",
+    "trapUsed": "Reporting the complementary fraction.",
+    "howToModify": "Ask for the temperature at which half the atoms are condensed (\\(T = 0.63T_c\\)).",
+    "howToAvoid": "Compute the power carefully and subtract from 1."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "formula-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-10-0003",
+   "concept": "bec-dimension",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.8,
+    "c": 0.25
+   },
+   "stem": "For a uniform ideal Bose gas (no trap), Bose–Einstein condensation at non-zero temperature:",
+   "options": {
+    "A": "occurs in 1D, 2D and 3D",
+    "B": "occurs in 3D but not in 1D or 2D",
+    "C": "occurs only in 2D",
+    "D": "never occurs in any dimension"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "The excited-state integral \\(\\int g(\\varepsilon)/(e^{\\beta\\varepsilon}-1)d\\varepsilon\\) with \\(\\mu = 0\\) converges only if \\(g(\\varepsilon)\\) rises fast enough; with \\(g\\propto\\varepsilon^{d/2-1}\\) it diverges for \\(d\\le2\\), so excited states can absorb all particles.",
+    "whyWrong": {
+     "A": "Lower dimensions fail for the uniform gas.",
+     "C": "Opposite.",
+     "D": "3D BEC exists."
+    },
+    "conceptTested": "Dimensional dependence of BEC",
+    "trapUsed": "Assuming dimension-independence.",
+    "howToModify": "Ask whether BEC is possible in a 2D harmonic trap (yes — the density of states changes).",
+    "howToAvoid": "Check convergence of the integral near ε = 0."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-10-0004",
+   "concept": "bec-discovery",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "Bose–Einstein condensation in a dilute atomic gas was first achieved in 1995 using:",
+   "options": {
+    "A": "photons in a blackbody cavity",
+    "B": "liquid \\(^3\\)He",
+    "C": "laser- and evaporatively-cooled \\(^{87}\\)Rb atoms",
+    "D": "electrons in a metal"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Cornell and Wieman condensed \\(^{87}\\)Rb; Ketterle achieved BEC in sodium shortly after (Nobel Prize 2001).",
+    "whyWrong": {
+     "A": "Photons in a cavity have μ = 0 and no conserved number (photon BEC came only in 2010 with special dye cavities).",
+     "B": "\\(^3\\)He atoms are fermions (superfluidity arises via pairing).",
+     "D": "Electrons are fermions."
+    },
+    "conceptTested": "History of BEC",
+    "trapUsed": "Fermion systems as distractors.",
+    "howToModify": "Ask for the approximate temperature (≈ 170 nK).",
+    "howToAvoid": "Bosonic alkali atoms, ultracold, dilute."
+   },
+   "distractorTags": {
+    "A": "factual-recall",
+    "B": "factual-recall",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-10-0005",
+   "concept": "bec-criterion",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "The onset of Bose–Einstein condensation in a uniform 3D ideal gas occurs when the phase-space density \\(n\\lambda_T^3\\) reaches about:",
+   "options": {
+    "A": "100",
+    "B": "0.01",
+    "C": "1/2",
+    "D": "2.612"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Condensation begins at \\(n\\lambda_T^3 = \\zeta(3/2)\\approx2.612\\): thermal wave packets overlap.",
+    "whyWrong": {
+     "A": "Far beyond threshold.",
+     "B": "Classical dilute regime.",
+     "C": "Arbitrary."
+    },
+    "conceptTested": "Phase-space density criterion",
+    "trapUsed": "Order-of-magnitude guessing.",
+    "howToModify": "Ask for \\(\\lambda_T\\) of Rb at 100 nK.",
+    "howToAvoid": "Remember ζ(3/2) ≈ 2.612."
+   },
+   "distractorTags": {
+    "A": "guessing",
+    "B": "guessing",
+    "C": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-10-0006",
+   "concept": "lambda-point",
+   "type": "application",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "Liquid \\(^4\\)He becomes superfluid below the lambda point at approximately:",
+   "options": {
+    "A": "\\(2.17\\ \\text{K}\\)",
+    "B": "\\(0.0025\\ \\text{K}\\)",
+    "C": "\\(77\\ \\text{K}\\)",
+    "D": "\\(4.2\\ \\text{K}\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "The \\(\\lambda\\)-transition at 2.17 K (named after the shape of \\(C_P(T)\\)) is linked to BEC of the interacting bosonic \\(^4\\)He atoms; ideal-gas estimate gives ≈ 3.1 K.",
+    "whyWrong": {
+     "B": "Superfluid transition of fermionic \\(^3\\)He (mK range).",
+     "C": "Boiling point of nitrogen.",
+     "D": "Normal boiling point of \\(^4\\)He."
+    },
+    "conceptTested": "Superfluid helium",
+    "trapUsed": "Confusing boiling point with the lambda point.",
+    "howToModify": "Ask why \\(^3\\)He requires much lower temperatures (Cooper pairing of fermions).",
+    "howToAvoid": "Associate 4.2 K with boiling and 2.17 K with superfluidity."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "factual-recall",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

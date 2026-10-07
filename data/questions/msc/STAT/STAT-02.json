@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-02",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-02-0001",
+   "concept": "boltzmann-entropy",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.5,
+    "c": 0.25
+   },
+   "stem": "In the microcanonical ensemble, entropy is related to the number of accessible microstates \\(\\Omega\\) by:",
+   "options": {
+    "A": "\\(S = \\ln(k_B\\Omega)\\)",
+    "B": "\\(S = k_B/\\Omega\\)",
+    "C": "\\(S = k_B\\Omega\\)",
+    "D": "\\(S = k_B\\ln\\Omega\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Boltzmann's relation \\(S = k_B\\ln\\Omega\\) makes entropy additive because \\(\\Omega\\) multiplies for independent subsystems.",
+    "whyWrong": {
+     "A": "Wrong placement of \\(k_B\\) (dimension error).",
+     "B": "Would decrease with more microstates.",
+     "C": "Not additive for independent subsystems."
+    },
+    "conceptTested": "Boltzmann entropy",
+    "trapUsed": "Formula placement.",
+    "howToModify": "Ask for the entropy change when \\(\\Omega\\) doubles (\\(k_B\\ln2\\)).",
+    "howToAvoid": "Additivity requires the logarithm."
+   },
+   "distractorTags": {
+    "A": "unit-error",
+    "B": "formula-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-02-0002",
+   "concept": "temperature-definition",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "Statistical temperature is defined by:",
+   "options": {
+    "A": "\\(1/T = (\\partial S/\\partial E)_{V,N}\\)",
+    "B": "\\(1/T = (\\partial E/\\partial S)_{V,N}\\)",
+    "C": "\\(T = S/E\\)",
+    "D": "\\(T = (\\partial S/\\partial E)_{V,N}\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(1/T = (\\partial S/\\partial E)_{V,N}\\); equality of this derivative is the condition for thermal equilibrium between two systems exchanging energy.",
+    "whyWrong": {
+     "B": "This equals \\(T\\), not \\(1/T\\).",
+     "C": "Ratio, not derivative.",
+     "D": "Inverted relation."
+    },
+    "conceptTested": "Thermodynamic definition of temperature",
+    "trapUsed": "Inverting a derivative.",
+    "howToModify": "Ask for the analogous definition of pressure (\\(P/T = \\partial S/\\partial V\\)).",
+    "howToAvoid": "Check units: \\(S/E\\) has units 1/K."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "formula-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-02-0003",
+   "concept": "two-level-counting",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "A system of 4 distinguishable two-level spins has exactly 2 spins excited. The number of microstates is:",
+   "options": {
+    "A": "4",
+    "B": "6",
+    "C": "8",
+    "D": "16"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\Omega = \\binom{4}{2} = \\frac{4!}{2!\\,2!} = 6\\).",
+    "whyWrong": {
+     "A": "Counts spins.",
+     "C": "Uses \\(2\\times4\\).",
+     "D": "Total states \\(2^4\\) without the energy constraint."
+    },
+    "conceptTested": "Counting microstates",
+    "trapUsed": "Ignoring the fixed-energy constraint.",
+    "howToModify": "Ask for the entropy of the most probable macrostate of 100 spins.",
+    "howToAvoid": "Fixed energy → binomial coefficient, not \\(2^N\\)."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "C": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-02-0004",
+   "concept": "negative-temperature",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.8,
+    "c": 0.25
+   },
+   "stem": "Negative absolute temperatures can occur in:",
+   "options": {
+    "A": "a photon gas",
+    "B": "an ideal monatomic gas",
+    "C": "systems whose energy spectrum is bounded above, such as nuclear spin systems",
+    "D": "any system cooled below 0 K"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "With a bounded spectrum, \\(S(E)\\) decreases after half the maximum energy, so \\(\\partial S/\\partial E < 0\\). Such states are hotter than any positive temperature.",
+    "whyWrong": {
+     "A": "Unbounded spectrum.",
+     "B": "Unbounded kinetic energy makes \\(S\\) monotonically increase.",
+     "D": "Negative temperature is not 'colder than absolute zero'."
+    },
+    "conceptTested": "Negative temperature",
+    "trapUsed": "Interpreting negative T as below absolute zero.",
+    "howToModify": "Ask in which direction heat flows between a negative-T and a positive-T system (from negative to positive).",
+    "howToAvoid": "Look at the slope of \\(S(E)\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-02-0005",
+   "concept": "gibbs-paradox",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "The Gibbs paradox (non-extensive classical entropy) is resolved by:",
+   "options": {
+    "A": "using the canonical instead of the microcanonical ensemble",
+    "B": "letting \\(\\hbar\\to0\\)",
+    "C": "including potential energy",
+    "D": "dividing the phase-space volume by \\(N!\\) for identical particles"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Permuting identical particles does not produce a new microstate; dividing by \\(N!\\) restores extensivity and yields the Sackur–Tetrode entropy.",
+    "whyWrong": {
+     "A": "The paradox exists in every ensemble without \\(N!\\).",
+     "B": "The classical limit doesn't fix counting.",
+     "C": "Ideal gas has no potential energy; irrelevant."
+    },
+    "conceptTested": "Indistinguishability and extensivity",
+    "trapUsed": "Plausible technical changes that don't address counting.",
+    "howToModify": "Ask for the entropy of mixing two identical gases (zero).",
+    "howToAvoid": "Ask: is the problem in the physics or in the counting?"
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-02-0006",
+   "concept": "free-expansion-entropy",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "An ideal gas of \\(N\\) molecules expands freely into vacuum, doubling its volume at constant energy. The entropy change is:",
+   "options": {
+    "A": "\\(Nk_B\\ln2\\)",
+    "B": "\\(k_B\\ln2\\)",
+    "C": "\\(\\tfrac32Nk_B\\ln2\\)",
+    "D": "\\(0\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\Omega\\propto V^N\\) at fixed \\(E\\), so \\(\\Delta S = k_B\\ln(2^N) = Nk_B\\ln2\\). The process is irreversible, so \\(\\Delta S>0\\) though \\(Q=0\\).",
+    "whyWrong": {
+     "B": "For one molecule only.",
+     "C": "Uses temperature-dependent term, but \\(T\\) is unchanged.",
+     "D": "Uses \\(\\Delta S = Q/T\\) for an irreversible process."
+    },
+    "conceptTested": "Entropy of free expansion",
+    "trapUsed": "Applying \\(dS = dQ/T\\) to an irreversible path.",
+    "howToModify": "Ask for the change if the volume triples (\\(Nk_B\\ln3\\)).",
+    "howToAvoid": "Entropy is a state function — compute it along any reversible path or by counting."
+   },
+   "distractorTags": {
+    "B": "careless",
+    "C": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

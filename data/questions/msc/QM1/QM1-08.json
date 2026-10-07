@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-08",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-08-0001",
+   "concept": "measurement-postulate",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "According to the measurement postulate, a single measurement of an observable \\(\\hat A\\) yields:",
+   "options": {
+    "A": "the expectation value \\(\\langle A\\rangle\\)",
+    "B": "one of the eigenvalues of \\(\\hat A\\)",
+    "C": "any real number with a Gaussian distribution about \\(\\langle A\\rangle\\)",
+    "D": "the eigenvalue with the largest \\(|c_n|\\) with certainty"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Each measurement gives an eigenvalue \\(a_n\\) with probability \\(|c_n|^2\\); the expectation value is only the average over many measurements.",
+    "whyWrong": {
+     "A": "\\(\\langle A\\rangle\\) need not be an eigenvalue (e.g. average of \\(\\pm\\hbar/2\\) can be 0).",
+     "C": "Outcomes are restricted to the spectrum.",
+     "D": "Outcomes are probabilistic, not determined by the largest amplitude."
+    },
+    "conceptTested": "Measurement postulate",
+    "trapUsed": "Confusing a single outcome with an ensemble average.",
+    "howToModify": "Ask whether \\(\\langle S_z\\rangle = 0\\) can ever be the outcome of one measurement (no).",
+    "howToAvoid": "Single result = eigenvalue; many results averaged = expectation value."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-08-0002",
+   "concept": "born-rule",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.25
+   },
+   "stem": "A system is in the normalized state \\(\\psi = \\frac{1}{\\sqrt3}\\phi_1 + \\sqrt{\\frac23}\\,\\phi_2\\), where \\(\\phi_1, \\phi_2\\) are orthonormal eigenfunctions of \\(\\hat A\\) with eigenvalues \\(a_1, a_2\\). The probability of obtaining \\(a_2\\) is:",
+   "options": {
+    "A": "\\(\\sqrt{2/3}\\)",
+    "B": "\\(1/3\\)",
+    "C": "\\(2/3\\)",
+    "D": "\\(1/2\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(P(a_2) = |c_2|^2 = 2/3\\).",
+    "whyWrong": {
+     "A": "This is the amplitude; probability is its modulus squared.",
+     "B": "Probability of \\(a_1\\).",
+     "D": "Assumes equal probabilities."
+    },
+    "conceptTested": "Born rule for discrete spectra",
+    "trapUsed": "Amplitude vs probability.",
+    "howToModify": "Ask for \\(\\langle A\\rangle\\) (\\(\\tfrac13a_1 + \\tfrac23 a_2\\)).",
+    "howToAvoid": "Always square the coefficient; check that probabilities add to 1."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "careless",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-08-0003",
+   "concept": "collapse",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "Immediately after a measurement of \\(\\hat A\\) gives the non-degenerate eigenvalue \\(a_k\\), a second measurement of \\(\\hat A\\) will give:",
+   "options": {
+    "A": "\\(a_k\\) with probability \\(|c_k|^2\\)",
+    "B": "any eigenvalue with equal probability",
+    "C": "the expectation value of \\(\\hat A\\)",
+    "D": "\\(a_k\\) with certainty"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "The first measurement projects the state onto \\(\\phi_k\\); repeating the measurement at once gives \\(a_k\\) with probability 1.",
+    "whyWrong": {
+     "A": "That was the probability before the first measurement.",
+     "B": "No randomisation occurs between immediate repeated measurements.",
+     "C": "Single outcomes are always eigenvalues."
+    },
+    "conceptTested": "State reduction (collapse)",
+    "trapUsed": "Using pre-measurement probabilities after the measurement.",
+    "howToModify": "Insert a measurement of a non-commuting observable in between and ask again.",
+    "howToAvoid": "After measurement, the state is the eigenstate corresponding to the outcome."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-08-0004",
+   "concept": "commuting-observables",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "Two observables possess a complete set of simultaneous eigenfunctions if and only if:",
+   "options": {
+    "A": "their operators commute",
+    "B": "they have the same eigenvalues",
+    "C": "one is a function of the other",
+    "D": "both are Hermitian"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Compatibility theorem: \\([\\hat A,\\hat B]=0\\) ⇔ a common complete eigenbasis exists ⇔ measuring one does not disturb the other.",
+    "whyWrong": {
+     "B": "Eigenvalues are irrelevant to compatibility.",
+     "C": "Sufficient (a function of \\(A\\) commutes with \\(A\\)) but not necessary.",
+     "D": "Necessary for observables, not sufficient for compatibility."
+    },
+    "conceptTested": "Compatibility theorem",
+    "trapUsed": "Sufficient-but-not-necessary condition as a distractor.",
+    "howToModify": "Ask for a complete set of commuting observables for hydrogen (\\(H, L^2, L_z, S_z\\)).",
+    "howToAvoid": "Look for 'if and only if' — the answer must be both necessary and sufficient."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-08-0005",
+   "concept": "expectation-energy",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "A particle in an infinite well is in the state \\(\\psi = \\frac{1}{\\sqrt2}(\\psi_1 + \\psi_2)\\). The expectation value of energy, in units of \\(E_1\\), is:",
+   "options": {
+    "A": "\\(3/2\\)",
+    "B": "\\(5/2\\)",
+    "C": "\\(5\\)",
+    "D": "\\(2\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\langle E\\rangle = \\tfrac12E_1 + \\tfrac12E_2 = \\tfrac12(1+4)E_1 = \\tfrac52E_1\\).",
+    "whyWrong": {
+     "A": "Uses \\(E_n\\propto n\\).",
+     "C": "Forgets the probability weights 1/2.",
+     "D": "Uses \\(E_2 = 3E_1\\)."
+    },
+    "conceptTested": "Expectation value of energy in a superposition",
+    "trapUsed": "Forgetting the \\(n^2\\) scaling.",
+    "howToModify": "Ask for the energy uncertainty \\(\\Delta E\\) (\\(\\tfrac32E_1\\)).",
+    "howToAvoid": "Use \\(\\langle E\\rangle = \\sum |c_n|^2E_n\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "careless",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-08-0006",
+   "concept": "bohr-frequency",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "For the superposition \\(\\Psi = \\frac{1}{\\sqrt2}(\\psi_1e^{-iE_1t/\\hbar} + \\psi_2e^{-iE_2t/\\hbar})\\), the probability density oscillates with angular frequency:",
+   "options": {
+    "A": "\\((E_1+E_2)/\\hbar\\)",
+    "B": "\\(E_1/\\hbar\\)",
+    "C": "\\((E_2-E_1)/\\hbar\\)",
+    "D": "it does not oscillate"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "The cross term gives \\(\\psi_1\\psi_2\\cos\\!\\left[(E_2-E_1)t/\\hbar\\right]\\): the density 'sloshes' at the Bohr frequency \\(\\omega_{21}\\).",
+    "whyWrong": {
+     "A": "Sum frequencies cancel in \\(|\\Psi|^2\\).",
+     "B": "Individual phases cancel in modulus.",
+     "D": "True only for a single stationary state."
+    },
+    "conceptTested": "Time evolution of superpositions",
+    "trapUsed": "Treating a superposition as stationary.",
+    "howToModify": "Ask for \\(\\langle x\\rangle(t)\\) for this state in a box.",
+    "howToAvoid": "Only energy differences are observable in \\(|\\Psi|^2\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

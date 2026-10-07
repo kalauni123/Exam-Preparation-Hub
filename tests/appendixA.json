@@ -1,0 +1,1802 @@
+[
+{
+"id": "COMM-01",
+"title": "Introduction to Communication"
+},
+{
+"id": "COMM-02",
+"title": "Effective Communication Characteristics"
+},
+{
+"id": "COMM-03",
+"title": "Barriers to Communication"
+},
+{
+"id": "COMM-04",
+"title": "Mass Media and Society"
+},
+{
+"id": "COMM-05",
+"title": "Classroom Communication Dynamics"
+},
+{
+"id": "COMM-06",
+"title": "Non-Verbal Communication"
+},
+{
+"id": "COMM-07",
+"title": "Listening Skills and Feedback"
+},
+{
+"id": "COMM-08",
+"title": "Media Ethics and Responsibilities"
+},
+{
+"id": "COMM-09",
+"title": "Modern ICT in Communication"
+},
+{
+"id": "COMM-10",
+"title": "Public Speaking and Presentation"
+},
+{
+"id": "COMM-11",
+"title": "Interpersonal Communication"
+},
+{
+"id": "COMM-12",
+"title": "Group Dynamics and Discussions"
+},
+{
+"id": "COMM-13",
+"title": "Organizational Communication"
+},
+{
+"id": "COMM-14",
+"title": "Persuasion and Public Relations"
+},
+{
+"id": "COMM-15",
+"title": "Advanced Communication Theories"
+},
+{
+"id": "HES-01",
+"title": "Institutions of Higher Learning in Ancient India"
+},
+{
+"id": "HES-02",
+"title": "Evolution of Higher Learning Post-Independence"
+},
+{
+"id": "HES-03",
+"title": "Oriental and Non-Conventional Learning"
+},
+{
+"id": "HES-04",
+"title": "Professional, Technical and Skill Education"
+},
+{
+"id": "HES-05",
+"title": "Value Education and Environmental Education"
+},
+{
+"id": "HES-06",
+"title": "Policies, Governance, and Administration"
+},
+{
+"id": "HES-07",
+"title": "Regulatory Framework of Higher Education"
+},
+{
+"id": "HES-08",
+"title": "University Grants Commission (UGC)"
+},
+{
+"id": "HES-09",
+"title": "Accreditation and Ranking (NAAC, NIRF)"
+},
+{
+"id": "HES-10",
+"title": "Distance and Open Education Systems"
+},
+{
+"id": "HES-11",
+"title": "Modern Digital Initiatives in Higher Education"
+},
+{
+"id": "HES-12",
+"title": "Research Ethics and Higher Education"
+},
+{
+"id": "HES-13",
+"title": "Funding and Financing of Higher Education"
+},
+{
+"id": "HES-14",
+"title": "Globalization and Higher Education"
+},
+{
+"id": "HES-15",
+"title": "National Education Policy (NEP 2020)"
+},
+{
+"id": "ICT-01",
+"title": "Basics of Internet and Intranet"
+},
+{
+"id": "ICT-02",
+"title": "Computer Hardware and Software"
+},
+{
+"id": "ICT-03",
+"title": "E-Governance and Digital Initiatives"
+},
+{
+"id": "ICT-04",
+"title": "Information Security and Cyber Laws"
+},
+{
+"id": "ICT-05",
+"title": "Digital Teaching Tools and LMS"
+},
+{
+"id": "ICT-06",
+"title": "Networking and Communication Protocols"
+},
+{
+"id": "ICT-07",
+"title": "Cloud Computing and Storage"
+},
+{
+"id": "ICT-08",
+"title": "Database Management Basics"
+},
+{
+"id": "ICT-09",
+"title": "Web Technologies and Browsers"
+},
+{
+"id": "ICT-10",
+"title": "Social Media in Education"
+},
+{
+"id": "ICT-11",
+"title": "Emerging Tech: AI and IoT"
+},
+{
+"id": "ICT-12",
+"title": "Digital Literacy and Evaluation"
+},
+{
+"id": "ICT-13",
+"title": "Multimedia and Animation Tools"
+},
+{
+"id": "ICT-14",
+"title": "Open Educational Resources (OER)"
+},
+{
+"id": "ICT-15",
+"title": "ICT Trends and Future Scope"
+},
+{
+"id": "PSE-01",
+"title": "Development and Environment"
+},
+{
+"id": "PSE-02",
+"title": "Human and Environment Interaction"
+},
+{
+"id": "PSE-03",
+"title": "Environmental Issues: Local to Global"
+},
+{
+"id": "PSE-04",
+"title": "Air, Water and Soil Pollution"
+},
+{
+"id": "PSE-05",
+"title": "Noise and Radioactive Pollution"
+},
+{
+"id": "PSE-06",
+"title": "Climate Change and Socio-Economic Impacts"
+},
+{
+"id": "PSE-07",
+"title": "Impacts of Pollutants on Human Health"
+},
+{
+"id": "PSE-08",
+"title": "Natural and Energy Resources"
+},
+{
+"id": "PSE-09",
+"title": "Solar, Wind, and Hydro Energy"
+},
+{
+"id": "PSE-10",
+"title": "Geothermal and Biomass Energy"
+},
+{
+"id": "PSE-11",
+"title": "Natural Hazards and Disasters"
+},
+{
+"id": "PSE-12",
+"title": "Disaster Mitigation Strategies"
+},
+{
+"id": "PSE-13",
+"title": "Environmental Protection Act (1986)"
+},
+{
+"id": "PSE-14",
+"title": "National Action Plan on Climate Change"
+},
+{
+"id": "PSE-15",
+"title": "International Agreements and Protocols"
+},
+{
+"id": "RESEARCH-01",
+"title": "Nature and Scope of Teaching"
+},
+{
+"id": "RESEARCH-02",
+"title": "Teacher and Teaching Profession"
+},
+{
+"id": "RESEARCH-03",
+"title": "Learner Characteristics"
+},
+{
+"id": "RESEARCH-04",
+"title": "Teaching-Learning Process"
+},
+{
+"id": "RESEARCH-05",
+"title": "Aims and Objectives of Education"
+},
+{
+"id": "RESEARCH-06",
+"title": "Curriculum and Instruction"
+},
+{
+"id": "RESEARCH-07",
+"title": "Methods of Teaching"
+},
+{
+"id": "RESEARCH-08",
+"title": "Lesson Planning and Instructional Design"
+},
+{
+"id": "RESEARCH-09",
+"title": "Classroom Management"
+},
+{
+"id": "RESEARCH-10",
+"title": "Evaluation and Assessment"
+},
+{
+"id": "RESEARCH-11",
+"title": "Educational Psychology in Teaching"
+},
+{
+"id": "RESEARCH-12",
+"title": "Communication and Motivation"
+},
+{
+"id": "RESEARCH-13",
+"title": "ICT and Modern Teaching Methods"
+},
+{
+"id": "RESEARCH-14",
+"title": "Educational Measurement and Statistics"
+},
+{
+"id": "RESEARCH-15",
+"title": "Teacher Ethics and Professional Growth"
+},
+{
+"id": "TECH-01",
+"title": "Nature and Scope of Teaching"
+},
+{
+"id": "TECH-02",
+"title": "Teacher and Teaching Profession"
+},
+{
+"id": "TECH-03",
+"title": "Learner Characteristics"
+},
+{
+"id": "TECH-04",
+"title": "Teaching-Learning Process"
+},
+{
+"id": "TECH-05",
+"title": "Aims and Objectives of Education"
+},
+{
+"id": "TECH-06",
+"title": "Curriculum and Instruction"
+},
+{
+"id": "TECH-07",
+"title": "Methods of Teaching"
+},
+{
+"id": "TECH-08",
+"title": "Lesson Planning and Instructional Design"
+},
+{
+"id": "TECH-09",
+"title": "Classroom Management"
+},
+{
+"id": "TECH-10",
+"title": "Evaluation and Assessment"
+},
+{
+"id": "TECH-11",
+"title": "Educational Psychology in Teaching"
+},
+{
+"id": "TECH-12",
+"title": "Communication and Motivation"
+},
+{
+"id": "TECH-13",
+"title": "ICT and Modern Teaching Methods"
+},
+{
+"id": "TECH-14",
+"title": "Educational Measurement and Statistics"
+},
+{
+"id": "TECH-15",
+"title": "Teacher Ethics and Professional Growth"
+},
+{
+"id": "TU-01",
+"title": "Introduction to Tribhuvan University Act"
+},
+{
+"id": "TU-02",
+"title": "University Assembly and Organization"
+},
+{
+"id": "TU-03",
+"title": "Executive Council and Functions"
+},
+{
+"id": "TU-04",
+"title": "Academic Council and Regulations"
+},
+{
+"id": "TU-05",
+"title": "Service Commission Rules"
+},
+{
+"id": "TU-06",
+"title": "Teachers and Staff Recruitment"
+},
+{
+"id": "TU-07",
+"title": "Financial Administration and Audit"
+},
+{
+"id": "TU-08",
+"title": "Examination Rules and Procedures"
+},
+{
+"id": "TU-09",
+"title": "Code of Conduct for Staff and Teachers"
+},
+{
+"id": "TU-10",
+"title": "Student Discipline and Welfare"
+},
+{
+"id": "TU-11",
+"title": "Affiliation and Constituent Colleges"
+},
+{
+"id": "TU-12",
+"title": "Research and Development Directives"
+},
+{
+"id": "TU-13",
+"title": "Scholarships and Grants"
+},
+{
+"id": "TU-14",
+"title": "Leave Rules and Facilities"
+},
+{
+"id": "TU-15",
+"title": "Miscellaneous Provisions and Amendments"
+},
+{
+"id": "CM-01",
+"title": "Newtonian Mechanics"
+},
+{
+"id": "CM-02",
+"title": "Conservation Laws"
+},
+{
+"id": "CM-03",
+"title": "Motion in Central Force Field"
+},
+{
+"id": "CM-04",
+"title": "Collisions and Scattering"
+},
+{
+"id": "CM-05",
+"title": "Rotational Dynamics"
+},
+{
+"id": "CM-06",
+"title": "Rigid Body Dynamics"
+},
+{
+"id": "CM-07",
+"title": "Oscillations and Harmonic Motion"
+},
+{
+"id": "CM-08",
+"title": "Lagrangian Formulation"
+},
+{
+"id": "CM-09",
+"title": "Hamiltonian Formulation"
+},
+{
+"id": "CM-10",
+"title": "Canonical Transformations"
+},
+{
+"id": "CM-11",
+"title": "Hamilton-Jacobi Theory"
+},
+{
+"id": "CM-12",
+"title": "Small Oscillations"
+},
+{
+"id": "CM-13",
+"title": "Special Theory of Relativity"
+},
+{
+"id": "CM-14",
+"title": "Non-Inertial Reference Frames"
+},
+{
+"id": "CM-15",
+"title": "Continuous Systems and Fields"
+},
+{
+"id": "EM-01",
+"title": "Electrostatics and Coulomb's Law"
+},
+{
+"id": "EM-02",
+"title": "Electric Field and Gauss's Law"
+},
+{
+"id": "EM-03",
+"title": "Electric Potential"
+},
+{
+"id": "EM-04",
+"title": "Capacitance and Dielectrics"
+},
+{
+"id": "EM-05",
+"title": "Current and Resistance"
+},
+{
+"id": "EM-06",
+"title": "Direct Current Circuits"
+},
+{
+"id": "EM-07",
+"title": "Magnetic Fields"
+},
+{
+"id": "EM-08",
+"title": "Magnetic Forces and Materials"
+},
+{
+"id": "EM-09",
+"title": "Sources of Magnetic Field"
+},
+{
+"id": "EM-10",
+"title": "Electromagnetic Induction"
+},
+{
+"id": "EM-11",
+"title": "Inductance"
+},
+{
+"id": "EM-12",
+"title": "Alternating Current Circuits"
+},
+{
+"id": "EM-13",
+"title": "Maxwell's Equations"
+},
+{
+"id": "EM-14",
+"title": "Electromagnetic Waves"
+},
+{
+"id": "EM-15",
+"title": "Polarization and Wave Propagation"
+},
+{
+"id": "ELEC-01",
+"title": "Semiconductor Physics and Diodes"
+},
+{
+"id": "ELEC-02",
+"title": "Bipolar Junction Transistors (BJT)"
+},
+{
+"id": "ELEC-03",
+"title": "Field Effect Transistors (FET and MOSFET)"
+},
+{
+"id": "ELEC-04",
+"title": "Operational Amplifiers and Applications"
+},
+{
+"id": "ELEC-05",
+"title": "Feedback Amplifiers and Oscillators"
+},
+{
+"id": "ELEC-06",
+"title": "Digital Logic Circuits and Boolean Algebra"
+},
+{
+"id": "ELEC-07",
+"title": "Combinational Logic Circuits"
+},
+{
+"id": "ELEC-08",
+"title": "Sequential Logic Circuits"
+},
+{
+"id": "ELEC-09",
+"title": "Microprocessors and Microcontrollers"
+},
+{
+"id": "ELEC-10",
+"title": "Analog to Digital and Digital to Analog Converters"
+},
+{
+"id": "ELEC-11",
+"title": "Modulation and Demodulation Techniques"
+},
+{
+"id": "ELEC-12",
+"title": "Communication Systems and Noise"
+},
+{
+"id": "ELEC-13",
+"title": "Power Electronics and Devices"
+},
+{
+"id": "ELEC-14",
+"title": "Electronic Measurements and Instruments"
+},
+{
+"id": "ELEC-15",
+"title": "VLSI Technology and Fabrication"
+},
+{
+"id": "MATH-01",
+"title": "Vector Analysis and Calculus"
+},
+{
+"id": "MATH-02",
+"title": "Matrices and Linear Algebra"
+},
+{
+"id": "MATH-03",
+"title": "Complex Variables and Analytic Functions"
+},
+{
+"id": "MATH-04",
+"title": "Ordinary Differential Equations"
+},
+{
+"id": "MATH-05",
+"title": "Partial Differential Equations"
+},
+{
+"id": "MATH-06",
+"title": "Fourier Series and Transforms"
+},
+{
+"id": "MATH-07",
+"title": "Laplace Transforms"
+},
+{
+"id": "MATH-08",
+"title": "Special Functions (Bessel, Legendre, etc.)"
+},
+{
+"id": "MATH-09",
+"title": "Tensor Analysis"
+},
+{
+"id": "MATH-10",
+"title": "Group Theory and Applications"
+},
+{
+"id": "MATH-11",
+"title": "Probability and Statistics"
+},
+{
+"id": "MATH-12",
+"title": "Calculus of Variations"
+},
+{
+"id": "MATH-13",
+"title": "Integral Equations"
+},
+{
+"id": "MATH-14",
+"title": "Green's Functions"
+},
+{
+"id": "MATH-15",
+"title": "Numerical Methods and Computing"
+},
+{
+"id": "MECH-01",
+"title": "Units, Dimensions, and Vector Algebra"
+},
+{
+"id": "MECH-02",
+"title": "Newton's Laws of Motion and Applications"
+},
+{
+"id": "MECH-03",
+"title": "Work, Energy, and Conservation Laws"
+},
+{
+"id": "MECH-04",
+"title": "System of Particles and Center of Mass"
+},
+{
+"id": "MECH-05",
+"title": "Collisions and Momentum Conservation"
+},
+{
+"id": "MECH-06",
+"title": "Rotational Kinematics and Dynamics"
+},
+{
+"id": "MECH-07",
+"title": "Moment of Inertia and Fixed Axis Rotation"
+},
+{
+"id": "MECH-08",
+"title": "Gravitation and Central Force Motion"
+},
+{
+"id": "MECH-09",
+"title": "Simple Harmonic Motion and Oscillations"
+},
+{
+"id": "MECH-10",
+"title": "Damped and Forced Oscillations"
+},
+{
+"id": "MECH-11",
+"title": "Elasticity and Properties of Matter"
+},
+{
+"id": "MECH-12",
+"title": "Fluid Statics and Hydrodynamics"
+},
+{
+"id": "MECH-13",
+"title": "Surface Tension and Viscosity"
+},
+{
+"id": "MECH-14",
+"title": "Non-Inertial Frames and Pseudoforces"
+},
+{
+"id": "MECH-15",
+"title": "Special Theory of Relativity Basics in Mechanics"
+},
+{
+"id": "MP-01",
+"title": "Special Theory of Relativity"
+},
+{
+"id": "MP-02",
+"title": "Particle Properties of Waves"
+},
+{
+"id": "MP-03",
+"title": "Wave Properties of Particles"
+},
+{
+"id": "MP-04",
+"title": "Atomic Structure and Bohr Model"
+},
+{
+"id": "MP-05",
+"title": "Quantum Mechanics Basics"
+},
+{
+"id": "MP-06",
+"title": "Quantum Theory of the Hydrogen Atom"
+},
+{
+"id": "MP-07",
+"title": "Many-Electron Atoms and Spin"
+},
+{
+"id": "MP-08",
+"title": "Molecules and Statistical Mechanics"
+},
+{
+"id": "MP-09",
+"title": "Solid State Physics"
+},
+{
+"id": "MP-10",
+"title": "Nuclear Structure and Radioactivity"
+},
+{
+"id": "MP-11",
+"title": "Nuclear Reactions and Energy"
+},
+{
+"id": "MP-12",
+"title": "Elementary Particles"
+},
+{
+"id": "MP-13",
+"title": "Accelerators and Detectors"
+},
+{
+"id": "MP-14",
+"title": "Astrophysics and Cosmology"
+},
+{
+"id": "MP-15",
+"title": "Recent Advances in Modern Physics"
+},
+{
+"id": "NP-01",
+"title": "General Properties of Nuclei"
+},
+{
+"id": "NP-02",
+"title": "Nuclear Models (Liquid Drop, Shell Model)"
+},
+{
+"id": "NP-03",
+"title": "Radioactivity and Alpha Decay"
+},
+{
+"id": "NP-04",
+"title": "Beta and Gamma Decay"
+},
+{
+"id": "NP-05",
+"title": "Nuclear Forces and Two-Nucleon Problem"
+},
+{
+"id": "NP-06",
+"title": "Nuclear Reactions and Kinematics"
+},
+{
+"id": "NP-07",
+"title": "Nuclear Fission and Fusion"
+},
+{
+"id": "NP-08",
+"title": "Interaction of Radiation with Matter"
+},
+{
+"id": "NP-09",
+"title": "Radiation Detectors"
+},
+{
+"id": "NP-10",
+"title": "Particle Accelerators"
+},
+{
+"id": "NP-11",
+"title": "Elementary Particles and Symmetries"
+},
+{
+"id": "NP-12",
+"title": "The Quark Model"
+},
+{
+"id": "NP-13",
+"title": "Weak and Strong Interactions"
+},
+{
+"id": "NP-14",
+"title": "Nuclear Astrophysics"
+},
+{
+"id": "NP-15",
+"title": "Reactor Physics and Applications"
+},
+{
+"id": "OPTICS-01",
+"title": "Nature of Light and Propagation"
+},
+{
+"id": "OPTICS-02",
+"title": "Geometrical Optics and Reflection"
+},
+{
+"id": "OPTICS-03",
+"title": "Refraction and Lenses"
+},
+{
+"id": "OPTICS-04",
+"title": "Optical Instruments"
+},
+{
+"id": "OPTICS-05",
+"title": "Wave Optics and Huygens Principle"
+},
+{
+"id": "OPTICS-06",
+"title": "Interference of Light"
+},
+{
+"id": "OPTICS-07",
+"title": "Diffraction of Light"
+},
+{
+"id": "OPTICS-08",
+"title": "Polarization of Light"
+},
+{
+"id": "OPTICS-09",
+"title": "Laser Physics"
+},
+{
+"id": "OPTICS-10",
+"title": "Fiber Optics"
+},
+{
+"id": "OPTICS-11",
+"title": "Nonlinear Optics"
+},
+{
+"id": "OPTICS-12",
+"title": "Fourier Optics"
+},
+{
+"id": "OPTICS-13",
+"title": "Quantum Optics"
+},
+{
+"id": "OPTICS-14",
+"title": "Photometry and Radiometry"
+},
+{
+"id": "OPTICS-15",
+"title": "Advanced Optical Phenomena"
+},
+{
+"id": "QM-01",
+"title": "Origin of Quantum Physics"
+},
+{
+"id": "QM-02",
+"title": "Wave-Particle Duality and Uncertainty"
+},
+{
+"id": "QM-03",
+"title": "The Schrödinger Equation"
+},
+{
+"id": "QM-04",
+"title": "One-Dimensional Potentials"
+},
+{
+"id": "QM-05",
+"title": "Quantum Harmonic Oscillator"
+},
+{
+"id": "QM-06",
+"title": "Angular Momentum"
+},
+{
+"id": "QM-07",
+"title": "The Hydrogen Atom"
+},
+{
+"id": "QM-08",
+"title": "Spin and Pauli Matrices"
+},
+{
+"id": "QM-09",
+"title": "Identical Particles and Spin"
+},
+{
+"id": "QM-10",
+"title": "Time-Independent Perturbation Theory"
+},
+{
+"id": "QM-11",
+"title": "Time-Dependent Perturbation Theory"
+},
+{
+"id": "QM-12",
+"title": "The WKB Approximation"
+},
+{
+"id": "QM-13",
+"title": "Scattering Theory"
+},
+{
+"id": "QM-14",
+"title": "Relativistic Quantum Mechanics"
+},
+{
+"id": "QM-15",
+"title": "Quantum Entanglement and Information"
+},
+{
+"id": "SSP-01",
+"title": "Crystal Structure and Symmetry"
+},
+{
+"id": "SSP-02",
+"title": "X-Ray Diffraction and Reciprocal Lattice"
+},
+{
+"id": "SSP-03",
+"title": "Crystal Binding and Elastic Constants"
+},
+{
+"id": "SSP-04",
+"title": "Lattice Vibrations and Phonons"
+},
+{
+"id": "SSP-05",
+"title": "Thermal Properties of Solids"
+},
+{
+"id": "SSP-06",
+"title": "Free Electron Fermi Gas"
+},
+{
+"id": "SSP-07",
+"title": "Energy Bands in Solids"
+},
+{
+"id": "SSP-08",
+"title": "Semiconductor Crystals"
+},
+{
+"id": "SSP-09",
+"title": "Fermi Surfaces and Metals"
+},
+{
+"id": "SSP-10",
+"title": "Superconductivity"
+},
+{
+"id": "SSP-11",
+"title": "Diamagnetism and Paramagnetism"
+},
+{
+"id": "SSP-12",
+"title": "Ferromagnetism and Antiferromagnetism"
+},
+{
+"id": "SSP-13",
+"title": "Magnetic Resonance"
+},
+{
+"id": "SSP-14",
+"title": "Dielectrics and Ferroelectrics"
+},
+{
+"id": "SSP-15",
+"title": "Point Defects and Nanoscale Physics"
+},
+{
+"id": "THERMO-01",
+"title": "Basic Concepts and Zeroth Law"
+},
+{
+"id": "THERMO-02",
+"title": "Work and Heat Transfer"
+},
+{
+"id": "THERMO-03",
+"title": "First Law of Thermodynamics"
+},
+{
+"id": "THERMO-04",
+"title": "Second Law of Thermodynamics"
+},
+{
+"id": "THERMO-05",
+"title": "Entropy"
+},
+{
+"id": "THERMO-06",
+"title": "Availability, Exergy and Irreversibility"
+},
+{
+"id": "THERMO-07",
+"title": "Properties of Pure Substances"
+},
+{
+"id": "THERMO-08",
+"title": "Ideal and Real Gases"
+},
+{
+"id": "THERMO-09",
+"title": "Thermodynamic Relations"
+},
+{
+"id": "THERMO-10",
+"title": "Vapor Power Cycles"
+},
+{
+"id": "THERMO-11",
+"title": "Gas Power Cycles"
+},
+{
+"id": "THERMO-12",
+"title": "Refrigeration Cycles"
+},
+{
+"id": "THERMO-13",
+"title": "Psychrometrics"
+},
+{
+"id": "THERMO-14",
+"title": "Reactive Systems and Combustion"
+},
+{
+"id": "THERMO-15",
+"title": "Chemical and Phase Equilibrium"
+},
+{
+"id": "CM_MSC-01",
+"title": "Newtonian Mechanics and Conservation Principles"
+},
+{
+"id": "CM_MSC-02",
+"title": "Calculus of Variations and Hamilton's Principle"
+},
+{
+"id": "CM_MSC-03",
+"title": "Lagrangian Dynamics and Generalized Coordinates"
+},
+{
+"id": "CM_MSC-04",
+"title": "Two-Body Central Force Problem"
+},
+{
+"id": "CM_MSC-05",
+"title": "Kepler's Laws and Orbital Mechanics"
+},
+{
+"id": "CM_MSC-06",
+"title": "Scattering in a Central Force Field"
+},
+{
+"id": "CM_MSC-07",
+"title": "Rigid Body Motion and Euler Angles"
+},
+{
+"id": "CM_MSC-08",
+"title": "Non-Inertial Reference Frames and Coriolis Force"
+},
+{
+"id": "CM_MSC-09",
+"title": "Hamiltonian Dynamics and Equations of Motion"
+},
+{
+"id": "CM_MSC-10",
+"title": "Canonical Transformations and Poisson Brackets"
+},
+{
+"id": "CM_MSC-11",
+"title": "Hamilton-Jacobi Theory and Action-Angle Variables"
+},
+{
+"id": "CM_MSC-12",
+"title": "Small Oscillations and Normal Modes"
+},
+{
+"id": "CM_MSC-13",
+"title": "Special Theory of Relativity in Mechanics"
+},
+{
+"id": "CM_MSC-14",
+"title": "Continuous Systems and Classical Fields"
+},
+{
+"id": "CM_MSC-15",
+"title": "Nonlinear Dynamics and Chaos Theory"
+},
+{
+"id": "ED1-01",
+"title": "Electrostatics: Electric Field and Potential"
+},
+{
+"id": "ED1-02",
+"title": "Boundary Value Problems in Electrostatics"
+},
+{
+"id": "ED1-03",
+"title": "Multipole Expansion and Dielectrics"
+},
+{
+"id": "ED1-04",
+"title": "Magnetostatics: Biot-Savart and Ampere's Law"
+},
+{
+"id": "ED1-05",
+"title": "Magnetic Vector Potential and Multipoles"
+},
+{
+"id": "ED1-06",
+"title": "Magnetic Fields in Matter"
+},
+{
+"id": "ED1-07",
+"title": "Electromotive Force and Faraday's Law"
+},
+{
+"id": "ED1-08",
+"title": "Maxwell's Equations in Free Space and Media"
+},
+{
+"id": "ED1-09",
+"title": "Conservation Laws: Poynting Theorem and Momentum"
+},
+{
+"id": "ED1-10",
+"title": "Electromagnetic Waves in Vacuum"
+},
+{
+"id": "ED1-11",
+"title": "Propagation of Waves in Linear Media"
+},
+{
+"id": "ED1-12",
+"title": "Wave Guides and Resonant Cavities"
+},
+{
+"id": "ED1-13",
+"title": "Potentials and Gauge Transformations"
+},
+{
+"id": "ED1-14",
+"title": "Radiation from Point Charges and Dipoles"
+},
+{
+"id": "ED1-15",
+"title": "Special Theory of Relativity in Electrodynamics"
+},
+{
+"id": "ED2-01",
+"title": "Advanced Maxwell's Equations and Covariance"
+},
+{
+"id": "ED2-02",
+"title": "Conservation Laws in Relativistic Electrodynamics"
+},
+{
+"id": "ED2-03",
+"title": "Plane Electromagnetic Waves in Non-Conducting Media"
+},
+{
+"id": "ED2-04",
+"title": "Electromagnetic Waves in Conducting Media and Plasma"
+},
+{
+"id": "ED2-05",
+"title": "Dispersion and Propagation of Wave Packets"
+},
+{
+"id": "ED2-06",
+"title": "Waveguides: Rectangular and Circular Cavities"
+},
+{
+"id": "ED2-07",
+"title": "Resonant Cavities and Optical Fibers"
+},
+{
+"id": "ED2-08",
+"title": "Radiation by Moving Charges: Lienard-Wiechert Potentials"
+},
+{
+"id": "ED2-09",
+"title": "Radiation from an Accelerated Charge and Bremsstrahlung"
+},
+{
+"id": "ED2-10",
+"title": "Multipole Radiation and Synchrotron Radiation"
+},
+{
+"id": "ED2-11",
+"title": "Radiation Reaction and Abraham-Lorentz Force"
+},
+{
+"id": "ED2-12",
+"title": "Scattering of Electromagnetic Waves"
+},
+{
+"id": "ED2-13",
+"title": "Magnetohydrodynamics and Plasma Physics"
+},
+{
+"id": "ED2-14",
+"title": "Nonlinear Optics and Laser-Matter Interaction"
+},
+{
+"id": "ED2-15",
+"title": "Advanced Quantum Electrodynamics Foundations"
+},
+{
+"id": "ELEC_MSC-01",
+"title": "Advanced Semiconductor Devices and Physics"
+},
+{
+"id": "ELEC_MSC-02",
+"title": "MOSFET Theory and VLSI Fabrication"
+},
+{
+"id": "ELEC_MSC-03",
+"title": "Analog Integrated Circuits and Operational Amplifiers"
+},
+{
+"id": "ELEC_MSC-04",
+"title": "Feedback, Stability, and Oscillators"
+},
+{
+"id": "ELEC_MSC-05",
+"title": "Digital Integrated Circuit Design"
+},
+{
+"id": "ELEC_MSC-06",
+"title": "Combinational and Sequential Logic Systems"
+},
+{
+"id": "ELEC_MSC-07",
+"title": "Microprocessors, Microcontrollers, and Embedded Systems"
+},
+{
+"id": "ELEC_MSC-08",
+"title": "Data Converters (ADC and DAC Architectures)"
+},
+{
+"id": "ELEC_MSC-09",
+"title": "Optoelectronic Devices and Optical Communications"
+},
+{
+"id": "ELEC_MSC-10",
+"title": "Microwave Engineering and Antennas"
+},
+{
+"id": "ELEC_MSC-11",
+"title": "Power Electronics and Switched-Mode Converters"
+},
+{
+"id": "ELEC_MSC-12",
+"title": "Digital Signal Processing (DSP) Fundamentals"
+},
+{
+"id": "ELEC_MSC-13",
+"title": "Communication Systems and Information Theory"
+},
+{
+"id": "ELEC_MSC-14",
+"title": "Electronic Instrumentation and Measurement Techniques"
+},
+{
+"id": "ELEC_MSC-15",
+"title": "FPGA Architecture and Hardware Description Languages"
+},
+{
+"id": "MATH1-01",
+"title": "Vector Analysis and Calculus"
+},
+{
+"id": "MATH1-02",
+"title": "Matrices and Linear Algebra"
+},
+{
+"id": "MATH1-03",
+"title": "Complex Variables and Analytic Functions"
+},
+{
+"id": "MATH1-04",
+"title": "Ordinary Differential Equations"
+},
+{
+"id": "MATH1-05",
+"title": "Partial Differential Equations"
+},
+{
+"id": "MATH1-06",
+"title": "Fourier Series and Transforms"
+},
+{
+"id": "MATH1-07",
+"title": "Laplace Transforms"
+},
+{
+"id": "MATH1-08",
+"title": "Special Functions (Bessel, Legendre, etc.)"
+},
+{
+"id": "MATH1-09",
+"title": "Tensor Analysis"
+},
+{
+"id": "MATH1-10",
+"title": "Group Theory and Applications"
+},
+{
+"id": "MATH1-11",
+"title": "Probability and Statistics"
+},
+{
+"id": "MATH1-12",
+"title": "Calculus of Variations"
+},
+{
+"id": "MATH1-13",
+"title": "Integral Equations"
+},
+{
+"id": "MATH1-14",
+"title": "Green's Functions"
+},
+{
+"id": "MATH1-15",
+"title": "Numerical Methods and Computing"
+},
+{
+"id": "MATH2-01",
+"title": "Advanced Complex Analysis and Contour Integration"
+},
+{
+"id": "MATH2-02",
+"title": "Conformal Mapping and Applications"
+},
+{
+"id": "MATH2-03",
+"title": "Advanced Ordinary Differential Equations and Series Solutions"
+},
+{
+"id": "MATH2-04",
+"title": "Sturm-Liouville Theory and Eigenvalue Problems"
+},
+{
+"id": "MATH2-05",
+"title": "Partial Differential Equations: Separation of Variables"
+},
+{
+"id": "MATH2-06",
+"title": "Green's Functions for Ordinary and Partial Differential Equations"
+},
+{
+"id": "MATH2-07",
+"title": "Integral Equations: Fredholm and Volterra Types"
+},
+{
+"id": "MATH2-08",
+"title": "Calculus of Variations and Euler-Lagrange Equations"
+},
+{
+"id": "MATH2-09",
+"title": "Advanced Tensor Analysis and Riemannian Geometry"
+},
+{
+"id": "MATH2-10",
+"title": "Group Theory: Finite and Continuous Groups"
+},
+{
+"id": "MATH2-11",
+"title": "Representation Theory of Groups in Physics"
+},
+{
+"id": "MATH2-12",
+"title": "Advanced Probability Distributions and Stochastic Processes"
+},
+{
+"id": "MATH2-13",
+"title": "Numerical Methods for Differential Equations"
+},
+{
+"id": "MATH2-14",
+"title": "Matrix Computations and Eigenvalue Problems"
+},
+{
+"id": "MATH2-15",
+"title": "Nonlinear Equations and Soliton Theory"
+},
+{
+"id": "PP-01",
+"title": "Introduction to Elementary Particles and Symmetries"
+},
+{
+"id": "PP-02",
+"title": "Conservation Laws and Quantum Numbers"
+},
+{
+"id": "PP-03",
+"title": "Relativistic Kinematics and Phase Space"
+},
+{
+"id": "PP-04",
+"title": "The Quark Model and Hadrons"
+},
+{
+"id": "PP-05",
+"title": "Quantum Electrodynamics (QED) and Feynman Calculus"
+},
+{
+"id": "PP-06",
+"title": "Weak Interactions and Parity Violation"
+},
+{
+"id": "PP-07",
+"title": "Neutrino Oscillations and Masses"
+},
+{
+"id": "PP-08",
+"title": "Gauge Theories and Spontaneous Symmetry Breaking"
+},
+{
+"id": "PP-09",
+"title": "The Higgs Mechanism and Electroweak Unification"
+},
+{
+"id": "PP-10",
+"title": "Quantum Chromodynamics (QCD) and Color Confinement"
+},
+{
+"id": "PP-11",
+"title": "Deep Inelastic Scattering and Parton Model"
+},
+{
+"id": "PP-12",
+"title": "Particle Accelerators and Beam Dynamics"
+},
+{
+"id": "PP-13",
+"title": "Particle Detectors and Experimental Techniques"
+},
+{
+"id": "PP-14",
+"title": "Beyond the Standard Model: Supersymmetry and GUTs"
+},
+{
+"id": "PP-15",
+"title": "Astroparticle Physics and Cosmology Connections"
+},
+{
+"id": "QFT-01",
+"title": "Classical Field Theory and Noether's Theorem"
+},
+{
+"id": "QFT-02",
+"title": "Second Quantization and Canonical Quantization"
+},
+{
+"id": "QFT-03",
+"title": "Klein-Gordon Equation and Scalar Fields"
+},
+{
+"id": "QFT-04",
+"title": "Dirac Equation and Spinor Fields"
+},
+{
+"id": "QFT-05",
+"title": "Quantization of Electromagnetic Field (Photon Field)"
+},
+{
+"id": "QFT-06",
+"title": "Interacting Fields and Interaction Picture"
+},
+{
+"id": "QFT-07",
+"title": "Feynman Diagrams and Rules in QED"
+},
+{
+"id": "QFT-08",
+"title": "Cross Sections and Decay Rates"
+},
+{
+"id": "QFT-09",
+"title": "Radiative Corrections and Loop Diagrams"
+},
+{
+"id": "QFT-10",
+"title": "Renormalization and Regularization Techniques"
+},
+{
+"id": "QFT-11",
+"title": "Non-Abelian Gauge Theories and Yang-Mills"
+},
+{
+"id": "QFT-12",
+"title": "Spontaneous Symmetry Breaking and Goldstone Bosons"
+},
+{
+"id": "QFT-13",
+"title": "The Higgs Mechanism and Electroweak Theory"
+},
+{
+"id": "QFT-14",
+"title": "Quantum Chromodynamics (QCD) Basics"
+},
+{
+"id": "QFT-15",
+"title": "Path Integral Formulation of Quantum Field Theory"
+},
+{
+"id": "QM1-01",
+"title": "Origin of Quantum Physics and Wave-Particle Duality"
+},
+{
+"id": "QM1-02",
+"title": "The Uncertainty Principle"
+},
+{
+"id": "QM1-03",
+"title": "Schrödinger Equation and Wave Functions"
+},
+{
+"id": "QM1-04",
+"title": "Expectation Values and Operators"
+},
+{
+"id": "QM1-05",
+"title": "One-Dimensional Potentials (Step, Barrier)"
+},
+{
+"id": "QM1-06",
+"title": "Particle in a Box and Finite Wells"
+},
+{
+"id": "QM1-07",
+"title": "Quantum Harmonic Oscillator"
+},
+{
+"id": "QM1-08",
+"title": "General Formalism of Wave Mechanics"
+},
+{
+"id": "QM1-09",
+"title": "Hilbert Space and Dirac Notation"
+},
+{
+"id": "QM1-10",
+"title": "Theory of Angular Momentum"
+},
+{
+"id": "QM1-11",
+"title": "Three-Dimensional Systems and Spherical Harmonics"
+},
+{
+"id": "QM1-12",
+"title": "The Hydrogen Atom Problem"
+},
+{
+"id": "QM1-13",
+"title": "Spin and Magnetic Moments"
+},
+{
+"id": "QM1-14",
+"title": "Identical Particles and Exchange Symmetry"
+},
+{
+"id": "QM1-15",
+"title": "Time-Independent Perturbation Theory"
+},
+{
+"id": "QM2-01",
+"title": "Time-Independent Perturbation Theory (Non-Degenerate)"
+},
+{
+"id": "QM2-02",
+"title": "Degenerate Perturbation Theory"
+},
+{
+"id": "QM2-03",
+"title": "Variational Method and Applications"
+},
+{
+"id": "QM2-04",
+"title": "WKB Approximation and Connection Formulas"
+},
+{
+"id": "QM2-05",
+"title": "Time-Dependent Perturbation Theory"
+},
+{
+"id": "QM2-06",
+"title": "Transition Probabilities and Fermi's Golden Rule"
+},
+{
+"id": "QM2-07",
+"title": "Interaction of Radiation with Matter"
+},
+{
+"id": "QM2-08",
+"title": "Scattering Theory: Born Approximation"
+},
+{
+"id": "QM2-09",
+"title": "Partial Wave Analysis in Scattering"
+},
+{
+"id": "QM2-10",
+"title": "Relativistic Quantum Mechanics: Klein-Gordon Equation"
+},
+{
+"id": "QM2-11",
+"title": "Dirac Equation and Spin Properties"
+},
+{
+"id": "QM2-12",
+"title": "Second Quantization of Systems"
+},
+{
+"id": "QM2-13",
+"title": "Quantum Field Theory Basics"
+},
+{
+"id": "QM2-14",
+"title": "Quantum Entanglement and Bell's Theorem"
+},
+{
+"id": "QM2-15",
+"title": "Quantum Computing and Information Foundations"
+},
+{
+"id": "SSP_MSC-01",
+"title": "Advanced Crystal Lattices and Reciprocal Space"
+},
+{
+"id": "SSP_MSC-02",
+"title": "X-ray Diffraction and Advanced Scattering Theory"
+},
+{
+"id": "SSP_MSC-03",
+"title": "Lattice Dynamics and Phonon Spectroscopy"
+},
+{
+"id": "SSP_MSC-04",
+"title": "Free Electron Theory and Advanced Band Theory"
+},
+{
+"id": "SSP_MSC-05",
+"title": "Nearly Free Electron and Tight-Binding Models"
+},
+{
+"id": "SSP_MSC-06",
+"title": "Fermi Surfaces and Transport Phenomena"
+},
+{
+"id": "SSP_MSC-07",
+"title": "Semiconductor Physics and Heterostructures"
+},
+{
+"id": "SSP_MSC-08",
+"title": "Dielectric and Ferroelectric Properties"
+},
+{
+"id": "SSP_MSC-09",
+"title": "Advanced Magnetism and Exchange Interactions"
+},
+{
+"id": "SSP_MSC-10",
+"title": "Superconductivity: BCS Theory and Ginzburg-Landau"
+},
+{
+"id": "SSP_MSC-11",
+"title": "High-Temperature Superconductivity"
+},
+{
+"id": "SSP_MSC-12",
+"title": "Defects, Dislocations, and Color Centers"
+},
+{
+"id": "SSP_MSC-13",
+"title": "Nanostructures and Quantum Confinement"
+},
+{
+"id": "SSP_MSC-14",
+"title": "Disordered Systems and Amorphous Solids"
+},
+{
+"id": "SSP_MSC-15",
+"title": "Spintronics and Topological Insulators"
+},
+{
+"id": "STAT-01",
+"title": "Phase Space and Liouville's Theorem"
+},
+{
+"id": "STAT-02",
+"title": "Microcanonical Ensemble"
+},
+{
+"id": "STAT-03",
+"title": "Canonical Ensemble and Partition Function"
+},
+{
+"id": "STAT-04",
+"title": "Grand Canonical Ensemble"
+},
+{
+"id": "STAT-05",
+"title": "Maxwell-Boltzmann Statistics"
+},
+{
+"id": "STAT-06",
+"title": "Quantum Statistics: Bose-Einstein Distribution"
+},
+{
+"id": "STAT-07",
+"title": "Quantum Statistics: Fermi-Dirac Distribution"
+},
+{
+"id": "STAT-08",
+"title": "Blackbody Radiation and Planck's Law"
+},
+{
+"id": "STAT-09",
+"title": "Debye and Einstein Theories of Specific Heat"
+},
+{
+"id": "STAT-10",
+"title": "Bose-Einstein Condensation"
+},
+{
+"id": "STAT-11",
+"title": "Electron Gas in Metals and Degeneracy"
+},
+{
+"id": "STAT-12",
+"title": "Ising Model and Phase Transitions"
+},
+{
+"id": "STAT-13",
+"title": "Mean Field Theory"
+},
+{
+"id": "STAT-14",
+"title": "Fluctuations and Random Walks"
+},
+{
+"id": "STAT-15",
+"title": "Non-Equilibrium Statistical Mechanics Basics"
+}
+]

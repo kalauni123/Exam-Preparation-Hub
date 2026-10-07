@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuroMCQ — Engine &amp; Bank Tests</title>
+  <meta name="robots" content="noindex">
+  <style>
+    body { font-family: system-ui, sans-serif; background: #f3f4f6; color: #1f2937; margin: 0; padding: 16px; font-weight: 600; }
+    main { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 20px; padding: 24px; box-shadow: 0 10px 25px -3px rgba(0,0,0,.08); }
+    h1 { color: #4338ca; font-weight: 900; margin: 0 0 8px; }
+    h2 { font-size: 1rem; margin: 20px 0 6px; color: #4338ca; }
+    .row { padding: 6px 10px; border-radius: 8px; margin: 3px 0; font-size: .92rem; overflow-wrap: anywhere; }
+    .ok { background: #d1fae5; color: #065f46; }
+    .bad { background: #fee2e2; color: #991b1b; }
+    #summary { padding: 10px 14px; border-radius: 10px; font-weight: 800; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>NeuroMCQ test suite</h1>
+    <p>Known-answer tests for every Section 9 engine function, plus catalog / bank / converter checks. Runs entirely in the browser.</p>
+    <div id="summary">Running…</div>
+    <div id="out"></div>
+  </main>
+  <script type="module" src="./engine.test.js"></script>
+</body>
+</html>

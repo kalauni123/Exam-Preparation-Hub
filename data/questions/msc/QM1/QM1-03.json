@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-03",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-03-0001",
+   "concept": "born-interpretation",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "According to the Born interpretation, \\(|\\psi(x)|^2\\,dx\\) represents:",
+   "options": {
+    "A": "the probability of finding the particle between \\(x\\) and \\(x+dx\\)",
+    "B": "the energy density of the matter wave",
+    "C": "the fraction of the particle's mass located at \\(x\\)",
+    "D": "the charge contained between \\(x\\) and \\(x+dx\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Born's statistical interpretation: \\(|\\psi|^2\\) is a probability density, and \\(\\int|\\psi|^2dx = 1\\) for a normalized state.",
+    "whyWrong": {
+     "B": "Energy is obtained from the Hamiltonian, not from \\(|\\psi|^2\\) alone.",
+     "C": "Particles are always detected whole; mass is not physically spread.",
+     "D": "This was Schrödinger's early 'smeared charge' view, abandoned because a measured electron is never found fractionally."
+    },
+    "conceptTested": "Statistical interpretation of the wave function",
+    "trapUsed": "Plausible classical 'smeared-out' readings.",
+    "howToModify": "Ask for the probability of finding a particle in a given interval for a specific normalized \\(\\psi\\).",
+    "howToAvoid": "Remember: wave function amplitude squared → probability density."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-03-0002",
+   "concept": "acceptable-wavefunction",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "Which of the following is NOT a requirement for a physically acceptable bound-state wave function?",
+   "options": {
+    "A": "It must be continuous",
+    "B": "It must be real-valued",
+    "C": "It must be single-valued",
+    "D": "It must be square-integrable"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Wave functions are in general complex; e.g. \\(e^{ikx}\\) or \\(Y_{lm}\\propto e^{im\\phi}\\). Only \\(|\\psi|^2\\) must be real, which is automatic.",
+    "whyWrong": {
+     "A": "Continuity is required so that the kinetic-energy term is finite.",
+     "C": "Single-valuedness is required so that probability is unambiguous.",
+     "D": "Square-integrability allows normalization of bound states."
+    },
+    "conceptTested": "Conditions on admissible wave functions",
+    "trapUsed": "Negative ('NOT') phrasing.",
+    "howToModify": "Ask when the first derivative may be discontinuous (answer: at an infinite potential step or a delta function).",
+    "howToAvoid": "Underline the word NOT and test each option against the standard list."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-03-0003",
+   "concept": "probability-current",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.6,
+    "c": 0.25
+   },
+   "stem": "For any real-valued wave function \\(\\psi(x)\\) (times an overall constant phase), the probability current density \\(j = \\frac{\\hbar}{2mi}\\left(\\psi^*\\psi' - \\psi\\psi^{*\\prime}\\right)\\) is:",
+   "options": {
+    "A": "always negative",
+    "B": "equal to \\(|\\psi|^2\\)",
+    "C": "zero",
+    "D": "equal to \\(\\hbar k/m\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "If \\(\\psi\\) is real, \\(\\psi^* = \\psi\\), so \\(\\psi^*\\psi' - \\psi\\psi^{*\\prime} = 0\\) and \\(j = 0\\): real (standing-wave) states carry no net flow.",
+    "whyWrong": {
+     "A": "The sign depends on direction of flow; here there is no flow at all.",
+     "B": "That is probability density, not current; the dimensions differ.",
+     "D": "\\(\\hbar k/m\\) is the current of a normalized plane wave \\(e^{ikx}\\), which is complex."
+    },
+    "conceptTested": "Probability current and standing waves",
+    "trapUsed": "Recalling the plane-wave result out of context.",
+    "howToModify": "Ask for \\(j\\) for \\(\\psi = Ae^{ikx} + Be^{-ikx}\\) (answer: \\(\\frac{\\hbar k}{m}(|A|^2-|B|^2)\\)).",
+    "howToAvoid": "Before computing, check whether the wave function is real; if so, the current is zero."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "B": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-03-0004",
+   "concept": "stationary-state",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "For a stationary state \\(\\Psi(x,t) = \\psi(x)e^{-iEt/\\hbar}\\):",
+   "options": {
+    "A": "the expectation value of position grows linearly in time",
+    "B": "the energy is uncertain by \\(\\hbar/t\\)",
+    "C": "the probability density oscillates with angular frequency \\(E/\\hbar\\)",
+    "D": "the probability density is independent of time"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(|\\Psi|^2 = |\\psi|^2\\,|e^{-iEt/\\hbar}|^2 = |\\psi|^2\\): the phase factor has unit modulus, so all expectation values of time-independent operators are constant.",
+    "whyWrong": {
+     "A": "All expectation values of time-independent operators are constant in a stationary state.",
+     "B": "A stationary state has definite energy \\(E\\) (zero spread).",
+     "C": "Only the phase oscillates; the modulus does not."
+    },
+    "conceptTested": "Properties of stationary states",
+    "trapUsed": "Confusing phase rotation with oscillation of the density.",
+    "howToModify": "Ask what happens to \\(|\\Psi|^2\\) for a superposition of two stationary states (it oscillates).",
+    "howToAvoid": "Compute \\(|e^{-iEt/\\hbar}|^2 = 1\\) explicitly."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-03-0005",
+   "concept": "normalization",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "The wave function \\(\\psi(x) = A\\,e^{-|x|/a}\\) (with \\(a>0\\)) is normalized over \\(-\\infty<x<\\infty\\) when \\(A\\) equals:",
+   "options": {
+    "A": "\\(1/\\sqrt{a}\\)",
+    "B": "\\(1/\\sqrt{2a}\\)",
+    "C": "\\(\\sqrt{2/a}\\)",
+    "D": "\\(1/a\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\int_{-\\infty}^{\\infty} A^2 e^{-2|x|/a}dx = 2A^2\\int_0^\\infty e^{-2x/a}dx = 2A^2\\cdot\\frac{a}{2} = A^2 a = 1\\Rightarrow A = 1/\\sqrt{a}\\).",
+    "whyWrong": {
+     "B": "Integrates only over \\(x>0\\) twice, or forgets that squaring doubles the exponent.",
+     "C": "Uses the integral over half the axis only.",
+     "D": "Forgets the square root."
+    },
+    "conceptTested": "Normalization of a wave function",
+    "trapUsed": "Losing the factor 2 from the squared exponent or from the two half-axes.",
+    "howToModify": "Ask for the probability of finding the particle in \\(|x| < a\\) (answer \\(1-e^{-2}\\approx0.86\\)).",
+    "howToAvoid": "Square the function first, then integrate over the full range; check the result is dimensionally \\(1/\\text{length}\\)."
+   },
+   "distractorTags": {
+    "B": "careless",
+    "C": "careless",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-03-0006",
+   "concept": "plane-wave",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.25
+   },
+   "stem": "The plane wave \\(\\psi(x) = e^{ikx}\\) is not normalizable. It is nevertheless useful because it:",
+   "options": {
+    "A": "describes a particle localized at the origin",
+    "B": "is an eigenfunction of momentum with eigenvalue \\(\\hbar k\\), from which normalizable wave packets are built",
+    "C": "has zero kinetic energy",
+    "D": "satisfies the Schrödinger equation only for \\(k=0\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(-i\\hbar\\,\\partial_x e^{ikx} = \\hbar k\\,e^{ikx}\\). Physical states are superpositions (wave packets) \\(\\int\\phi(k)e^{ikx}dk\\), which are normalizable.",
+    "whyWrong": {
+     "A": "A plane wave has uniform \\(|\\psi|^2\\) — it is completely delocalized.",
+     "C": "Its kinetic energy is \\(\\hbar^2k^2/2m\\).",
+     "D": "It solves the free-particle equation for any real \\(k\\)."
+    },
+    "conceptTested": "Momentum eigenstates and wave packets",
+    "trapUsed": "Opposite of the truth (localized vs delocalized).",
+    "howToModify": "Ask what Fourier transform of \\(\\phi(k)\\) gives a Gaussian packet.",
+    "howToAvoid": "Associate definite momentum with infinite position spread."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

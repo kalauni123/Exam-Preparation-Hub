@@ -1,0 +1,534 @@
+{
+ "schemaVersion": 1,
+ "note": "Starter chapter\u2192chapter prerequisite edges proposed by AI for owner review. Must form a DAG (validated at load).",
+ "edges": [
+  {
+   "from": "MATH1-01",
+   "to": "ED1-01",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-02",
+   "to": "QM1-09",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-04",
+   "to": "QM1-03",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-05",
+   "to": "QM1-03",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-06",
+   "to": "QM1-02",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-08",
+   "to": "QM1-11",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-10",
+   "to": "QM1-10",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-11",
+   "to": "STAT-02",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-12",
+   "to": "CM_MSC-02",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH1-14",
+   "to": "ED1-02",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-01",
+   "to": "QM1-02",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-02",
+   "to": "QM1-03",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-03",
+   "to": "QM1-04",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-03",
+   "to": "QM1-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-05",
+   "to": "QM1-06",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-04",
+   "to": "QM1-07",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-04",
+   "to": "QM1-08",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-08",
+   "to": "QM1-09",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-09",
+   "to": "QM1-10",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-10",
+   "to": "QM1-11",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-11",
+   "to": "QM1-12",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-10",
+   "to": "QM1-13",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-13",
+   "to": "QM1-14",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-08",
+   "to": "QM1-15",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-09",
+   "to": "QM1-15",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-15",
+   "to": "QM2-01",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM2-01",
+   "to": "QM2-02",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM2-05",
+   "to": "QM2-06",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM2-06",
+   "to": "QM2-07",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM2-08",
+   "to": "QM2-09",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM2-10",
+   "to": "QM2-11",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-13",
+   "to": "QM2-11",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM2-12",
+   "to": "QM2-13",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-01",
+   "to": "STAT-02",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-02",
+   "to": "STAT-03",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-03",
+   "to": "STAT-04",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-03",
+   "to": "STAT-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-04",
+   "to": "STAT-06",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-04",
+   "to": "STAT-07",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-06",
+   "to": "STAT-08",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-06",
+   "to": "STAT-10",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-07",
+   "to": "STAT-11",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-08",
+   "to": "STAT-09",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-03",
+   "to": "STAT-12",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-12",
+   "to": "STAT-13",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-03",
+   "to": "STAT-14",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "STAT-14",
+   "to": "STAT-15",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-14",
+   "to": "STAT-06",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-14",
+   "to": "STAT-07",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-06",
+   "to": "STAT-11",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM1-07",
+   "to": "STAT-09",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM_MSC-09",
+   "to": "STAT-01",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM_MSC-02",
+   "to": "CM_MSC-03",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM_MSC-03",
+   "to": "CM_MSC-09",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM_MSC-09",
+   "to": "CM_MSC-10",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM_MSC-10",
+   "to": "CM_MSC-11",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM_MSC-04",
+   "to": "CM_MSC-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM_MSC-03",
+   "to": "CM_MSC-12",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-01",
+   "to": "ED1-02",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-02",
+   "to": "ED1-03",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-04",
+   "to": "ED1-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-07",
+   "to": "ED1-08",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-08",
+   "to": "ED1-09",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-08",
+   "to": "ED1-10",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-10",
+   "to": "ED1-11",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-11",
+   "to": "ED1-12",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "ED1-13",
+   "to": "ED1-14",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH-01",
+   "to": "EM-01",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MATH-01",
+   "to": "MECH-01",
+   "weight": 0.5,
+   "proposedByAI": true
+  },
+  {
+   "from": "MECH-02",
+   "to": "MECH-03",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "MECH-03",
+   "to": "MECH-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "MECH-06",
+   "to": "MECH-07",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "MECH-09",
+   "to": "MECH-10",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "MP-02",
+   "to": "MP-03",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "MP-03",
+   "to": "MP-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "MP-05",
+   "to": "MP-06",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM-03",
+   "to": "QM-04",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM-04",
+   "to": "QM-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "QM-06",
+   "to": "QM-07",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "THERMO-03",
+   "to": "THERMO-04",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "THERMO-04",
+   "to": "THERMO-05",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "EM-01",
+   "to": "EM-02",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "EM-02",
+   "to": "EM-03",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "EM-10",
+   "to": "EM-11",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "EM-13",
+   "to": "EM-14",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM-08",
+   "to": "CM-09",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM-09",
+   "to": "CM-10",
+   "weight": 0.7,
+   "proposedByAI": true
+  },
+  {
+   "from": "CM-10",
+   "to": "CM-11",
+   "weight": 0.7,
+   "proposedByAI": true
+  }
+ ]
+}

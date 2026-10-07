@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-13",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-13-0001",
+   "concept": "stern-gerlach",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "In the Stern–Gerlach experiment, a beam of ground-state silver atoms passing through an inhomogeneous magnetic field splits into:",
+   "options": {
+    "A": "\\(2l+1\\) beams with \\(l=1\\)",
+    "B": "a continuous smear",
+    "C": "two beams",
+    "D": "three beams"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Ag ground state has \\(l=0\\) and one unpaired electron with \\(s=\\tfrac12\\): two values \\(m_s=\\pm\\tfrac12\\) give two beams.",
+    "whyWrong": {
+     "A": "Orbital angular momentum of Ag ground state is zero.",
+     "B": "Classical expectation of random orientations.",
+     "D": "Expected for an \\(l = 1\\) orbital moment."
+    },
+    "conceptTested": "Space quantization and spin",
+    "trapUsed": "Orbital vs spin angular momentum.",
+    "howToModify": "Ask what would be seen for atoms with \\(j=1\\) (three beams).",
+    "howToAvoid": "Number of beams = \\(2j+1\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-13-0002",
+   "concept": "pauli-matrices",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "The Pauli matrices satisfy which of the following?",
+   "options": {
+    "A": "\\(\\operatorname{Tr}\\sigma_i = 2\\)",
+    "B": "\\(\\det\\sigma_i = +1\\)",
+    "C": "\\(\\sigma_x\\sigma_y = \\sigma_y\\sigma_x\\)",
+    "D": "\\(\\sigma_x^2 = \\sigma_y^2 = \\sigma_z^2 = I\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Each Pauli matrix squares to the identity; they anticommute (\\(\\{\\sigma_i,\\sigma_j\\} = 2\\delta_{ij}I\\)), are traceless and have determinant \\(-1\\).",
+    "whyWrong": {
+     "A": "They are traceless.",
+     "B": "Eigenvalues \\(\\pm1\\) give determinant \\(-1\\).",
+     "C": "They anticommute: \\(\\sigma_x\\sigma_y = -\\sigma_y\\sigma_x = i\\sigma_z\\)."
+    },
+    "conceptTested": "Pauli matrix algebra",
+    "trapUsed": "Properties of the identity attributed to Pauli matrices.",
+    "howToModify": "Ask for \\(\\sigma_x\\sigma_y\\) (\\(i\\sigma_z\\)).",
+    "howToAvoid": "Eigenvalues ±1 ⇒ trace 0, determinant −1, square = I."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "formula-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-13-0003",
+   "concept": "electron-g-factor",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "The spin \\(g\\)-factor of the electron is approximately:",
+   "options": {
+    "A": "2",
+    "B": "1/2",
+    "C": "5.59",
+    "D": "1"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Dirac theory predicts \\(g_s = 2\\); QED corrections give \\(g_s \\approx 2.0023\\). The orbital \\(g_l = 1\\).",
+    "whyWrong": {
+     "B": "Confuses with the spin quantum number.",
+     "C": "Proton \\(g\\)-factor.",
+     "D": "Orbital \\(g\\)-factor."
+    },
+    "conceptTested": "Gyromagnetic ratio of spin",
+    "trapUsed": "Orbital vs spin and electron vs proton values.",
+    "howToModify": "Ask for the Landé \\(g_J\\) of a \\(^2P_{3/2}\\) level (4/3).",
+    "howToAvoid": "Spin magnetism is 'twice as effective' as orbital."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "factual-recall",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-13-0004",
+   "concept": "spin-half-eigenvalues",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "For a spin-\\(\\tfrac12\\) particle, the eigenvalue of \\(\\hat S^2\\) is:",
+   "options": {
+    "A": "\\(\\tfrac12\\hbar^2\\)",
+    "B": "\\(\\tfrac34\\hbar^2\\)",
+    "C": "\\(\\hbar^2\\)",
+    "D": "\\(\\tfrac14\\hbar^2\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(s(s+1)\\hbar^2 = \\tfrac12\\cdot\\tfrac32\\hbar^2 = \\tfrac34\\hbar^2\\).",
+    "whyWrong": {
+     "A": "Uses \\(s\\) alone.",
+     "C": "Uses \\(s = 1\\)-like value incorrectly.",
+     "D": "Uses \\(s^2\\)."
+    },
+    "conceptTested": "Spin operators",
+    "trapUsed": "Using \\(s^2\\) instead of \\(s(s+1)\\).",
+    "howToModify": "Ask for \\(\\langle S_x^2\\rangle\\) in \\(|\\uparrow\\rangle\\) (\\(\\hbar^2/4\\)).",
+    "howToAvoid": "Total spin squared always uses \\(s(s+1)\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "formula-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-13-0005",
+   "concept": "larmor-precession",
+   "type": "application",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "A spin magnetic moment \\(\\boldsymbol\\mu = \\gamma\\mathbf S\\) placed in a uniform field \\(\\mathbf B = B\\hat z\\) has \\(\\langle\\mathbf S\\rangle\\):",
+   "options": {
+    "A": "remaining fixed in any direction",
+    "B": "aligning with \\(\\mathbf B\\) exponentially fast",
+    "C": "precessing about \\(\\hat z\\) at angular frequency \\(\\gamma B\\)",
+    "D": "oscillating along \\(\\hat z\\) at frequency \\(2\\gamma B\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(H = -\\gamma BS_z\\); Heisenberg's equations give \\(\\langle S_x\\rangle, \\langle S_y\\rangle\\) rotating at the Larmor frequency \\(\\omega_L = \\gamma B\\) while \\(\\langle S_z\\rangle\\) is constant.",
+    "whyWrong": {
+     "A": "Only true if the spin is already along \\(\\hat z\\).",
+     "B": "Alignment needs relaxation (dissipation), not included in \\(H\\).",
+     "D": "\\(\\langle S_z\\rangle\\) is conserved."
+    },
+    "conceptTested": "Larmor precession",
+    "trapUsed": "Classical damping intuition.",
+    "howToModify": "Ask for the NMR frequency of protons in 1 T (≈ 42.6 MHz).",
+    "howToAvoid": "No dissipation in the Hamiltonian ⇒ precession, not alignment."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-13-0006",
+   "concept": "spin-measurement-probability",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.25
+   },
+   "stem": "An electron is prepared in the eigenstate of \\(S_x\\) with eigenvalue \\(+\\hbar/2\\). A measurement of \\(S_z\\) gives \\(+\\hbar/2\\) with probability:",
+   "options": {
+    "A": "1",
+    "B": "0",
+    "C": "1/4",
+    "D": "1/2"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(|+x\\rangle = \\frac{1}{\\sqrt2}(|\\uparrow\\rangle + |\\downarrow\\rangle)\\), so \\(P(\\uparrow) = |1/\\sqrt2|^2 = 1/2\\).",
+    "whyWrong": {
+     "A": "Assumes the spin is already along \\(z\\).",
+     "B": "Treats \\(x\\) and \\(z\\) states as orthogonal.",
+     "C": "Squares twice."
+    },
+    "conceptTested": "Spin measurements along different axes",
+    "trapUsed": "Orthogonality confusion between bases.",
+    "howToModify": "Ask for the probability when the state is along a direction at angle \\(\\theta\\) to \\(z\\) (\\(\\cos^2\\tfrac{\\theta}{2}\\)).",
+    "howToAvoid": "Expand the prepared state in the measurement basis first."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

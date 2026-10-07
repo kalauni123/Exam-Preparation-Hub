@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "appName": "NeuroMCQ",
+  "appVersion": "1.0.0",
+  "registration": {
+    "nepalPhoneOnly": true,
+    "nepalPhonePattern": "^9[78]\\d{8}$",
+    "genericPhonePattern": "^\\+?\\d{7,15}$"
+  },
+  "masteryWeights": {
+    "conceptual": 0.25,
+    "numerical": 0.2,
+    "memory": 0.15,
+    "application": 0.2,
+    "speed": 0.1,
+    "accuracy": 0.1
+  },
+  "ewma": { "alpha": 0.3, "slopeWindow": 8, "trendThresholdPct": 1.5 },
+  "recencyHalfLifeDays": 21,
+  "memory": { "retentionWeight": 0.6, "bktWeight": 0.4, "initialStabilityDays": 1.5 },
+  "bkt": { "pL0": 0.3, "pT": 0.15, "pS": 0.1, "pG": 0.2, "propagationLambda": 0.85, "failureWindow": 5, "failureThreshold": 3 },
+  "forgetting": { "weibullK": 1, "riskThreshold": 0.5 },
+  "irt": { "targetLow": 0.7, "targetHigh": 0.8, "gridMin": -4, "gridMax": 4, "gridPoints": 81 },
+  "prediction": { "simulations": 5000, "priorAlpha": 2, "priorBeta": 2 },
+  "studyNow": {
+    "defaultMinutes": 35,
+    "minutesPerQuestion": 1.25,
+    "weights": { "weakness": 0.3, "mistakeRecency": 0.15, "examProximity": 0.1, "importance": 0.15, "dueNow": 0.15, "forgettingRisk": 0.15 }
+  },
+  "rapidFire": { "questions": 10, "secondsPerQuestion": 60 },
+  "practice": { "defaultCount": 10, "maxCount": 100, "secondsPerQuestionTimed": 72, "marks": { "correct": 1, "wrong": -0.2 } },
+  "battle": {
+    "secondsPerQuestion": 30,
+    "speedBonusMax": 50,
+    "aiRatings": { "easy": 1100, "medium": 1400, "hard": 1700, "elite": 2000 },
+    "glickoTau": 0.5,
+    "live": {
+      "provider": "none",
+      "firebase": { "apiKey": "", "authDomain": "", "databaseURL": "", "projectId": "" },
+      "supabase": { "url": "", "anonKey": "" },
+      "iceServers": [{ "urls": "stun:stun.l.google.com:19302" }]
+    }
+  },
+  "sync": {
+    "enabled": false,
+    "provider": "netlify",
+    "netlifyEndpoint": "./.netlify/functions/saveUser",
+    "firebase": { "databaseURL": "" },
+    "supabase": { "url": "", "anonKey": "", "table": "neuromcq_users" }
+  },
+  "backupReminderDays": 7,
+  "ads": {
+    "enabled": false,
+    "adsenseClient": "ca-pub-XXXXXXXXXXXXXXXX",
+    "adsenseSlots": { "dashboard": "0000000000", "results": "0000000000" },
+    "admob": {
+      "bannerId": "ca-app-pub-XXXXXXXXXXXXXXXX/YYYYYYYYYY",
+      "interstitialId": "ca-app-pub-XXXXXXXXXXXXXXXX/YYYYYYYYYY",
+      "rewardedId": "ca-app-pub-XXXXXXXXXXXXXXXX/YYYYYYYYYY"
+    },
+    "interstitialEverySessions": 3,
+    "noInterstitialFirstMs": 120000
+  },
+  "features": { "battleLive": true, "ads": true, "notifications": true, "qualityAdmin": true },
+  "chapterLoader": { "concurrency": 6, "lruSize": 60 }
+}

@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-07",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-07-0001",
+   "concept": "fermi-at-mu",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "In the Fermi–Dirac distribution, the occupation probability of a state with energy equal to the chemical potential is:",
+   "options": {
+    "A": "1/2",
+    "B": "1",
+    "C": "\\(1/e\\)",
+    "D": "0"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(f(\\mu) = 1/(e^0+1) = 1/2\\) at any temperature.",
+    "whyWrong": {
+     "B": "Below μ at T = 0.",
+     "C": "Classical Boltzmann factor at \\(\\varepsilon-\\mu = k_BT\\).",
+     "D": "Above μ at T = 0."
+    },
+    "conceptTested": "Fermi–Dirac distribution",
+    "trapUsed": "Using T = 0 step values.",
+    "howToModify": "Ask for \\(f\\) at \\(\\varepsilon = \\mu + k_BT\\).",
+    "howToAvoid": "Substitute and compute directly."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-07-0002",
+   "concept": "fermi-zero-temperature",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "At absolute zero, the Fermi–Dirac distribution is:",
+   "options": {
+    "A": "a Gaussian centred on \\(E_F\\)",
+    "B": "a step function: 1 below \\(E_F\\), 0 above",
+    "C": "linear between 0 and \\(E_F\\)",
+    "D": "equal to 1/2 everywhere"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "All levels up to the Fermi energy are filled one fermion per state; none above — the Fermi sea.",
+    "whyWrong": {
+     "A": "No thermal smearing at T = 0.",
+     "C": "Invented shape.",
+     "D": "Only at \\(\\varepsilon=\\mu\\)."
+    },
+    "conceptTested": "Degenerate Fermi gas",
+    "trapUsed": "Smearing at T = 0.",
+    "howToModify": "Ask for the width of the smeared region at temperature T (~ few \\(k_BT\\)).",
+    "howToAvoid": "T = 0 ⇒ sharp step at μ = E_F."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "guessing",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-07-0003",
+   "concept": "fermion-counting",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.5,
+    "c": 0.25
+   },
+   "stem": "Two identical fermions are distributed among three single-particle states. The number of distinct two-particle states is:",
+   "options": {
+    "A": "9",
+    "B": "1",
+    "C": "3",
+    "D": "6"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "No double occupancy: \\(\\binom{3}{2} = 3\\).",
+    "whyWrong": {
+     "A": "Distinguishable count.",
+     "B": "Guess.",
+     "D": "Bose count."
+    },
+    "conceptTested": "Counting for fermions",
+    "trapUsed": "Mixing statistics.",
+    "howToModify": "Ask for 3 fermions in 5 states (10).",
+    "howToAvoid": "Fermions: choose which states are occupied."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "guessing",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-07-0004",
+   "concept": "fermi-above-mu",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "The Fermi–Dirac occupation probability of a level lying \\(k_BT\\) above the chemical potential is approximately:",
+   "options": {
+    "A": "0.37",
+    "B": "0.73",
+    "C": "0.50",
+    "D": "0.27"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(f = 1/(e+1) = 1/3.718 \\approx 0.269\\).",
+    "whyWrong": {
+     "A": "Boltzmann factor \\(e^{-1}\\).",
+     "B": "Value at \\(\\varepsilon = \\mu - k_BT\\).",
+     "C": "Value at \\(\\varepsilon = \\mu\\)."
+    },
+    "conceptTested": "Evaluating the FD function",
+    "trapUsed": "Using the Boltzmann factor.",
+    "howToModify": "Ask for the level at which \\(f = 0.1\\) (\\(\\mu + k_BT\\ln9\\)).",
+    "howToAvoid": "Keep the +1 in the denominator."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "sign-error",
+    "C": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-07-0005",
+   "concept": "particle-hole-symmetry",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "For any \\(\\Delta\\), the Fermi–Dirac function satisfies \\(f(\\mu+\\Delta) + f(\\mu-\\Delta) =\\):",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "0",
+    "D": "1/2"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\frac{1}{e^{x}+1} + \\frac{1}{e^{-x}+1} = 1\\): the probability of finding an electron at \\(\\mu+\\Delta\\) equals the probability of a hole at \\(\\mu-\\Delta\\).",
+    "whyWrong": {
+     "B": "Each term is less than 1.",
+     "C": "Both terms are positive.",
+     "D": "Value of each term only at \\(\\Delta=0\\)."
+    },
+    "conceptTested": "Electron–hole symmetry",
+    "trapUsed": "Evaluating at \\(\\Delta = 0\\) and generalising wrongly.",
+    "howToModify": "Ask why the chemical potential of an intrinsic semiconductor lies near mid-gap.",
+    "howToAvoid": "Add the two fractions algebraically."
+   },
+   "distractorTags": {
+    "B": "careless",
+    "C": "sign-error",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-07-0006",
+   "concept": "fermion-examples",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "Which of the following obeys Fermi–Dirac statistics?",
+   "options": {
+    "A": "Phonon",
+    "B": "Neutron",
+    "C": "\\(^4\\)He atom",
+    "D": "Photon"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Neutrons have spin 1/2 and are fermions; neutron degeneracy pressure supports neutron stars.",
+    "whyWrong": {
+     "A": "Quasi-particle boson of lattice vibrations.",
+     "C": "Composite boson (even number of fermions).",
+     "D": "Spin-1 boson."
+    },
+    "conceptTested": "Classifying particles",
+    "trapUsed": "Composite and quasi-particles.",
+    "howToModify": "Ask whether \\(^3\\)He is a fermion (yes).",
+    "howToAvoid": "Half-integer spin ⇒ fermion."
+   },
+   "distractorTags": {
+    "A": "factual-recall",
+    "C": "concept-confusion",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

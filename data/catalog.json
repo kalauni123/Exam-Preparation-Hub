@@ -1,0 +1,4768 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "aptitude",
+      "label": "Aptitude Tests",
+      "sourcePath": "Aptitude Tests",
+      "subjects": [
+        {
+          "id": "COMM",
+          "name": "Communication Aptitude",
+          "folder": "Communication-Aptitude",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "COMM-01",
+              "number": 1,
+              "title": "Introduction to Communication",
+              "files": [
+                "questions/aptitude/COMM/COMM-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-02",
+              "number": 2,
+              "title": "Effective Communication Characteristics",
+              "files": [
+                "questions/aptitude/COMM/COMM-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-03",
+              "number": 3,
+              "title": "Barriers to Communication",
+              "files": [
+                "questions/aptitude/COMM/COMM-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-04",
+              "number": 4,
+              "title": "Mass Media and Society",
+              "files": [
+                "questions/aptitude/COMM/COMM-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-05",
+              "number": 5,
+              "title": "Classroom Communication Dynamics",
+              "files": [
+                "questions/aptitude/COMM/COMM-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-06",
+              "number": 6,
+              "title": "Non-Verbal Communication",
+              "files": [
+                "questions/aptitude/COMM/COMM-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-07",
+              "number": 7,
+              "title": "Listening Skills and Feedback",
+              "files": [
+                "questions/aptitude/COMM/COMM-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-08",
+              "number": 8,
+              "title": "Media Ethics and Responsibilities",
+              "files": [
+                "questions/aptitude/COMM/COMM-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-09",
+              "number": 9,
+              "title": "Modern ICT in Communication",
+              "files": [
+                "questions/aptitude/COMM/COMM-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-10",
+              "number": 10,
+              "title": "Public Speaking and Presentation",
+              "files": [
+                "questions/aptitude/COMM/COMM-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-11",
+              "number": 11,
+              "title": "Interpersonal Communication",
+              "files": [
+                "questions/aptitude/COMM/COMM-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-12",
+              "number": 12,
+              "title": "Group Dynamics and Discussions",
+              "files": [
+                "questions/aptitude/COMM/COMM-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-13",
+              "number": 13,
+              "title": "Organizational Communication",
+              "files": [
+                "questions/aptitude/COMM/COMM-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-14",
+              "number": 14,
+              "title": "Persuasion and Public Relations",
+              "files": [
+                "questions/aptitude/COMM/COMM-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "COMM-15",
+              "number": 15,
+              "title": "Advanced Communication Theories",
+              "files": [
+                "questions/aptitude/COMM/COMM-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "HES",
+          "name": "Higher Education System",
+          "folder": "Higher-Education-System",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "HES-01",
+              "number": 1,
+              "title": "Institutions of Higher Learning in Ancient India",
+              "files": [
+                "questions/aptitude/HES/HES-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-02",
+              "number": 2,
+              "title": "Evolution of Higher Learning Post-Independence",
+              "files": [
+                "questions/aptitude/HES/HES-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-03",
+              "number": 3,
+              "title": "Oriental and Non-Conventional Learning",
+              "files": [
+                "questions/aptitude/HES/HES-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-04",
+              "number": 4,
+              "title": "Professional, Technical and Skill Education",
+              "files": [
+                "questions/aptitude/HES/HES-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-05",
+              "number": 5,
+              "title": "Value Education and Environmental Education",
+              "files": [
+                "questions/aptitude/HES/HES-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-06",
+              "number": 6,
+              "title": "Policies, Governance, and Administration",
+              "files": [
+                "questions/aptitude/HES/HES-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-07",
+              "number": 7,
+              "title": "Regulatory Framework of Higher Education",
+              "files": [
+                "questions/aptitude/HES/HES-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-08",
+              "number": 8,
+              "title": "University Grants Commission (UGC)",
+              "files": [
+                "questions/aptitude/HES/HES-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-09",
+              "number": 9,
+              "title": "Accreditation and Ranking (NAAC, NIRF)",
+              "files": [
+                "questions/aptitude/HES/HES-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-10",
+              "number": 10,
+              "title": "Distance and Open Education Systems",
+              "files": [
+                "questions/aptitude/HES/HES-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-11",
+              "number": 11,
+              "title": "Modern Digital Initiatives in Higher Education",
+              "files": [
+                "questions/aptitude/HES/HES-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-12",
+              "number": 12,
+              "title": "Research Ethics and Higher Education",
+              "files": [
+                "questions/aptitude/HES/HES-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-13",
+              "number": 13,
+              "title": "Funding and Financing of Higher Education",
+              "files": [
+                "questions/aptitude/HES/HES-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-14",
+              "number": 14,
+              "title": "Globalization and Higher Education",
+              "files": [
+                "questions/aptitude/HES/HES-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "HES-15",
+              "number": 15,
+              "title": "National Education Policy (NEP 2020)",
+              "files": [
+                "questions/aptitude/HES/HES-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "ICT",
+          "name": "Information and Communication Technology",
+          "folder": "Information-and-Communication-Technology",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "ICT-01",
+              "number": 1,
+              "title": "Basics of Internet and Intranet",
+              "files": [
+                "questions/aptitude/ICT/ICT-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-02",
+              "number": 2,
+              "title": "Computer Hardware and Software",
+              "files": [
+                "questions/aptitude/ICT/ICT-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-03",
+              "number": 3,
+              "title": "E-Governance and Digital Initiatives",
+              "files": [
+                "questions/aptitude/ICT/ICT-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-04",
+              "number": 4,
+              "title": "Information Security and Cyber Laws",
+              "files": [
+                "questions/aptitude/ICT/ICT-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-05",
+              "number": 5,
+              "title": "Digital Teaching Tools and LMS",
+              "files": [
+                "questions/aptitude/ICT/ICT-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-06",
+              "number": 6,
+              "title": "Networking and Communication Protocols",
+              "files": [
+                "questions/aptitude/ICT/ICT-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-07",
+              "number": 7,
+              "title": "Cloud Computing and Storage",
+              "files": [
+                "questions/aptitude/ICT/ICT-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-08",
+              "number": 8,
+              "title": "Database Management Basics",
+              "files": [
+                "questions/aptitude/ICT/ICT-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-09",
+              "number": 9,
+              "title": "Web Technologies and Browsers",
+              "files": [
+                "questions/aptitude/ICT/ICT-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-10",
+              "number": 10,
+              "title": "Social Media in Education",
+              "files": [
+                "questions/aptitude/ICT/ICT-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-11",
+              "number": 11,
+              "title": "Emerging Tech: AI and IoT",
+              "files": [
+                "questions/aptitude/ICT/ICT-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-12",
+              "number": 12,
+              "title": "Digital Literacy and Evaluation",
+              "files": [
+                "questions/aptitude/ICT/ICT-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-13",
+              "number": 13,
+              "title": "Multimedia and Animation Tools",
+              "files": [
+                "questions/aptitude/ICT/ICT-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-14",
+              "number": 14,
+              "title": "Open Educational Resources (OER)",
+              "files": [
+                "questions/aptitude/ICT/ICT-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ICT-15",
+              "number": 15,
+              "title": "ICT Trends and Future Scope",
+              "files": [
+                "questions/aptitude/ICT/ICT-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "PSE",
+          "name": "People, Society and Environment",
+          "folder": "People-Society-and-Environment",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "PSE-01",
+              "number": 1,
+              "title": "Development and Environment",
+              "files": [
+                "questions/aptitude/PSE/PSE-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-02",
+              "number": 2,
+              "title": "Human and Environment Interaction",
+              "files": [
+                "questions/aptitude/PSE/PSE-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-03",
+              "number": 3,
+              "title": "Environmental Issues: Local to Global",
+              "files": [
+                "questions/aptitude/PSE/PSE-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-04",
+              "number": 4,
+              "title": "Air, Water and Soil Pollution",
+              "files": [
+                "questions/aptitude/PSE/PSE-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-05",
+              "number": 5,
+              "title": "Noise and Radioactive Pollution",
+              "files": [
+                "questions/aptitude/PSE/PSE-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-06",
+              "number": 6,
+              "title": "Climate Change and Socio-Economic Impacts",
+              "files": [
+                "questions/aptitude/PSE/PSE-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-07",
+              "number": 7,
+              "title": "Impacts of Pollutants on Human Health",
+              "files": [
+                "questions/aptitude/PSE/PSE-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-08",
+              "number": 8,
+              "title": "Natural and Energy Resources",
+              "files": [
+                "questions/aptitude/PSE/PSE-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-09",
+              "number": 9,
+              "title": "Solar, Wind, and Hydro Energy",
+              "files": [
+                "questions/aptitude/PSE/PSE-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-10",
+              "number": 10,
+              "title": "Geothermal and Biomass Energy",
+              "files": [
+                "questions/aptitude/PSE/PSE-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-11",
+              "number": 11,
+              "title": "Natural Hazards and Disasters",
+              "files": [
+                "questions/aptitude/PSE/PSE-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-12",
+              "number": 12,
+              "title": "Disaster Mitigation Strategies",
+              "files": [
+                "questions/aptitude/PSE/PSE-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-13",
+              "number": 13,
+              "title": "Environmental Protection Act (1986)",
+              "files": [
+                "questions/aptitude/PSE/PSE-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-14",
+              "number": 14,
+              "title": "National Action Plan on Climate Change",
+              "files": [
+                "questions/aptitude/PSE/PSE-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PSE-15",
+              "number": 15,
+              "title": "International Agreements and Protocols",
+              "files": [
+                "questions/aptitude/PSE/PSE-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "RESEARCH",
+          "name": "Research Aptitude",
+          "folder": "Research-Aptitude",
+          "flags": [
+            "needsReview"
+          ],
+          "chapters": [
+            {
+              "id": "RESEARCH-01",
+              "number": 1,
+              "title": "Nature and Scope of Teaching",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-02",
+              "number": 2,
+              "title": "Teacher and Teaching Profession",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-03",
+              "number": 3,
+              "title": "Learner Characteristics",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-04",
+              "number": 4,
+              "title": "Teaching-Learning Process",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-05",
+              "number": 5,
+              "title": "Aims and Objectives of Education",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-06",
+              "number": 6,
+              "title": "Curriculum and Instruction",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-07",
+              "number": 7,
+              "title": "Methods of Teaching",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-08",
+              "number": 8,
+              "title": "Lesson Planning and Instructional Design",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-09",
+              "number": 9,
+              "title": "Classroom Management",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-10",
+              "number": 10,
+              "title": "Evaluation and Assessment",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-11",
+              "number": 11,
+              "title": "Educational Psychology in Teaching",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-12",
+              "number": 12,
+              "title": "Communication and Motivation",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-13",
+              "number": 13,
+              "title": "ICT and Modern Teaching Methods",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-14",
+              "number": 14,
+              "title": "Educational Measurement and Statistics",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "RESEARCH-15",
+              "number": 15,
+              "title": "Teacher Ethics and Professional Growth",
+              "files": [
+                "questions/aptitude/RESEARCH/RESEARCH-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "TECH",
+          "name": "Teaching Aptitude",
+          "folder": "Teaching-Aptitude",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "TECH-01",
+              "number": 1,
+              "title": "Nature and Scope of Teaching",
+              "files": [
+                "questions/aptitude/TECH/TECH-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-02",
+              "number": 2,
+              "title": "Teacher and Teaching Profession",
+              "files": [
+                "questions/aptitude/TECH/TECH-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-03",
+              "number": 3,
+              "title": "Learner Characteristics",
+              "files": [
+                "questions/aptitude/TECH/TECH-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-04",
+              "number": 4,
+              "title": "Teaching-Learning Process",
+              "files": [
+                "questions/aptitude/TECH/TECH-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-05",
+              "number": 5,
+              "title": "Aims and Objectives of Education",
+              "files": [
+                "questions/aptitude/TECH/TECH-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-06",
+              "number": 6,
+              "title": "Curriculum and Instruction",
+              "files": [
+                "questions/aptitude/TECH/TECH-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-07",
+              "number": 7,
+              "title": "Methods of Teaching",
+              "files": [
+                "questions/aptitude/TECH/TECH-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-08",
+              "number": 8,
+              "title": "Lesson Planning and Instructional Design",
+              "files": [
+                "questions/aptitude/TECH/TECH-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-09",
+              "number": 9,
+              "title": "Classroom Management",
+              "files": [
+                "questions/aptitude/TECH/TECH-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-10",
+              "number": 10,
+              "title": "Evaluation and Assessment",
+              "files": [
+                "questions/aptitude/TECH/TECH-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-11",
+              "number": 11,
+              "title": "Educational Psychology in Teaching",
+              "files": [
+                "questions/aptitude/TECH/TECH-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-12",
+              "number": 12,
+              "title": "Communication and Motivation",
+              "files": [
+                "questions/aptitude/TECH/TECH-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-13",
+              "number": 13,
+              "title": "ICT and Modern Teaching Methods",
+              "files": [
+                "questions/aptitude/TECH/TECH-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-14",
+              "number": 14,
+              "title": "Educational Measurement and Statistics",
+              "files": [
+                "questions/aptitude/TECH/TECH-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TECH-15",
+              "number": 15,
+              "title": "Teacher Ethics and Professional Growth",
+              "files": [
+                "questions/aptitude/TECH/TECH-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "TU",
+          "name": "Tribhuvan University Rules and Regulation",
+          "folder": "Tribhuvan-University-Rules-and-Regulation",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "TU-01",
+              "number": 1,
+              "title": "Introduction to Tribhuvan University Act",
+              "files": [
+                "questions/aptitude/TU/TU-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-02",
+              "number": 2,
+              "title": "University Assembly and Organization",
+              "files": [
+                "questions/aptitude/TU/TU-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-03",
+              "number": 3,
+              "title": "Executive Council and Functions",
+              "files": [
+                "questions/aptitude/TU/TU-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-04",
+              "number": 4,
+              "title": "Academic Council and Regulations",
+              "files": [
+                "questions/aptitude/TU/TU-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-05",
+              "number": 5,
+              "title": "Service Commission Rules",
+              "files": [
+                "questions/aptitude/TU/TU-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-06",
+              "number": 6,
+              "title": "Teachers and Staff Recruitment",
+              "files": [
+                "questions/aptitude/TU/TU-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-07",
+              "number": 7,
+              "title": "Financial Administration and Audit",
+              "files": [
+                "questions/aptitude/TU/TU-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-08",
+              "number": 8,
+              "title": "Examination Rules and Procedures",
+              "files": [
+                "questions/aptitude/TU/TU-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-09",
+              "number": 9,
+              "title": "Code of Conduct for Staff and Teachers",
+              "files": [
+                "questions/aptitude/TU/TU-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-10",
+              "number": 10,
+              "title": "Student Discipline and Welfare",
+              "files": [
+                "questions/aptitude/TU/TU-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-11",
+              "number": 11,
+              "title": "Affiliation and Constituent Colleges",
+              "files": [
+                "questions/aptitude/TU/TU-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-12",
+              "number": 12,
+              "title": "Research and Development Directives",
+              "files": [
+                "questions/aptitude/TU/TU-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-13",
+              "number": 13,
+              "title": "Scholarships and Grants",
+              "files": [
+                "questions/aptitude/TU/TU-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-14",
+              "number": 14,
+              "title": "Leave Rules and Facilities",
+              "files": [
+                "questions/aptitude/TU/TU-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "TU-15",
+              "number": 15,
+              "title": "Miscellaneous Provisions and Amendments",
+              "files": [
+                "questions/aptitude/TU/TU-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bsc",
+      "label": "BSc Physics",
+      "sourcePath": "Subjective Tests/BSc",
+      "subjects": [
+        {
+          "id": "CM",
+          "name": "Classical Mechanics",
+          "folder": "Classical-Mechanics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "CM-01",
+              "number": 1,
+              "title": "Newtonian Mechanics",
+              "files": [
+                "questions/bsc/CM/CM-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-02",
+              "number": 2,
+              "title": "Conservation Laws",
+              "files": [
+                "questions/bsc/CM/CM-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-03",
+              "number": 3,
+              "title": "Motion in Central Force Field",
+              "files": [
+                "questions/bsc/CM/CM-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-04",
+              "number": 4,
+              "title": "Collisions and Scattering",
+              "files": [
+                "questions/bsc/CM/CM-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-05",
+              "number": 5,
+              "title": "Rotational Dynamics",
+              "files": [
+                "questions/bsc/CM/CM-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-06",
+              "number": 6,
+              "title": "Rigid Body Dynamics",
+              "files": [
+                "questions/bsc/CM/CM-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-07",
+              "number": 7,
+              "title": "Oscillations and Harmonic Motion",
+              "files": [
+                "questions/bsc/CM/CM-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-08",
+              "number": 8,
+              "title": "Lagrangian Formulation",
+              "files": [
+                "questions/bsc/CM/CM-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-09",
+              "number": 9,
+              "title": "Hamiltonian Formulation",
+              "files": [
+                "questions/bsc/CM/CM-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-10",
+              "number": 10,
+              "title": "Canonical Transformations",
+              "files": [
+                "questions/bsc/CM/CM-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-11",
+              "number": 11,
+              "title": "Hamilton-Jacobi Theory",
+              "files": [
+                "questions/bsc/CM/CM-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-12",
+              "number": 12,
+              "title": "Small Oscillations",
+              "files": [
+                "questions/bsc/CM/CM-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-13",
+              "number": 13,
+              "title": "Special Theory of Relativity",
+              "files": [
+                "questions/bsc/CM/CM-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-14",
+              "number": 14,
+              "title": "Non-Inertial Reference Frames",
+              "files": [
+                "questions/bsc/CM/CM-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM-15",
+              "number": 15,
+              "title": "Continuous Systems and Fields",
+              "files": [
+                "questions/bsc/CM/CM-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "EM",
+          "name": "Electricity and Magnetism",
+          "folder": "Electricity-and-Magnetism",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "EM-01",
+              "number": 1,
+              "title": "Electrostatics and Coulomb's Law",
+              "files": [
+                "questions/bsc/EM/EM-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-02",
+              "number": 2,
+              "title": "Electric Field and Gauss's Law",
+              "files": [
+                "questions/bsc/EM/EM-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-03",
+              "number": 3,
+              "title": "Electric Potential",
+              "files": [
+                "questions/bsc/EM/EM-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-04",
+              "number": 4,
+              "title": "Capacitance and Dielectrics",
+              "files": [
+                "questions/bsc/EM/EM-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-05",
+              "number": 5,
+              "title": "Current and Resistance",
+              "files": [
+                "questions/bsc/EM/EM-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-06",
+              "number": 6,
+              "title": "Direct Current Circuits",
+              "files": [
+                "questions/bsc/EM/EM-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-07",
+              "number": 7,
+              "title": "Magnetic Fields",
+              "files": [
+                "questions/bsc/EM/EM-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-08",
+              "number": 8,
+              "title": "Magnetic Forces and Materials",
+              "files": [
+                "questions/bsc/EM/EM-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-09",
+              "number": 9,
+              "title": "Sources of Magnetic Field",
+              "files": [
+                "questions/bsc/EM/EM-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-10",
+              "number": 10,
+              "title": "Electromagnetic Induction",
+              "files": [
+                "questions/bsc/EM/EM-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-11",
+              "number": 11,
+              "title": "Inductance",
+              "files": [
+                "questions/bsc/EM/EM-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-12",
+              "number": 12,
+              "title": "Alternating Current Circuits",
+              "files": [
+                "questions/bsc/EM/EM-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-13",
+              "number": 13,
+              "title": "Maxwell's Equations",
+              "files": [
+                "questions/bsc/EM/EM-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-14",
+              "number": 14,
+              "title": "Electromagnetic Waves",
+              "files": [
+                "questions/bsc/EM/EM-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "EM-15",
+              "number": 15,
+              "title": "Polarization and Wave Propagation",
+              "files": [
+                "questions/bsc/EM/EM-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "ELEC",
+          "name": "Electronics",
+          "folder": "Electronics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "ELEC-01",
+              "number": 1,
+              "title": "Semiconductor Physics and Diodes",
+              "files": [
+                "questions/bsc/ELEC/ELEC-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-02",
+              "number": 2,
+              "title": "Bipolar Junction Transistors (BJT)",
+              "files": [
+                "questions/bsc/ELEC/ELEC-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-03",
+              "number": 3,
+              "title": "Field Effect Transistors (FET and MOSFET)",
+              "files": [
+                "questions/bsc/ELEC/ELEC-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-04",
+              "number": 4,
+              "title": "Operational Amplifiers and Applications",
+              "files": [
+                "questions/bsc/ELEC/ELEC-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-05",
+              "number": 5,
+              "title": "Feedback Amplifiers and Oscillators",
+              "files": [
+                "questions/bsc/ELEC/ELEC-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-06",
+              "number": 6,
+              "title": "Digital Logic Circuits and Boolean Algebra",
+              "files": [
+                "questions/bsc/ELEC/ELEC-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-07",
+              "number": 7,
+              "title": "Combinational Logic Circuits",
+              "files": [
+                "questions/bsc/ELEC/ELEC-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-08",
+              "number": 8,
+              "title": "Sequential Logic Circuits",
+              "files": [
+                "questions/bsc/ELEC/ELEC-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-09",
+              "number": 9,
+              "title": "Microprocessors and Microcontrollers",
+              "files": [
+                "questions/bsc/ELEC/ELEC-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-10",
+              "number": 10,
+              "title": "Analog to Digital and Digital to Analog Converters",
+              "files": [
+                "questions/bsc/ELEC/ELEC-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-11",
+              "number": 11,
+              "title": "Modulation and Demodulation Techniques",
+              "files": [
+                "questions/bsc/ELEC/ELEC-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-12",
+              "number": 12,
+              "title": "Communication Systems and Noise",
+              "files": [
+                "questions/bsc/ELEC/ELEC-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-13",
+              "number": 13,
+              "title": "Power Electronics and Devices",
+              "files": [
+                "questions/bsc/ELEC/ELEC-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-14",
+              "number": 14,
+              "title": "Electronic Measurements and Instruments",
+              "files": [
+                "questions/bsc/ELEC/ELEC-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC-15",
+              "number": 15,
+              "title": "VLSI Technology and Fabrication",
+              "files": [
+                "questions/bsc/ELEC/ELEC-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "MATH",
+          "name": "Mathematical Physics",
+          "folder": "Mathematical-Physics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "MATH-01",
+              "number": 1,
+              "title": "Vector Analysis and Calculus",
+              "files": [
+                "questions/bsc/MATH/MATH-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-02",
+              "number": 2,
+              "title": "Matrices and Linear Algebra",
+              "files": [
+                "questions/bsc/MATH/MATH-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-03",
+              "number": 3,
+              "title": "Complex Variables and Analytic Functions",
+              "files": [
+                "questions/bsc/MATH/MATH-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-04",
+              "number": 4,
+              "title": "Ordinary Differential Equations",
+              "files": [
+                "questions/bsc/MATH/MATH-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-05",
+              "number": 5,
+              "title": "Partial Differential Equations",
+              "files": [
+                "questions/bsc/MATH/MATH-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-06",
+              "number": 6,
+              "title": "Fourier Series and Transforms",
+              "files": [
+                "questions/bsc/MATH/MATH-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-07",
+              "number": 7,
+              "title": "Laplace Transforms",
+              "files": [
+                "questions/bsc/MATH/MATH-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-08",
+              "number": 8,
+              "title": "Special Functions (Bessel, Legendre, etc.)",
+              "files": [
+                "questions/bsc/MATH/MATH-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-09",
+              "number": 9,
+              "title": "Tensor Analysis",
+              "files": [
+                "questions/bsc/MATH/MATH-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-10",
+              "number": 10,
+              "title": "Group Theory and Applications",
+              "files": [
+                "questions/bsc/MATH/MATH-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-11",
+              "number": 11,
+              "title": "Probability and Statistics",
+              "files": [
+                "questions/bsc/MATH/MATH-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-12",
+              "number": 12,
+              "title": "Calculus of Variations",
+              "files": [
+                "questions/bsc/MATH/MATH-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-13",
+              "number": 13,
+              "title": "Integral Equations",
+              "files": [
+                "questions/bsc/MATH/MATH-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-14",
+              "number": 14,
+              "title": "Green's Functions",
+              "files": [
+                "questions/bsc/MATH/MATH-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH-15",
+              "number": 15,
+              "title": "Numerical Methods and Computing",
+              "files": [
+                "questions/bsc/MATH/MATH-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "MECH",
+          "name": "Mechanics",
+          "folder": "Mechanics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "MECH-01",
+              "number": 1,
+              "title": "Units, Dimensions, and Vector Algebra",
+              "files": [
+                "questions/bsc/MECH/MECH-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-02",
+              "number": 2,
+              "title": "Newton's Laws of Motion and Applications",
+              "files": [
+                "questions/bsc/MECH/MECH-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-03",
+              "number": 3,
+              "title": "Work, Energy, and Conservation Laws",
+              "files": [
+                "questions/bsc/MECH/MECH-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-04",
+              "number": 4,
+              "title": "System of Particles and Center of Mass",
+              "files": [
+                "questions/bsc/MECH/MECH-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-05",
+              "number": 5,
+              "title": "Collisions and Momentum Conservation",
+              "files": [
+                "questions/bsc/MECH/MECH-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-06",
+              "number": 6,
+              "title": "Rotational Kinematics and Dynamics",
+              "files": [
+                "questions/bsc/MECH/MECH-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-07",
+              "number": 7,
+              "title": "Moment of Inertia and Fixed Axis Rotation",
+              "files": [
+                "questions/bsc/MECH/MECH-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-08",
+              "number": 8,
+              "title": "Gravitation and Central Force Motion",
+              "files": [
+                "questions/bsc/MECH/MECH-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-09",
+              "number": 9,
+              "title": "Simple Harmonic Motion and Oscillations",
+              "files": [
+                "questions/bsc/MECH/MECH-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-10",
+              "number": 10,
+              "title": "Damped and Forced Oscillations",
+              "files": [
+                "questions/bsc/MECH/MECH-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-11",
+              "number": 11,
+              "title": "Elasticity and Properties of Matter",
+              "files": [
+                "questions/bsc/MECH/MECH-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-12",
+              "number": 12,
+              "title": "Fluid Statics and Hydrodynamics",
+              "files": [
+                "questions/bsc/MECH/MECH-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-13",
+              "number": 13,
+              "title": "Surface Tension and Viscosity",
+              "files": [
+                "questions/bsc/MECH/MECH-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-14",
+              "number": 14,
+              "title": "Non-Inertial Frames and Pseudoforces",
+              "files": [
+                "questions/bsc/MECH/MECH-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MECH-15",
+              "number": 15,
+              "title": "Special Theory of Relativity Basics in Mechanics",
+              "files": [
+                "questions/bsc/MECH/MECH-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "MP",
+          "name": "Modern Physics",
+          "folder": "Modern-Physics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "MP-01",
+              "number": 1,
+              "title": "Special Theory of Relativity",
+              "files": [
+                "questions/bsc/MP/MP-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-02",
+              "number": 2,
+              "title": "Particle Properties of Waves",
+              "files": [
+                "questions/bsc/MP/MP-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-03",
+              "number": 3,
+              "title": "Wave Properties of Particles",
+              "files": [
+                "questions/bsc/MP/MP-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-04",
+              "number": 4,
+              "title": "Atomic Structure and Bohr Model",
+              "files": [
+                "questions/bsc/MP/MP-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-05",
+              "number": 5,
+              "title": "Quantum Mechanics Basics",
+              "files": [
+                "questions/bsc/MP/MP-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-06",
+              "number": 6,
+              "title": "Quantum Theory of the Hydrogen Atom",
+              "files": [
+                "questions/bsc/MP/MP-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-07",
+              "number": 7,
+              "title": "Many-Electron Atoms and Spin",
+              "files": [
+                "questions/bsc/MP/MP-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-08",
+              "number": 8,
+              "title": "Molecules and Statistical Mechanics",
+              "files": [
+                "questions/bsc/MP/MP-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-09",
+              "number": 9,
+              "title": "Solid State Physics",
+              "files": [
+                "questions/bsc/MP/MP-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-10",
+              "number": 10,
+              "title": "Nuclear Structure and Radioactivity",
+              "files": [
+                "questions/bsc/MP/MP-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-11",
+              "number": 11,
+              "title": "Nuclear Reactions and Energy",
+              "files": [
+                "questions/bsc/MP/MP-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-12",
+              "number": 12,
+              "title": "Elementary Particles",
+              "files": [
+                "questions/bsc/MP/MP-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-13",
+              "number": 13,
+              "title": "Accelerators and Detectors",
+              "files": [
+                "questions/bsc/MP/MP-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-14",
+              "number": 14,
+              "title": "Astrophysics and Cosmology",
+              "files": [
+                "questions/bsc/MP/MP-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MP-15",
+              "number": 15,
+              "title": "Recent Advances in Modern Physics",
+              "files": [
+                "questions/bsc/MP/MP-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "NP",
+          "name": "Nuclear Physics",
+          "folder": "Nuclear-Physics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "NP-01",
+              "number": 1,
+              "title": "General Properties of Nuclei",
+              "files": [
+                "questions/bsc/NP/NP-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-02",
+              "number": 2,
+              "title": "Nuclear Models (Liquid Drop, Shell Model)",
+              "files": [
+                "questions/bsc/NP/NP-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-03",
+              "number": 3,
+              "title": "Radioactivity and Alpha Decay",
+              "files": [
+                "questions/bsc/NP/NP-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-04",
+              "number": 4,
+              "title": "Beta and Gamma Decay",
+              "files": [
+                "questions/bsc/NP/NP-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-05",
+              "number": 5,
+              "title": "Nuclear Forces and Two-Nucleon Problem",
+              "files": [
+                "questions/bsc/NP/NP-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-06",
+              "number": 6,
+              "title": "Nuclear Reactions and Kinematics",
+              "files": [
+                "questions/bsc/NP/NP-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-07",
+              "number": 7,
+              "title": "Nuclear Fission and Fusion",
+              "files": [
+                "questions/bsc/NP/NP-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-08",
+              "number": 8,
+              "title": "Interaction of Radiation with Matter",
+              "files": [
+                "questions/bsc/NP/NP-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-09",
+              "number": 9,
+              "title": "Radiation Detectors",
+              "files": [
+                "questions/bsc/NP/NP-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-10",
+              "number": 10,
+              "title": "Particle Accelerators",
+              "files": [
+                "questions/bsc/NP/NP-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-11",
+              "number": 11,
+              "title": "Elementary Particles and Symmetries",
+              "files": [
+                "questions/bsc/NP/NP-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-12",
+              "number": 12,
+              "title": "The Quark Model",
+              "files": [
+                "questions/bsc/NP/NP-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-13",
+              "number": 13,
+              "title": "Weak and Strong Interactions",
+              "files": [
+                "questions/bsc/NP/NP-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-14",
+              "number": 14,
+              "title": "Nuclear Astrophysics",
+              "files": [
+                "questions/bsc/NP/NP-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "NP-15",
+              "number": 15,
+              "title": "Reactor Physics and Applications",
+              "files": [
+                "questions/bsc/NP/NP-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "OPTICS",
+          "name": "Optics",
+          "folder": "Optics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "OPTICS-01",
+              "number": 1,
+              "title": "Nature of Light and Propagation",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-02",
+              "number": 2,
+              "title": "Geometrical Optics and Reflection",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-03",
+              "number": 3,
+              "title": "Refraction and Lenses",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-04",
+              "number": 4,
+              "title": "Optical Instruments",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-05",
+              "number": 5,
+              "title": "Wave Optics and Huygens Principle",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-06",
+              "number": 6,
+              "title": "Interference of Light",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-07",
+              "number": 7,
+              "title": "Diffraction of Light",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-08",
+              "number": 8,
+              "title": "Polarization of Light",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-09",
+              "number": 9,
+              "title": "Laser Physics",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-10",
+              "number": 10,
+              "title": "Fiber Optics",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-11",
+              "number": 11,
+              "title": "Nonlinear Optics",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-12",
+              "number": 12,
+              "title": "Fourier Optics",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-13",
+              "number": 13,
+              "title": "Quantum Optics",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-14",
+              "number": 14,
+              "title": "Photometry and Radiometry",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "OPTICS-15",
+              "number": 15,
+              "title": "Advanced Optical Phenomena",
+              "files": [
+                "questions/bsc/OPTICS/OPTICS-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "QM",
+          "name": "Quantum Mechanics",
+          "folder": "Quantum-Mechanics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "QM-01",
+              "number": 1,
+              "title": "Origin of Quantum Physics",
+              "files": [
+                "questions/bsc/QM/QM-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-02",
+              "number": 2,
+              "title": "Wave-Particle Duality and Uncertainty",
+              "files": [
+                "questions/bsc/QM/QM-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-03",
+              "number": 3,
+              "title": "The Schrödinger Equation",
+              "files": [
+                "questions/bsc/QM/QM-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-04",
+              "number": 4,
+              "title": "One-Dimensional Potentials",
+              "files": [
+                "questions/bsc/QM/QM-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-05",
+              "number": 5,
+              "title": "Quantum Harmonic Oscillator",
+              "files": [
+                "questions/bsc/QM/QM-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-06",
+              "number": 6,
+              "title": "Angular Momentum",
+              "files": [
+                "questions/bsc/QM/QM-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-07",
+              "number": 7,
+              "title": "The Hydrogen Atom",
+              "files": [
+                "questions/bsc/QM/QM-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-08",
+              "number": 8,
+              "title": "Spin and Pauli Matrices",
+              "files": [
+                "questions/bsc/QM/QM-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-09",
+              "number": 9,
+              "title": "Identical Particles and Spin",
+              "files": [
+                "questions/bsc/QM/QM-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-10",
+              "number": 10,
+              "title": "Time-Independent Perturbation Theory",
+              "files": [
+                "questions/bsc/QM/QM-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-11",
+              "number": 11,
+              "title": "Time-Dependent Perturbation Theory",
+              "files": [
+                "questions/bsc/QM/QM-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-12",
+              "number": 12,
+              "title": "The WKB Approximation",
+              "files": [
+                "questions/bsc/QM/QM-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-13",
+              "number": 13,
+              "title": "Scattering Theory",
+              "files": [
+                "questions/bsc/QM/QM-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-14",
+              "number": 14,
+              "title": "Relativistic Quantum Mechanics",
+              "files": [
+                "questions/bsc/QM/QM-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM-15",
+              "number": 15,
+              "title": "Quantum Entanglement and Information",
+              "files": [
+                "questions/bsc/QM/QM-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "SSP",
+          "name": "Solid State Physics",
+          "folder": "Solid-State-Physics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "SSP-01",
+              "number": 1,
+              "title": "Crystal Structure and Symmetry",
+              "files": [
+                "questions/bsc/SSP/SSP-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-02",
+              "number": 2,
+              "title": "X-Ray Diffraction and Reciprocal Lattice",
+              "files": [
+                "questions/bsc/SSP/SSP-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-03",
+              "number": 3,
+              "title": "Crystal Binding and Elastic Constants",
+              "files": [
+                "questions/bsc/SSP/SSP-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-04",
+              "number": 4,
+              "title": "Lattice Vibrations and Phonons",
+              "files": [
+                "questions/bsc/SSP/SSP-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-05",
+              "number": 5,
+              "title": "Thermal Properties of Solids",
+              "files": [
+                "questions/bsc/SSP/SSP-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-06",
+              "number": 6,
+              "title": "Free Electron Fermi Gas",
+              "files": [
+                "questions/bsc/SSP/SSP-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-07",
+              "number": 7,
+              "title": "Energy Bands in Solids",
+              "files": [
+                "questions/bsc/SSP/SSP-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-08",
+              "number": 8,
+              "title": "Semiconductor Crystals",
+              "files": [
+                "questions/bsc/SSP/SSP-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-09",
+              "number": 9,
+              "title": "Fermi Surfaces and Metals",
+              "files": [
+                "questions/bsc/SSP/SSP-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-10",
+              "number": 10,
+              "title": "Superconductivity",
+              "files": [
+                "questions/bsc/SSP/SSP-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-11",
+              "number": 11,
+              "title": "Diamagnetism and Paramagnetism",
+              "files": [
+                "questions/bsc/SSP/SSP-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-12",
+              "number": 12,
+              "title": "Ferromagnetism and Antiferromagnetism",
+              "files": [
+                "questions/bsc/SSP/SSP-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-13",
+              "number": 13,
+              "title": "Magnetic Resonance",
+              "files": [
+                "questions/bsc/SSP/SSP-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-14",
+              "number": 14,
+              "title": "Dielectrics and Ferroelectrics",
+              "files": [
+                "questions/bsc/SSP/SSP-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP-15",
+              "number": 15,
+              "title": "Point Defects and Nanoscale Physics",
+              "files": [
+                "questions/bsc/SSP/SSP-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "THERMO",
+          "name": "Thermodynamics",
+          "folder": "Thermodynamics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "THERMO-01",
+              "number": 1,
+              "title": "Basic Concepts and Zeroth Law",
+              "files": [
+                "questions/bsc/THERMO/THERMO-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-02",
+              "number": 2,
+              "title": "Work and Heat Transfer",
+              "files": [
+                "questions/bsc/THERMO/THERMO-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-03",
+              "number": 3,
+              "title": "First Law of Thermodynamics",
+              "files": [
+                "questions/bsc/THERMO/THERMO-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-04",
+              "number": 4,
+              "title": "Second Law of Thermodynamics",
+              "files": [
+                "questions/bsc/THERMO/THERMO-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-05",
+              "number": 5,
+              "title": "Entropy",
+              "files": [
+                "questions/bsc/THERMO/THERMO-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-06",
+              "number": 6,
+              "title": "Availability, Exergy and Irreversibility",
+              "files": [
+                "questions/bsc/THERMO/THERMO-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-07",
+              "number": 7,
+              "title": "Properties of Pure Substances",
+              "files": [
+                "questions/bsc/THERMO/THERMO-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-08",
+              "number": 8,
+              "title": "Ideal and Real Gases",
+              "files": [
+                "questions/bsc/THERMO/THERMO-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-09",
+              "number": 9,
+              "title": "Thermodynamic Relations",
+              "files": [
+                "questions/bsc/THERMO/THERMO-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-10",
+              "number": 10,
+              "title": "Vapor Power Cycles",
+              "files": [
+                "questions/bsc/THERMO/THERMO-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-11",
+              "number": 11,
+              "title": "Gas Power Cycles",
+              "files": [
+                "questions/bsc/THERMO/THERMO-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-12",
+              "number": 12,
+              "title": "Refrigeration Cycles",
+              "files": [
+                "questions/bsc/THERMO/THERMO-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-13",
+              "number": 13,
+              "title": "Psychrometrics",
+              "files": [
+                "questions/bsc/THERMO/THERMO-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-14",
+              "number": 14,
+              "title": "Reactive Systems and Combustion",
+              "files": [
+                "questions/bsc/THERMO/THERMO-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "THERMO-15",
+              "number": 15,
+              "title": "Chemical and Phase Equilibrium",
+              "files": [
+                "questions/bsc/THERMO/THERMO-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msc",
+      "label": "MSc Physics",
+      "sourcePath": "Subjective Tests/MSc",
+      "subjects": [
+        {
+          "id": "CM_MSC",
+          "name": "Classical Mechanics_MSc",
+          "folder": "Classical-Mechanics_MSc",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "CM_MSC-01",
+              "number": 1,
+              "title": "Newtonian Mechanics and Conservation Principles",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-02",
+              "number": 2,
+              "title": "Calculus of Variations and Hamilton's Principle",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-03",
+              "number": 3,
+              "title": "Lagrangian Dynamics and Generalized Coordinates",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-04",
+              "number": 4,
+              "title": "Two-Body Central Force Problem",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-05",
+              "number": 5,
+              "title": "Kepler's Laws and Orbital Mechanics",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-06",
+              "number": 6,
+              "title": "Scattering in a Central Force Field",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-07",
+              "number": 7,
+              "title": "Rigid Body Motion and Euler Angles",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-08",
+              "number": 8,
+              "title": "Non-Inertial Reference Frames and Coriolis Force",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-09",
+              "number": 9,
+              "title": "Hamiltonian Dynamics and Equations of Motion",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-10",
+              "number": 10,
+              "title": "Canonical Transformations and Poisson Brackets",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-11",
+              "number": 11,
+              "title": "Hamilton-Jacobi Theory and Action-Angle Variables",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-12",
+              "number": 12,
+              "title": "Small Oscillations and Normal Modes",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-13",
+              "number": 13,
+              "title": "Special Theory of Relativity in Mechanics",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-14",
+              "number": 14,
+              "title": "Continuous Systems and Classical Fields",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "CM_MSC-15",
+              "number": 15,
+              "title": "Nonlinear Dynamics and Chaos Theory",
+              "files": [
+                "questions/msc/CM_MSC/CM_MSC-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "ED1",
+          "name": "Electrodynamics-I",
+          "folder": "Electrodynamics-I",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "ED1-01",
+              "number": 1,
+              "title": "Electrostatics: Electric Field and Potential",
+              "files": [
+                "questions/msc/ED1/ED1-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-02",
+              "number": 2,
+              "title": "Boundary Value Problems in Electrostatics",
+              "files": [
+                "questions/msc/ED1/ED1-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-03",
+              "number": 3,
+              "title": "Multipole Expansion and Dielectrics",
+              "files": [
+                "questions/msc/ED1/ED1-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-04",
+              "number": 4,
+              "title": "Magnetostatics: Biot-Savart and Ampere's Law",
+              "files": [
+                "questions/msc/ED1/ED1-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-05",
+              "number": 5,
+              "title": "Magnetic Vector Potential and Multipoles",
+              "files": [
+                "questions/msc/ED1/ED1-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-06",
+              "number": 6,
+              "title": "Magnetic Fields in Matter",
+              "files": [
+                "questions/msc/ED1/ED1-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-07",
+              "number": 7,
+              "title": "Electromotive Force and Faraday's Law",
+              "files": [
+                "questions/msc/ED1/ED1-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-08",
+              "number": 8,
+              "title": "Maxwell's Equations in Free Space and Media",
+              "files": [
+                "questions/msc/ED1/ED1-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-09",
+              "number": 9,
+              "title": "Conservation Laws: Poynting Theorem and Momentum",
+              "files": [
+                "questions/msc/ED1/ED1-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-10",
+              "number": 10,
+              "title": "Electromagnetic Waves in Vacuum",
+              "files": [
+                "questions/msc/ED1/ED1-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-11",
+              "number": 11,
+              "title": "Propagation of Waves in Linear Media",
+              "files": [
+                "questions/msc/ED1/ED1-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-12",
+              "number": 12,
+              "title": "Wave Guides and Resonant Cavities",
+              "files": [
+                "questions/msc/ED1/ED1-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-13",
+              "number": 13,
+              "title": "Potentials and Gauge Transformations",
+              "files": [
+                "questions/msc/ED1/ED1-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-14",
+              "number": 14,
+              "title": "Radiation from Point Charges and Dipoles",
+              "files": [
+                "questions/msc/ED1/ED1-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED1-15",
+              "number": 15,
+              "title": "Special Theory of Relativity in Electrodynamics",
+              "files": [
+                "questions/msc/ED1/ED1-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "ED2",
+          "name": "Electrodynamics-II",
+          "folder": "Electrodynamics-II",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "ED2-01",
+              "number": 1,
+              "title": "Advanced Maxwell's Equations and Covariance",
+              "files": [
+                "questions/msc/ED2/ED2-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-02",
+              "number": 2,
+              "title": "Conservation Laws in Relativistic Electrodynamics",
+              "files": [
+                "questions/msc/ED2/ED2-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-03",
+              "number": 3,
+              "title": "Plane Electromagnetic Waves in Non-Conducting Media",
+              "files": [
+                "questions/msc/ED2/ED2-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-04",
+              "number": 4,
+              "title": "Electromagnetic Waves in Conducting Media and Plasma",
+              "files": [
+                "questions/msc/ED2/ED2-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-05",
+              "number": 5,
+              "title": "Dispersion and Propagation of Wave Packets",
+              "files": [
+                "questions/msc/ED2/ED2-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-06",
+              "number": 6,
+              "title": "Waveguides: Rectangular and Circular Cavities",
+              "files": [
+                "questions/msc/ED2/ED2-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-07",
+              "number": 7,
+              "title": "Resonant Cavities and Optical Fibers",
+              "files": [
+                "questions/msc/ED2/ED2-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-08",
+              "number": 8,
+              "title": "Radiation by Moving Charges: Lienard-Wiechert Potentials",
+              "files": [
+                "questions/msc/ED2/ED2-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-09",
+              "number": 9,
+              "title": "Radiation from an Accelerated Charge and Bremsstrahlung",
+              "files": [
+                "questions/msc/ED2/ED2-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-10",
+              "number": 10,
+              "title": "Multipole Radiation and Synchrotron Radiation",
+              "files": [
+                "questions/msc/ED2/ED2-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-11",
+              "number": 11,
+              "title": "Radiation Reaction and Abraham-Lorentz Force",
+              "files": [
+                "questions/msc/ED2/ED2-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-12",
+              "number": 12,
+              "title": "Scattering of Electromagnetic Waves",
+              "files": [
+                "questions/msc/ED2/ED2-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-13",
+              "number": 13,
+              "title": "Magnetohydrodynamics and Plasma Physics",
+              "files": [
+                "questions/msc/ED2/ED2-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-14",
+              "number": 14,
+              "title": "Nonlinear Optics and Laser-Matter Interaction",
+              "files": [
+                "questions/msc/ED2/ED2-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ED2-15",
+              "number": 15,
+              "title": "Advanced Quantum Electrodynamics Foundations",
+              "files": [
+                "questions/msc/ED2/ED2-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "ELEC_MSC",
+          "name": "Electronics_MSc",
+          "folder": "Electronics_MSc",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "ELEC_MSC-01",
+              "number": 1,
+              "title": "Advanced Semiconductor Devices and Physics",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-02",
+              "number": 2,
+              "title": "MOSFET Theory and VLSI Fabrication",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-03",
+              "number": 3,
+              "title": "Analog Integrated Circuits and Operational Amplifiers",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-04",
+              "number": 4,
+              "title": "Feedback, Stability, and Oscillators",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-05",
+              "number": 5,
+              "title": "Digital Integrated Circuit Design",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-06",
+              "number": 6,
+              "title": "Combinational and Sequential Logic Systems",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-07",
+              "number": 7,
+              "title": "Microprocessors, Microcontrollers, and Embedded Systems",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-08",
+              "number": 8,
+              "title": "Data Converters (ADC and DAC Architectures)",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-09",
+              "number": 9,
+              "title": "Optoelectronic Devices and Optical Communications",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-10",
+              "number": 10,
+              "title": "Microwave Engineering and Antennas",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-11",
+              "number": 11,
+              "title": "Power Electronics and Switched-Mode Converters",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-12",
+              "number": 12,
+              "title": "Digital Signal Processing (DSP) Fundamentals",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-13",
+              "number": 13,
+              "title": "Communication Systems and Information Theory",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-14",
+              "number": 14,
+              "title": "Electronic Instrumentation and Measurement Techniques",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "ELEC_MSC-15",
+              "number": 15,
+              "title": "FPGA Architecture and Hardware Description Languages",
+              "files": [
+                "questions/msc/ELEC_MSC/ELEC_MSC-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "MATH1",
+          "name": "Mathematical Physics - I",
+          "folder": "Mathematical-Physics-I",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "MATH1-01",
+              "number": 1,
+              "title": "Vector Analysis and Calculus",
+              "files": [
+                "questions/msc/MATH1/MATH1-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-02",
+              "number": 2,
+              "title": "Matrices and Linear Algebra",
+              "files": [
+                "questions/msc/MATH1/MATH1-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-03",
+              "number": 3,
+              "title": "Complex Variables and Analytic Functions",
+              "files": [
+                "questions/msc/MATH1/MATH1-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-04",
+              "number": 4,
+              "title": "Ordinary Differential Equations",
+              "files": [
+                "questions/msc/MATH1/MATH1-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-05",
+              "number": 5,
+              "title": "Partial Differential Equations",
+              "files": [
+                "questions/msc/MATH1/MATH1-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-06",
+              "number": 6,
+              "title": "Fourier Series and Transforms",
+              "files": [
+                "questions/msc/MATH1/MATH1-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-07",
+              "number": 7,
+              "title": "Laplace Transforms",
+              "files": [
+                "questions/msc/MATH1/MATH1-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-08",
+              "number": 8,
+              "title": "Special Functions (Bessel, Legendre, etc.)",
+              "files": [
+                "questions/msc/MATH1/MATH1-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-09",
+              "number": 9,
+              "title": "Tensor Analysis",
+              "files": [
+                "questions/msc/MATH1/MATH1-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-10",
+              "number": 10,
+              "title": "Group Theory and Applications",
+              "files": [
+                "questions/msc/MATH1/MATH1-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-11",
+              "number": 11,
+              "title": "Probability and Statistics",
+              "files": [
+                "questions/msc/MATH1/MATH1-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-12",
+              "number": 12,
+              "title": "Calculus of Variations",
+              "files": [
+                "questions/msc/MATH1/MATH1-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-13",
+              "number": 13,
+              "title": "Integral Equations",
+              "files": [
+                "questions/msc/MATH1/MATH1-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-14",
+              "number": 14,
+              "title": "Green's Functions",
+              "files": [
+                "questions/msc/MATH1/MATH1-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH1-15",
+              "number": 15,
+              "title": "Numerical Methods and Computing",
+              "files": [
+                "questions/msc/MATH1/MATH1-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "MATH2",
+          "name": "Mathematical Physics-II",
+          "folder": "Mathematical-Physics-II",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "MATH2-01",
+              "number": 1,
+              "title": "Advanced Complex Analysis and Contour Integration",
+              "files": [
+                "questions/msc/MATH2/MATH2-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-02",
+              "number": 2,
+              "title": "Conformal Mapping and Applications",
+              "files": [
+                "questions/msc/MATH2/MATH2-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-03",
+              "number": 3,
+              "title": "Advanced Ordinary Differential Equations and Series Solutions",
+              "files": [
+                "questions/msc/MATH2/MATH2-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-04",
+              "number": 4,
+              "title": "Sturm-Liouville Theory and Eigenvalue Problems",
+              "files": [
+                "questions/msc/MATH2/MATH2-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-05",
+              "number": 5,
+              "title": "Partial Differential Equations: Separation of Variables",
+              "files": [
+                "questions/msc/MATH2/MATH2-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-06",
+              "number": 6,
+              "title": "Green's Functions for Ordinary and Partial Differential Equations",
+              "files": [
+                "questions/msc/MATH2/MATH2-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-07",
+              "number": 7,
+              "title": "Integral Equations: Fredholm and Volterra Types",
+              "files": [
+                "questions/msc/MATH2/MATH2-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-08",
+              "number": 8,
+              "title": "Calculus of Variations and Euler-Lagrange Equations",
+              "files": [
+                "questions/msc/MATH2/MATH2-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-09",
+              "number": 9,
+              "title": "Advanced Tensor Analysis and Riemannian Geometry",
+              "files": [
+                "questions/msc/MATH2/MATH2-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-10",
+              "number": 10,
+              "title": "Group Theory: Finite and Continuous Groups",
+              "files": [
+                "questions/msc/MATH2/MATH2-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-11",
+              "number": 11,
+              "title": "Representation Theory of Groups in Physics",
+              "files": [
+                "questions/msc/MATH2/MATH2-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-12",
+              "number": 12,
+              "title": "Advanced Probability Distributions and Stochastic Processes",
+              "files": [
+                "questions/msc/MATH2/MATH2-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-13",
+              "number": 13,
+              "title": "Numerical Methods for Differential Equations",
+              "files": [
+                "questions/msc/MATH2/MATH2-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-14",
+              "number": 14,
+              "title": "Matrix Computations and Eigenvalue Problems",
+              "files": [
+                "questions/msc/MATH2/MATH2-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "MATH2-15",
+              "number": 15,
+              "title": "Nonlinear Equations and Soliton Theory",
+              "files": [
+                "questions/msc/MATH2/MATH2-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "PP",
+          "name": "Particle Physics",
+          "folder": "Particle-Physics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "PP-01",
+              "number": 1,
+              "title": "Introduction to Elementary Particles and Symmetries",
+              "files": [
+                "questions/msc/PP/PP-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-02",
+              "number": 2,
+              "title": "Conservation Laws and Quantum Numbers",
+              "files": [
+                "questions/msc/PP/PP-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-03",
+              "number": 3,
+              "title": "Relativistic Kinematics and Phase Space",
+              "files": [
+                "questions/msc/PP/PP-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-04",
+              "number": 4,
+              "title": "The Quark Model and Hadrons",
+              "files": [
+                "questions/msc/PP/PP-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-05",
+              "number": 5,
+              "title": "Quantum Electrodynamics (QED) and Feynman Calculus",
+              "files": [
+                "questions/msc/PP/PP-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-06",
+              "number": 6,
+              "title": "Weak Interactions and Parity Violation",
+              "files": [
+                "questions/msc/PP/PP-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-07",
+              "number": 7,
+              "title": "Neutrino Oscillations and Masses",
+              "files": [
+                "questions/msc/PP/PP-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-08",
+              "number": 8,
+              "title": "Gauge Theories and Spontaneous Symmetry Breaking",
+              "files": [
+                "questions/msc/PP/PP-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-09",
+              "number": 9,
+              "title": "The Higgs Mechanism and Electroweak Unification",
+              "files": [
+                "questions/msc/PP/PP-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-10",
+              "number": 10,
+              "title": "Quantum Chromodynamics (QCD) and Color Confinement",
+              "files": [
+                "questions/msc/PP/PP-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-11",
+              "number": 11,
+              "title": "Deep Inelastic Scattering and Parton Model",
+              "files": [
+                "questions/msc/PP/PP-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-12",
+              "number": 12,
+              "title": "Particle Accelerators and Beam Dynamics",
+              "files": [
+                "questions/msc/PP/PP-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-13",
+              "number": 13,
+              "title": "Particle Detectors and Experimental Techniques",
+              "files": [
+                "questions/msc/PP/PP-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-14",
+              "number": 14,
+              "title": "Beyond the Standard Model: Supersymmetry and GUTs",
+              "files": [
+                "questions/msc/PP/PP-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "PP-15",
+              "number": 15,
+              "title": "Astroparticle Physics and Cosmology Connections",
+              "files": [
+                "questions/msc/PP/PP-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "QFT",
+          "name": "Quantum Field Theory",
+          "folder": "Quantum-Field-Theory",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "QFT-01",
+              "number": 1,
+              "title": "Classical Field Theory and Noether's Theorem",
+              "files": [
+                "questions/msc/QFT/QFT-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-02",
+              "number": 2,
+              "title": "Second Quantization and Canonical Quantization",
+              "files": [
+                "questions/msc/QFT/QFT-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-03",
+              "number": 3,
+              "title": "Klein-Gordon Equation and Scalar Fields",
+              "files": [
+                "questions/msc/QFT/QFT-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-04",
+              "number": 4,
+              "title": "Dirac Equation and Spinor Fields",
+              "files": [
+                "questions/msc/QFT/QFT-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-05",
+              "number": 5,
+              "title": "Quantization of Electromagnetic Field (Photon Field)",
+              "files": [
+                "questions/msc/QFT/QFT-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-06",
+              "number": 6,
+              "title": "Interacting Fields and Interaction Picture",
+              "files": [
+                "questions/msc/QFT/QFT-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-07",
+              "number": 7,
+              "title": "Feynman Diagrams and Rules in QED",
+              "files": [
+                "questions/msc/QFT/QFT-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-08",
+              "number": 8,
+              "title": "Cross Sections and Decay Rates",
+              "files": [
+                "questions/msc/QFT/QFT-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-09",
+              "number": 9,
+              "title": "Radiative Corrections and Loop Diagrams",
+              "files": [
+                "questions/msc/QFT/QFT-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-10",
+              "number": 10,
+              "title": "Renormalization and Regularization Techniques",
+              "files": [
+                "questions/msc/QFT/QFT-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-11",
+              "number": 11,
+              "title": "Non-Abelian Gauge Theories and Yang-Mills",
+              "files": [
+                "questions/msc/QFT/QFT-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-12",
+              "number": 12,
+              "title": "Spontaneous Symmetry Breaking and Goldstone Bosons",
+              "files": [
+                "questions/msc/QFT/QFT-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-13",
+              "number": 13,
+              "title": "The Higgs Mechanism and Electroweak Theory",
+              "files": [
+                "questions/msc/QFT/QFT-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-14",
+              "number": 14,
+              "title": "Quantum Chromodynamics (QCD) Basics",
+              "files": [
+                "questions/msc/QFT/QFT-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QFT-15",
+              "number": 15,
+              "title": "Path Integral Formulation of Quantum Field Theory",
+              "files": [
+                "questions/msc/QFT/QFT-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "QM1",
+          "name": "Quantum Mechanics - I",
+          "folder": "Quantum-Mechanics-I",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "QM1-01",
+              "number": 1,
+              "title": "Origin of Quantum Physics and Wave-Particle Duality",
+              "files": [
+                "questions/msc/QM1/QM1-01.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-02",
+              "number": 2,
+              "title": "The Uncertainty Principle",
+              "files": [
+                "questions/msc/QM1/QM1-02.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-03",
+              "number": 3,
+              "title": "Schrödinger Equation and Wave Functions",
+              "files": [
+                "questions/msc/QM1/QM1-03.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-04",
+              "number": 4,
+              "title": "Expectation Values and Operators",
+              "files": [
+                "questions/msc/QM1/QM1-04.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-05",
+              "number": 5,
+              "title": "One-Dimensional Potentials (Step, Barrier)",
+              "files": [
+                "questions/msc/QM1/QM1-05.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-06",
+              "number": 6,
+              "title": "Particle in a Box and Finite Wells",
+              "files": [
+                "questions/msc/QM1/QM1-06.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-07",
+              "number": 7,
+              "title": "Quantum Harmonic Oscillator",
+              "files": [
+                "questions/msc/QM1/QM1-07.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-08",
+              "number": 8,
+              "title": "General Formalism of Wave Mechanics",
+              "files": [
+                "questions/msc/QM1/QM1-08.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-09",
+              "number": 9,
+              "title": "Hilbert Space and Dirac Notation",
+              "files": [
+                "questions/msc/QM1/QM1-09.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-10",
+              "number": 10,
+              "title": "Theory of Angular Momentum",
+              "files": [
+                "questions/msc/QM1/QM1-10.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-11",
+              "number": 11,
+              "title": "Three-Dimensional Systems and Spherical Harmonics",
+              "files": [
+                "questions/msc/QM1/QM1-11.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-12",
+              "number": 12,
+              "title": "The Hydrogen Atom Problem",
+              "files": [
+                "questions/msc/QM1/QM1-12.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-13",
+              "number": 13,
+              "title": "Spin and Magnetic Moments",
+              "files": [
+                "questions/msc/QM1/QM1-13.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-14",
+              "number": 14,
+              "title": "Identical Particles and Exchange Symmetry",
+              "files": [
+                "questions/msc/QM1/QM1-14.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "QM1-15",
+              "number": 15,
+              "title": "Time-Independent Perturbation Theory",
+              "files": [
+                "questions/msc/QM1/QM1-15.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "QM2",
+          "name": "Quantum Mechanics-II",
+          "folder": "Quantum-Mechanics-II",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "QM2-01",
+              "number": 1,
+              "title": "Time-Independent Perturbation Theory (Non-Degenerate)",
+              "files": [
+                "questions/msc/QM2/QM2-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-02",
+              "number": 2,
+              "title": "Degenerate Perturbation Theory",
+              "files": [
+                "questions/msc/QM2/QM2-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-03",
+              "number": 3,
+              "title": "Variational Method and Applications",
+              "files": [
+                "questions/msc/QM2/QM2-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-04",
+              "number": 4,
+              "title": "WKB Approximation and Connection Formulas",
+              "files": [
+                "questions/msc/QM2/QM2-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-05",
+              "number": 5,
+              "title": "Time-Dependent Perturbation Theory",
+              "files": [
+                "questions/msc/QM2/QM2-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-06",
+              "number": 6,
+              "title": "Transition Probabilities and Fermi's Golden Rule",
+              "files": [
+                "questions/msc/QM2/QM2-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-07",
+              "number": 7,
+              "title": "Interaction of Radiation with Matter",
+              "files": [
+                "questions/msc/QM2/QM2-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-08",
+              "number": 8,
+              "title": "Scattering Theory: Born Approximation",
+              "files": [
+                "questions/msc/QM2/QM2-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-09",
+              "number": 9,
+              "title": "Partial Wave Analysis in Scattering",
+              "files": [
+                "questions/msc/QM2/QM2-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-10",
+              "number": 10,
+              "title": "Relativistic Quantum Mechanics: Klein-Gordon Equation",
+              "files": [
+                "questions/msc/QM2/QM2-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-11",
+              "number": 11,
+              "title": "Dirac Equation and Spin Properties",
+              "files": [
+                "questions/msc/QM2/QM2-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-12",
+              "number": 12,
+              "title": "Second Quantization of Systems",
+              "files": [
+                "questions/msc/QM2/QM2-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-13",
+              "number": 13,
+              "title": "Quantum Field Theory Basics",
+              "files": [
+                "questions/msc/QM2/QM2-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-14",
+              "number": 14,
+              "title": "Quantum Entanglement and Bell's Theorem",
+              "files": [
+                "questions/msc/QM2/QM2-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "QM2-15",
+              "number": 15,
+              "title": "Quantum Computing and Information Foundations",
+              "files": [
+                "questions/msc/QM2/QM2-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "SSP_MSC",
+          "name": "Solid State Physics_MSc",
+          "folder": "Solid-State-Physics_MSc",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "SSP_MSC-01",
+              "number": 1,
+              "title": "Advanced Crystal Lattices and Reciprocal Space",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-01.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-02",
+              "number": 2,
+              "title": "X-ray Diffraction and Advanced Scattering Theory",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-02.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-03",
+              "number": 3,
+              "title": "Lattice Dynamics and Phonon Spectroscopy",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-03.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-04",
+              "number": 4,
+              "title": "Free Electron Theory and Advanced Band Theory",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-04.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-05",
+              "number": 5,
+              "title": "Nearly Free Electron and Tight-Binding Models",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-05.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-06",
+              "number": 6,
+              "title": "Fermi Surfaces and Transport Phenomena",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-06.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-07",
+              "number": 7,
+              "title": "Semiconductor Physics and Heterostructures",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-07.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-08",
+              "number": 8,
+              "title": "Dielectric and Ferroelectric Properties",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-08.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-09",
+              "number": 9,
+              "title": "Advanced Magnetism and Exchange Interactions",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-09.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-10",
+              "number": 10,
+              "title": "Superconductivity: BCS Theory and Ginzburg-Landau",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-10.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-11",
+              "number": 11,
+              "title": "High-Temperature Superconductivity",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-11.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-12",
+              "number": 12,
+              "title": "Defects, Dislocations, and Color Centers",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-12.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-13",
+              "number": 13,
+              "title": "Nanostructures and Quantum Confinement",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-13.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-14",
+              "number": 14,
+              "title": "Disordered Systems and Amorphous Solids",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-14.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            },
+            {
+              "id": "SSP_MSC-15",
+              "number": 15,
+              "title": "Spintronics and Topological Insulators",
+              "files": [
+                "questions/msc/SSP_MSC/SSP_MSC-15.json"
+              ],
+              "questionCount": 0,
+              "version": 1
+            }
+          ]
+        },
+        {
+          "id": "STAT",
+          "name": "Statistical Mechanics",
+          "folder": "Statistical-Mechanics",
+          "flags": [],
+          "chapters": [
+            {
+              "id": "STAT-01",
+              "number": 1,
+              "title": "Phase Space and Liouville's Theorem",
+              "files": [
+                "questions/msc/STAT/STAT-01.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-02",
+              "number": 2,
+              "title": "Microcanonical Ensemble",
+              "files": [
+                "questions/msc/STAT/STAT-02.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-03",
+              "number": 3,
+              "title": "Canonical Ensemble and Partition Function",
+              "files": [
+                "questions/msc/STAT/STAT-03.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-04",
+              "number": 4,
+              "title": "Grand Canonical Ensemble",
+              "files": [
+                "questions/msc/STAT/STAT-04.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-05",
+              "number": 5,
+              "title": "Maxwell-Boltzmann Statistics",
+              "files": [
+                "questions/msc/STAT/STAT-05.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-06",
+              "number": 6,
+              "title": "Quantum Statistics: Bose-Einstein Distribution",
+              "files": [
+                "questions/msc/STAT/STAT-06.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-07",
+              "number": 7,
+              "title": "Quantum Statistics: Fermi-Dirac Distribution",
+              "files": [
+                "questions/msc/STAT/STAT-07.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-08",
+              "number": 8,
+              "title": "Blackbody Radiation and Planck's Law",
+              "files": [
+                "questions/msc/STAT/STAT-08.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-09",
+              "number": 9,
+              "title": "Debye and Einstein Theories of Specific Heat",
+              "files": [
+                "questions/msc/STAT/STAT-09.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-10",
+              "number": 10,
+              "title": "Bose-Einstein Condensation",
+              "files": [
+                "questions/msc/STAT/STAT-10.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-11",
+              "number": 11,
+              "title": "Electron Gas in Metals and Degeneracy",
+              "files": [
+                "questions/msc/STAT/STAT-11.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-12",
+              "number": 12,
+              "title": "Ising Model and Phase Transitions",
+              "files": [
+                "questions/msc/STAT/STAT-12.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-13",
+              "number": 13,
+              "title": "Mean Field Theory",
+              "files": [
+                "questions/msc/STAT/STAT-13.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-14",
+              "number": 14,
+              "title": "Fluctuations and Random Walks",
+              "files": [
+                "questions/msc/STAT/STAT-14.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            },
+            {
+              "id": "STAT-15",
+              "number": 15,
+              "title": "Non-Equilibrium Statistical Mechanics Basics",
+              "files": [
+                "questions/msc/STAT/STAT-15.json"
+              ],
+              "questionCount": 6,
+              "version": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

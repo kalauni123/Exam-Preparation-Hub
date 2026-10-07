@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-15",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-15-0001",
+   "concept": "first-order-energy",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "In non-degenerate perturbation theory, the first-order correction to the energy \\(E_n\\) is:",
+   "options": {
+    "A": "\\(\\langle n|H'|n\\rangle\\)",
+    "B": "\\(\\sum_{m\\neq n}\\dfrac{|\\langle m|H'|n\\rangle|^2}{E_n-E_m}\\)",
+    "C": "\\(\\langle n|H_0|n\\rangle\\)",
+    "D": "\\(\\langle n|H'|n\\rangle^2\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(E_n^{(1)} = \\langle n^{(0)}|H'|n^{(0)}\\rangle\\): the expectation value of the perturbation in the unperturbed state.",
+    "whyWrong": {
+     "B": "Second-order correction.",
+     "C": "Unperturbed energy itself.",
+     "D": "Wrong power."
+    },
+    "conceptTested": "First-order perturbation theory",
+    "trapUsed": "Confusing orders.",
+    "howToModify": "Ask for the first-order correction to the box ground state for \\(H' = V_0\\) on half the box (\\(V_0/2\\)).",
+    "howToAvoid": "First order = average of \\(H'\\) in the unperturbed state."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-15-0002",
+   "concept": "second-order-sign",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "The second-order energy correction to the ground state of a (non-degenerate) system is:",
+   "options": {
+    "A": "always positive",
+    "B": "always negative or zero",
+    "C": "always zero",
+    "D": "positive or negative depending on the sign of \\(H'\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(E_0^{(2)} = \\sum_{m\\neq0}\\frac{|H'_{m0}|^2}{E_0 - E_m}\\): numerators are non-negative and every denominator is negative for the ground state.",
+    "whyWrong": {
+     "A": "Sign reversed.",
+     "C": "Only if all off-diagonal elements vanish.",
+     "D": "The sign of \\(H'\\) does not matter since matrix elements are squared."
+    },
+    "conceptTested": "Second-order perturbation theory",
+    "trapUsed": "Believing the sign of \\(H'\\) matters at second order.",
+    "howToModify": "Ask for the second-order shift of the oscillator ground state for \\(H' = \\lambda x\\) (\\(-\\lambda^2/2m\\omega^2\\)).",
+    "howToAvoid": "Squared numerators, negative denominators for the lowest level."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-15-0003",
+   "concept": "linear-perturbation-oscillator",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.25
+   },
+   "stem": "A harmonic oscillator is perturbed by \\(H' = \\lambda\\hat x\\). The first-order correction to every energy level is:",
+   "options": {
+    "A": "\\(\\lambda\\sqrt{\\hbar/2m\\omega}\\)",
+    "B": "\\(\\lambda\\hbar\\omega\\)",
+    "C": "zero",
+    "D": "\\(-\\lambda^2/(2m\\omega^2)\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\langle n|\\hat x|n\\rangle = 0\\) by parity, so \\(E^{(1)} = 0\\). The exact shift \\(-\\lambda^2/2m\\omega^2\\) (completing the square) appears at second order.",
+    "whyWrong": {
+     "A": "Off-diagonal matrix element scale, not a diagonal one.",
+     "B": "Dimensional nonsense.",
+     "D": "Exact/second-order result, not first-order."
+    },
+    "conceptTested": "Parity selection in perturbation theory",
+    "trapUsed": "Giving the exact answer when the first-order one is asked.",
+    "howToModify": "Ask for the first-order shift for \\(H' = \\lambda\\hat x^2\\).",
+    "howToAvoid": "Check the parity of the integrand before computing."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "unit-error",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-15-0004",
+   "concept": "constant-perturbation",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "A constant potential \\(V_0\\) is added throughout an infinite square well. The first-order change in each energy level is:",
+   "options": {
+    "A": "\\(V_0/2\\)",
+    "B": "\\(n^2V_0\\)",
+    "C": "\\(0\\)",
+    "D": "\\(V_0\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(E_n^{(1)} = \\langle n|V_0|n\\rangle = V_0\\) (exact, since a constant shifts every level).",
+    "whyWrong": {
+     "A": "Answer for a perturbation over half the well.",
+     "B": "Invents \\(n\\)-dependence.",
+     "C": "Ignores the perturbation."
+    },
+    "conceptTested": "Simple first-order shifts",
+    "trapUsed": "Confusing with the half-well problem.",
+    "howToModify": "Make the perturbation act on only half the well.",
+    "howToAvoid": "A constant shift moves all levels by exactly that constant."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "formula-confusion",
+    "C": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-15-0005",
+   "concept": "perturbation-validity",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "Non-degenerate perturbation theory is reliable when:",
+   "options": {
+    "A": "\\(|\\langle m|H'|n\\rangle| \\ll |E_n^{(0)} - E_m^{(0)}|\\)",
+    "B": "\\(H'\\) is Hermitian",
+    "C": "\\(H'\\) commutes with \\(H_0\\)",
+    "D": "the levels are degenerate"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "The expansion parameter is the ratio of coupling matrix elements to level spacings; when that ratio is small the series converges quickly.",
+    "whyWrong": {
+     "B": "Hermiticity is always assumed; it does not guarantee convergence.",
+     "C": "If \\(H'\\) commutes with \\(H_0\\) the problem is exactly solvable, but that is not the validity criterion.",
+     "D": "Degeneracy makes the non-degenerate formulas diverge."
+    },
+    "conceptTested": "Validity of perturbation theory",
+    "trapUsed": "Distractor describing the opposite situation (degeneracy).",
+    "howToModify": "Ask what happens when two unperturbed levels are nearly degenerate.",
+    "howToAvoid": "Compare coupling to spacing."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-15-0006",
+   "concept": "degenerate-perturbation",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.7,
+    "c": 0.25
+   },
+   "stem": "When the unperturbed level is degenerate, the correct first-order energies are obtained by:",
+   "options": {
+    "A": "using the non-degenerate formula for each state separately",
+    "B": "diagonalizing \\(H'\\) within the degenerate subspace",
+    "C": "averaging \\(H'\\) over all states of the system",
+    "D": "using only second-order corrections"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "The 'good' zeroth-order states are eigenvectors of \\(H'\\) restricted to the degenerate subspace; its eigenvalues are the first-order shifts (e.g. linear Stark effect in hydrogen \\(n=2\\)).",
+    "whyWrong": {
+     "A": "Leads to vanishing denominators in the state corrections.",
+     "C": "Mixing in non-degenerate states is a higher-order effect.",
+     "D": "First-order splittings already appear."
+    },
+    "conceptTested": "Degenerate perturbation theory",
+    "trapUsed": "Applying the non-degenerate method blindly.",
+    "howToModify": "Ask for the first-order Stark splitting of hydrogen \\(n=2\\) (\\(\\pm3eEa_0\\)).",
+    "howToAvoid": "Degeneracy ⇒ diagonalize first, then read off shifts."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

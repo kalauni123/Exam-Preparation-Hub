@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-06",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-06-0001",
+   "concept": "bose-einstein-distribution",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "The mean occupation number of a single-particle state of energy \\(\\varepsilon\\) for bosons is:",
+   "options": {
+    "A": "\\(e^{-\\beta(\\varepsilon-\\mu)}\\)",
+    "B": "\\(\\dfrac{1}{e^{\\beta\\varepsilon}}\\)",
+    "C": "\\(\\dfrac{1}{e^{\\beta(\\varepsilon-\\mu)}+1}\\)",
+    "D": "\\(\\dfrac{1}{e^{\\beta(\\varepsilon-\\mu)}-1}\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Summing the geometric series \\(\\sum_n e^{-n\\beta(\\varepsilon-\\mu)}\\) gives \\(\\bar n = 1/(e^{\\beta(\\varepsilon-\\mu)}-1)\\).",
+    "whyWrong": {
+     "A": "Maxwell–Boltzmann (classical) limit.",
+     "B": "Missing \\(\\mu\\) and the −1.",
+     "C": "Fermi–Dirac distribution."
+    },
+    "conceptTested": "Bose–Einstein distribution",
+    "trapUsed": "−1 vs +1.",
+    "howToModify": "Ask for occupancy when \\(\\varepsilon-\\mu = k_BT\\ln2\\) (\\(\\bar n = 1\\)).",
+    "howToAvoid": "Bosons '−1' (bunching), Fermions '+1' (exclusion)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "formula-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-06-0002",
+   "concept": "bose-chemical-potential",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "For an ideal Bose gas whose lowest single-particle energy is \\(\\varepsilon_0 = 0\\), the chemical potential must satisfy:",
+   "options": {
+    "A": "\\(\\mu \\le 0\\)",
+    "B": "\\(\\mu = k_BT\\)",
+    "C": "\\(\\mu\\) can take any value",
+    "D": "\\(\\mu > 0\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "If \\(\\mu > \\varepsilon_0\\) the occupancy of the ground state would be negative. Hence \\(\\mu\\le0\\), approaching 0 at Bose–Einstein condensation.",
+    "whyWrong": {
+     "B": "Arbitrary.",
+     "C": "Positivity of occupancy restricts \\(\\mu\\).",
+     "D": "Gives negative occupancies."
+    },
+    "conceptTested": "Constraint on μ for bosons",
+    "trapUsed": "Analogy with fermions, where μ can be positive.",
+    "howToModify": "Ask what happens to \\(\\mu\\) as \\(T\\to T_c^+\\) (\\(\\mu\\to0^-\\)).",
+    "howToAvoid": "Require every \\(\\bar n \\ge 0\\)."
+   },
+   "distractorTags": {
+    "B": "guessing",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-06-0003",
+   "concept": "photon-chemical-potential",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "The chemical potential of a photon gas in thermal equilibrium (blackbody radiation) is:",
+   "options": {
+    "A": "negative",
+    "B": "zero",
+    "C": "equal to \\(k_BT\\)",
+    "D": "positive"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Photon number is not conserved (walls absorb and emit freely); minimizing \\(F\\) with respect to \\(N\\) gives \\(\\partial F/\\partial N = \\mu = 0\\). The Planck distribution is BE with \\(\\mu=0\\).",
+    "whyWrong": {
+     "A": "Would correspond to a conserved-number boson gas.",
+     "C": "Arbitrary.",
+     "D": "Would allow occupancy blow-up at low frequency."
+    },
+    "conceptTested": "Photons as bosons with μ = 0",
+    "trapUsed": "Treating photon number as conserved.",
+    "howToModify": "Ask why phonons also have \\(\\mu = 0\\).",
+    "howToAvoid": "Non-conserved particle number ⇒ μ = 0."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "guessing",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-06-0004",
+   "concept": "boson-occupancy",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.5,
+    "c": 0.25
+   },
+   "stem": "How many identical bosons can occupy the same single-particle quantum state?",
+   "options": {
+    "A": "at most one",
+    "B": "at most two (opposite spins)",
+    "C": "any number",
+    "D": "only an even number"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "There is no exclusion for bosons; in fact occupation of a state enhances further occupation (stimulated emission, BEC).",
+    "whyWrong": {
+     "A": "Pauli principle for fermions.",
+     "B": "Electrons in an orbital (including spin).",
+     "D": "No parity restriction exists."
+    },
+    "conceptTested": "Bose statistics",
+    "trapUsed": "Fermion rule transferred.",
+    "howToModify": "Ask about laser action (stimulated emission into the same photon mode).",
+    "howToAvoid": "Bosons bunch; fermions exclude."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-06-0005",
+   "concept": "bose-classical-limit",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "The Bose–Einstein distribution reduces to the Maxwell–Boltzmann form when:",
+   "options": {
+    "A": "\\(e^{\\beta(\\varepsilon-\\mu)}\\approx1\\)",
+    "B": "\\(T\\to0\\)",
+    "C": "\\(\\mu\\to0\\)",
+    "D": "\\(e^{\\beta(\\varepsilon-\\mu)}\\gg1\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Then the −1 is negligible: \\(\\bar n\\approx e^{-\\beta(\\varepsilon-\\mu)}\\ll1\\) — the dilute, high-temperature limit.",
+    "whyWrong": {
+     "A": "Opposite: huge occupancy (condensation regime).",
+     "B": "Low T is the quantum regime.",
+     "C": "\\(\\mu\\to0\\) signals approach to BEC."
+    },
+    "conceptTested": "Classical limit of quantum statistics",
+    "trapUsed": "Reversing the condition.",
+    "howToModify": "Ask the same for Fermi–Dirac (same condition).",
+    "howToAvoid": "Small occupancy ⇒ statistics no longer matter."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-06-0006",
+   "concept": "boson-counting",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "Two identical bosons are distributed among three single-particle states. The number of distinct two-particle states is:",
+   "options": {
+    "A": "6",
+    "B": "9",
+    "C": "4",
+    "D": "3"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Bosons: \\(\\binom{3+2-1}{2} = 6\\) (3 doubly-occupied + 3 with different states). Fermions would give \\(\\binom32 = 3\\), distinguishable particles \\(3^2 = 9\\).",
+    "whyWrong": {
+     "B": "Distinguishable (MB) count.",
+     "C": "Guess.",
+     "D": "Fermion count."
+    },
+    "conceptTested": "Counting for different statistics",
+    "trapUsed": "Mixing up the three statistics.",
+    "howToModify": "Ask for the count with 3 bosons in 2 states (4).",
+    "howToAvoid": "Bosons: combinations with repetition; Fermions: without; MB: \\(g^N\\)."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "guessing",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

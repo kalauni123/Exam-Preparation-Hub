@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-12",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-12-0001",
+   "concept": "hydrogen-energy",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "The energy required to ionize a hydrogen atom from its first excited state (\\(n=2\\)) is:",
+   "options": {
+    "A": "\\(10.2\\ \\text{eV}\\)",
+    "B": "\\(3.4\\ \\text{eV}\\)",
+    "C": "\\(6.8\\ \\text{eV}\\)",
+    "D": "\\(13.6\\ \\text{eV}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(E_2 = -13.6/4 = -3.4\\ \\text{eV}\\); ionization energy from \\(n=2\\) is \\(3.4\\ \\text{eV}\\).",
+    "whyWrong": {
+     "A": "Energy of the \\(1\\to2\\) excitation.",
+     "C": "Uses \\(E_n\\propto 1/n\\).",
+     "D": "Ionization energy from the ground state."
+    },
+    "conceptTested": "Bohr/Schrödinger energy levels",
+    "trapUsed": "Mixing excitation and ionization energies.",
+    "howToModify": "Ask for ionization from \\(n=3\\) (1.51 eV).",
+    "howToAvoid": "Ionization from level \\(n\\) is \\(+13.6/n^2\\ \\text{eV}\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-12-0002",
+   "concept": "hydrogen-degeneracy",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "Ignoring spin and fine structure, the degeneracy of the hydrogen level \\(n = 3\\) is:",
+   "options": {
+    "A": "3",
+    "B": "6",
+    "C": "9",
+    "D": "18"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\sum_{l=0}^{n-1}(2l+1) = n^2 = 9\\) (\\(3s\\): 1, \\(3p\\): 3, \\(3d\\): 5).",
+    "whyWrong": {
+     "A": "Counts only \\(l\\) values.",
+     "B": "Miscount.",
+     "D": "Includes the spin factor 2."
+    },
+    "conceptTested": "Accidental degeneracy of hydrogen",
+    "trapUsed": "Including spin when told to ignore it.",
+    "howToModify": "Ask for the degeneracy including spin (\\(2n^2\\)).",
+    "howToAvoid": "Read the conditions: 'ignoring spin' → \\(n^2\\)."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "B": "guessing",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-12-0003",
+   "concept": "most-probable-radius",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "For the hydrogen ground state \\(\\psi_{100}\\propto e^{-r/a_0}\\), the most probable distance of the electron from the nucleus is:",
+   "options": {
+    "A": "\\(\\tfrac32a_0\\)",
+    "B": "\\(2a_0\\)",
+    "C": "\\(0\\)",
+    "D": "\\(a_0\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Radial probability \\(P(r) \\propto r^2e^{-2r/a_0}\\) peaks at \\(r = a_0\\). (The mean, \\(\\langle r\\rangle = \\tfrac32a_0\\), is different.)",
+    "whyWrong": {
+     "A": "Expectation value, not the most probable value.",
+     "B": "Has no special meaning for 1s (for comparison, the 2p radial probability peaks at \\(4a_0\\)).",
+     "C": "Where \\(|\\psi|^2\\) is largest, but the volume element \\(4\\pi r^2dr\\) vanishes there."
+    },
+    "conceptTested": "Radial probability distribution",
+    "trapUsed": "Density vs radial probability; mode vs mean.",
+    "howToModify": "Ask for \\(\\langle r\\rangle\\) in the ground state (\\(1.5a_0\\)).",
+    "howToAvoid": "Always include the \\(r^2\\) Jacobian before maximizing."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-12-0004",
+   "concept": "allowed-l",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.5,
+    "c": 0.25
+   },
+   "stem": "For principal quantum number \\(n\\), the allowed orbital quantum numbers are:",
+   "options": {
+    "A": "\\(l = 0,1,\\dots,n-1\\)",
+    "B": "\\(l = 1,2,\\dots,n\\)",
+    "C": "\\(l = -n,\\dots,n\\)",
+    "D": "\\(l = 0,1,\\dots,n\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(n = n_r + l + 1\\) with \\(n_r \\ge 0\\), so \\(l\\le n-1\\).",
+    "whyWrong": {
+     "B": "Excludes \\(s\\) states.",
+     "C": "Confuses with \\(m\\).",
+     "D": "One too many."
+    },
+    "conceptTested": "Quantum numbers of hydrogen",
+    "trapUsed": "Off-by-one.",
+    "howToModify": "Ask which subshell does not exist: 2d.",
+    "howToAvoid": "There is no 1p or 2d — check against known orbitals."
+   },
+   "distractorTags": {
+    "B": "careless",
+    "C": "concept-confusion",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-12-0005",
+   "concept": "radial-nodes",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "The number of radial nodes in the hydrogen \\(3s\\) orbital is:",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "0"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Radial nodes = \\(n - l - 1 = 3 - 0 - 1 = 2\\).",
+    "whyWrong": {
+     "A": "\\(2s\\) or \\(3p\\) value.",
+     "C": "Uses \\(n\\).",
+     "D": "Ground state value."
+    },
+    "conceptTested": "Node counting",
+    "trapUsed": "Using \\(n\\) or \\(n-1\\) without subtracting \\(l\\).",
+    "howToModify": "Ask for angular nodes of \\(3d\\) (2).",
+    "howToAvoid": "Total nodes = \\(n-1\\) = radial \\(n-l-1\\) + angular \\(l\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "formula-confusion",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-12-0006",
+   "concept": "lyman-alpha",
+   "type": "application",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "The Lyman-\\(\\alpha\\) line of hydrogen (\\(n=2\\to1\\)) has a wavelength of about:",
+   "options": {
+    "A": "\\(656\\ \\text{nm}\\)",
+    "B": "\\(486\\ \\text{nm}\\)",
+    "C": "\\(122\\ \\text{nm}\\)",
+    "D": "\\(91\\ \\text{nm}\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\Delta E = 13.6(1-\\tfrac14) = 10.2\\ \\text{eV}\\); \\(\\lambda = 1240/10.2\\ \\text{nm}\\approx 122\\ \\text{nm}\\) (ultraviolet).",
+    "whyWrong": {
+     "A": "Balmer-\\(\\alpha\\) (3→2).",
+     "B": "Balmer-\\(\\beta\\) (4→2).",
+     "D": "Lyman series limit (\\(\\infty\\to1\\))."
+    },
+    "conceptTested": "Hydrogen spectral series",
+    "trapUsed": "Series confusion.",
+    "howToModify": "Ask for the Balmer series limit (365 nm).",
+    "howToAvoid": "Use \\(\\lambda(\\text{nm}) = 1240/E(\\text{eV})\\)."
+   },
+   "distractorTags": {
+    "A": "factual-recall",
+    "B": "factual-recall",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

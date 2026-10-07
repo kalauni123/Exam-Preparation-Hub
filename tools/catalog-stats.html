@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Catalog stats — NeuroMCQ owner tools</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./tools.css">
+  <script type="module" src="./catalog-stats.js"></script>
+</head>
+<body>
+  <header class="header"><div class="header-inner"><a class="brand" href="../">⚛️ NeuroMCQ</a><span class="brand-sub">Owner tools</span></div></header>
+  <main class="container" style="padding-bottom:2rem">
+    <nav class="tool-nav" aria-label="Tools">
+      <a class="chip" href="./validate-bank.html">Validate bank</a>
+      <a class="chip" href="./convert-legacy.html">Convert legacy files</a>
+      <a class="chip active" href="./catalog-stats.html">Catalog stats</a>
+      <a class="chip" href="../tests/engine.test.html">Run tests</a>
+    </nav>
+    <section class="card">
+      <h1>Catalog statistics</h1>
+      <p class="muted">Questions per chapter and subject, read from <code>questionCount</code> in <code>data/catalog.json</code> (run <a href="./validate-bank.html">Validate bank</a> to refresh the counts). Also lists empty chapters and generates empty chapter-file skeletons for new chapters you add to the catalog.</p>
+      <div id="summary" class="stats-grid"></div>
+      <div class="grid-2"><button id="csv" class="btn" type="button">Download CSV</button><button id="skel" class="btn" type="button">Download all skeleton files (ZIP)</button></div>
+    </section>
+    <section class="card"><h2>By subject</h2><div id="subjects" class="table-wrap"></div></section>
+    <section class="card"><h2>Empty chapters</h2><div id="empty" class="log"></div></section>
+  </main>
+</body>
+</html>

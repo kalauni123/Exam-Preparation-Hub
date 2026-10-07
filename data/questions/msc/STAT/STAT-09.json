@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-09",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-09-0001",
+   "concept": "dulong-petit",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "At high temperatures, the molar heat capacity of a monatomic crystalline solid approaches:",
+   "options": {
+    "A": "0",
+    "B": "\\(\\tfrac32R\\)",
+    "C": "\\(3R\\)",
+    "D": "\\(\\tfrac52R\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Each atom is a 3D oscillator with 6 quadratic terms: \\(6\\times\\tfrac12k_BT\\) per atom ⇒ \\(C_V = 3R\\) (Dulong–Petit).",
+    "whyWrong": {
+     "A": "Low-temperature limit.",
+     "B": "Monatomic gas.",
+     "D": "Diatomic gas."
+    },
+    "conceptTested": "Dulong–Petit law",
+    "trapUsed": "Gas results.",
+    "howToModify": "Ask for \\(C_V\\) in J/mol K (≈ 24.9).",
+    "howToAvoid": "Solid: kinetic + potential terms in 3 directions."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-09-0002",
+   "concept": "debye-t3",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "At very low temperatures, the lattice heat capacity of an insulating crystal varies as:",
+   "options": {
+    "A": "\\(e^{-\\Theta_E/T}\\)",
+    "B": "constant",
+    "C": "\\(T\\)",
+    "D": "\\(T^3\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Debye \\(T^3\\) law: only long-wavelength acoustic phonons (linear dispersion) are excited, as for photons.",
+    "whyWrong": {
+     "A": "Einstein model prediction (too fast a decrease).",
+     "B": "High-temperature (Dulong–Petit) behaviour.",
+     "C": "Electronic heat capacity of metals."
+    },
+    "conceptTested": "Debye T³ law",
+    "trapUsed": "Electronic vs lattice contributions.",
+    "howToModify": "Ask for the low-T heat capacity of a metal (\\(\\gamma T + AT^3\\)).",
+    "howToAvoid": "Phonons are like photons with linear dispersion ⇒ T³."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-09-0003",
+   "concept": "einstein-model-failure",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.1,
+    "c": 0.25
+   },
+   "stem": "The Einstein model of specific heat fails at low temperatures because:",
+   "options": {
+    "A": "it assumes all atoms vibrate with a single frequency, missing low-frequency acoustic modes",
+    "B": "it uses Fermi–Dirac statistics",
+    "C": "it overestimates the high-temperature limit",
+    "D": "it ignores quantization"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "With a single frequency, \\(C_V\\propto e^{-\\Theta_E/T}\\) at low T, falling faster than the observed \\(T^3\\). Real crystals have a spectrum of phonon frequencies down to zero.",
+    "whyWrong": {
+     "B": "Phonons are bosons; Einstein used Planck/BE statistics.",
+     "C": "It correctly gives Dulong–Petit at high T.",
+     "D": "Einstein's model is quantized — that was its success."
+    },
+    "conceptTested": "Einstein vs Debye models",
+    "trapUsed": "Attributing the failure to the model's strength.",
+    "howToModify": "Ask what Debye changed (continuum of modes up to \\(\\omega_D\\)).",
+    "howToAvoid": "Low-frequency modes dominate at low T."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-09-0004",
+   "concept": "debye-cutoff",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "In the Debye model, the cutoff (Debye) frequency is chosen so that:",
+   "options": {
+    "A": "it equals the highest optical-phonon frequency",
+    "B": "the total number of vibrational modes equals \\(3N\\)",
+    "C": "the heat capacity equals \\(3R\\) at \\(T_D\\)",
+    "D": "the phonon chemical potential vanishes"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\int_0^{\\omega_D}g(\\omega)d\\omega = 3N\\), matching the number of degrees of freedom of \\(N\\) atoms.",
+    "whyWrong": {
+     "A": "Debye treats only acoustic-like continuum modes.",
+     "C": "\\(C_V(T_D)\\approx 0.95\\times3R\\), not a defining condition.",
+     "D": "Phonon μ = 0 always; it doesn't fix \\(\\omega_D\\)."
+    },
+    "conceptTested": "Debye cutoff",
+    "trapUsed": "Consequences offered as definitions.",
+    "howToModify": "Ask for \\(\\omega_D\\) in terms of sound speed and density.",
+    "howToAvoid": "Count degrees of freedom: 3 per atom."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-09-0005",
+   "concept": "t3-scaling",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "In the Debye \\(T^3\\) region, doubling the temperature increases the lattice heat capacity by a factor of:",
+   "options": {
+    "A": "2",
+    "B": "4",
+    "C": "8",
+    "D": "16"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(C\\propto T^3\\Rightarrow 2^3 = 8\\).",
+    "whyWrong": {
+     "A": "Linear.",
+     "B": "Square.",
+     "D": "\\(T^4\\) is internal energy, not heat capacity."
+    },
+    "conceptTested": "Power-law scaling",
+    "trapUsed": "Energy vs heat capacity.",
+    "howToModify": "Ask how the phonon internal energy scales (T⁴).",
+    "howToAvoid": "C = dU/dT lowers the power by one."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-09-0006",
+   "concept": "debye-temperature",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "Diamond has a Debye temperature of about 2200 K. At room temperature its molar heat capacity is:",
+   "options": {
+    "A": "above \\(3R\\)",
+    "B": "exactly zero",
+    "C": "close to \\(3R\\)",
+    "D": "well below \\(3R\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "At \\(T\\approx0.14\\Theta_D\\), many high-frequency modes are frozen out, so \\(C_V\\) is far below the classical value — one of the original anomalies explained by quantum theory.",
+    "whyWrong": {
+     "A": "Harmonic models never exceed \\(3R\\).",
+     "B": "Only at \\(T = 0\\).",
+     "C": "True for soft solids like lead (\\(\\Theta_D\\approx 100\\ \\text{K}\\))."
+    },
+    "conceptTested": "Interpreting the Debye temperature",
+    "trapUsed": "Applying Dulong–Petit to a stiff solid.",
+    "howToModify": "Ask which of lead or diamond is closer to 3R at 300 K (lead).",
+    "howToAvoid": "Compare T with Θ_D before using the classical value."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

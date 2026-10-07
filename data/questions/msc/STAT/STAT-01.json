@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-01",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-01-0001",
+   "concept": "phase-space-dimension",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.4,
+    "c": 0.25
+   },
+   "stem": "The phase space of \\(N\\) point particles moving in three dimensions has dimension:",
+   "options": {
+    "A": "\\(N^3\\)",
+    "B": "\\(3N\\)",
+    "C": "\\(6N\\)",
+    "D": "\\(2N\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Each particle needs 3 position and 3 momentum coordinates, giving \\(6N\\) dimensions; a microstate is a single point in this space.",
+    "whyWrong": {
+     "A": "Not a dimension count.",
+     "B": "Counts configuration space only.",
+     "D": "Counts one position and one momentum per particle (1D)."
+    },
+    "conceptTested": "Phase space (Γ-space)",
+    "trapUsed": "Configuration space vs phase space.",
+    "howToModify": "Ask for the dimension for \\(N\\) rigid diatomic molecules (\\(10N\\)).",
+    "howToAvoid": "Phase space = coordinates + conjugate momenta."
+   },
+   "distractorTags": {
+    "A": "guessing",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-01-0002",
+   "concept": "liouville-theorem",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "Liouville's theorem states that, for a Hamiltonian system, the phase-space density \\(\\rho\\):",
+   "options": {
+    "A": "decreases as entropy increases",
+    "B": "is constant only at equilibrium",
+    "C": "is uniform over all of phase space at all times",
+    "D": "is constant along the trajectory of each phase point"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(d\\rho/dt = \\partial\\rho/\\partial t + \\{\\rho, H\\} = 0\\): the ensemble flows like an incompressible fluid, so phase-space volumes are conserved.",
+    "whyWrong": {
+     "A": "Fine-grained density is conserved; Liouville's theorem says nothing about entropy increase.",
+     "B": "Holds for any Hamiltonian evolution, in or out of equilibrium.",
+     "C": "Uniformity is an equilibrium (microcanonical) assumption, not Liouville's theorem."
+    },
+    "conceptTested": "Liouville's theorem",
+    "trapUsed": "Confusing the theorem with the equal a priori probability postulate.",
+    "howToModify": "Ask for the condition on \\(\\rho\\) for a stationary ensemble (\\(\\{\\rho,H\\}=0\\)).",
+    "howToAvoid": "Liouville is about flow along trajectories (total derivative), not about uniformity."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-01-0003",
+   "concept": "oscillator-phase-trajectory",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "The phase-space trajectory of a one-dimensional harmonic oscillator of fixed energy \\(E\\) is:",
+   "options": {
+    "A": "an ellipse",
+    "B": "a hyperbola",
+    "C": "a straight line",
+    "D": "a parabola"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\frac{p^2}{2mE} + \\frac{x^2}{2E/m\\omega^2} = 1\\) — an ellipse with semi-axes \\(\\sqrt{2mE}\\) and \\(\\sqrt{2E/m\\omega^2}\\).",
+    "whyWrong": {
+     "B": "Inverted oscillator (unstable equilibrium).",
+     "C": "Free particle at constant momentum.",
+     "D": "Particle in a uniform field (e.g. free fall) in the \\(x\\)–\\(p\\) plane gives a parabola."
+    },
+    "conceptTested": "Phase-space trajectories",
+    "trapUsed": "Matching potentials with the wrong conic.",
+    "howToModify": "Ask for the phase trajectory of a particle in a box (rectangle).",
+    "howToAvoid": "Write energy conservation in \\(x\\) and \\(p\\) and read off the curve."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-01-0004",
+   "concept": "phase-area-quantum-states",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "For a 1D harmonic oscillator, the phase-space area enclosed by the trajectory of energy \\(E\\) is \\(2\\pi E/\\omega\\). The number of quantum states with energy up to \\(E\\) is therefore approximately:",
+   "options": {
+    "A": "\\(\\omega E/h\\)",
+    "B": "\\(E/\\hbar\\omega\\)",
+    "C": "\\(2\\pi E/\\omega\\)",
+    "D": "\\(E/h\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Each quantum state occupies area \\(h\\): \\(N \\approx \\frac{2\\pi E/\\omega}{2\\pi\\hbar} = E/\\hbar\\omega\\), consistent with \\(E_n \\approx n\\hbar\\omega\\).",
+    "whyWrong": {
+     "A": "Inverts the frequency.",
+     "C": "The area itself, not divided by \\(h\\).",
+     "D": "Dimensionally wrong (J/J s)."
+    },
+    "conceptTested": "Semiclassical counting of states",
+    "trapUsed": "Forgetting the cell size \\(h\\).",
+    "howToModify": "Ask for the density of states \\(dN/dE\\) (\\(1/\\hbar\\omega\\)).",
+    "howToAvoid": "Number of states = phase-space volume / \\(h^f\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "formula-confusion",
+    "D": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-01-0005",
+   "concept": "phase-cell",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "In quantum statistical mechanics, the volume of phase space associated with one microstate per degree of freedom is:",
+   "options": {
+    "A": "\\(h^3\\) per degree of freedom",
+    "B": "\\(\\hbar/2\\)",
+    "C": "\\(h\\)",
+    "D": "\\(k_B\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Each pair \\((q_i,p_i)\\) contributes a cell of area \\(h\\); for \\(f\\) degrees of freedom the cell volume is \\(h^f\\) (so \\(h^3\\) per particle in 3D).",
+    "whyWrong": {
+     "A": "\\(h^3\\) is per particle in 3D, not per degree of freedom.",
+     "B": "Minimum uncertainty product, not the cell size.",
+     "D": "Boltzmann's constant has wrong units."
+    },
+    "conceptTested": "Phase-space cell size",
+    "trapUsed": "Per particle vs per degree of freedom.",
+    "howToModify": "Ask why classical entropy contains an arbitrary constant without this cell.",
+    "howToAvoid": "One (q, p) pair ↔ one factor of \\(h\\)."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "B": "concept-confusion",
+    "D": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-01-0006",
+   "concept": "stationary-ensemble",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "A phase-space density \\(\\rho(q,p)\\) represents a stationary (equilibrium) ensemble whenever:",
+   "options": {
+    "A": "\\(\\rho\\) is a Gaussian in \\(q\\)",
+    "B": "\\(\\partial\\rho/\\partial q = 0\\)",
+    "C": "\\(\\rho\\) is normalized",
+    "D": "\\(\\rho\\) depends on \\((q,p)\\) only through the Hamiltonian \\(H(q,p)\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "If \\(\\rho = \\rho(H)\\) then \\(\\{\\rho,H\\} = \\rho'(H)\\{H,H\\} = 0\\), so \\(\\partial\\rho/\\partial t = 0\\). Microcanonical and canonical ensembles are both of this form.",
+    "whyWrong": {
+     "A": "Arbitrary functional form; not stationary in general.",
+     "B": "Spatial uniformity alone does not guarantee stationarity.",
+     "C": "Normalization is always required and says nothing about time dependence."
+    },
+    "conceptTested": "Equilibrium ensembles",
+    "trapUsed": "Necessary-but-irrelevant conditions.",
+    "howToModify": "Ask which other conserved quantities \\(\\rho\\) may depend on (e.g. total momentum).",
+    "howToAvoid": "Stationary ⇔ Poisson bracket with \\(H\\) vanishes."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

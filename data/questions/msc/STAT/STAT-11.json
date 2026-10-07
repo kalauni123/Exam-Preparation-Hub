@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-11",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-11-0001",
+   "concept": "fermi-energy-formula",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.6,
+    "c": 0.25
+   },
+   "stem": "For a free-electron gas of number density \\(n\\) (spin-1/2), the Fermi energy is:",
+   "options": {
+    "A": "\\(\\dfrac{\\hbar^2}{2m}(3\\pi^2n)^{2/3}\\)",
+    "B": "\\(\\dfrac{\\hbar^2}{2m}(3\\pi^2n)^{1/3}\\)",
+    "C": "\\(\\dfrac{\\hbar^2}{2m}(6\\pi^2n)^{2/3}\\)",
+    "D": "\\(k_BT\\ln n\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(k_F = (3\\pi^2n)^{1/3}\\) (factor 2 for spin included), \\(E_F = \\hbar^2k_F^2/2m\\).",
+    "whyWrong": {
+     "B": "That is \\(\\hbar^2k_F/2m\\) — wrong dimension.",
+     "C": "Spinless fermions.",
+     "D": "Classical-like expression."
+    },
+    "conceptTested": "Fermi energy",
+    "trapUsed": "Spin degeneracy factor.",
+    "howToModify": "Ask for \\(E_F\\) of copper (≈ 7 eV).",
+    "howToAvoid": "Fill a sphere of radius \\(k_F\\) with 2 electrons per \\((2\\pi)^3/V\\)."
+   },
+   "distractorTags": {
+    "B": "unit-error",
+    "C": "formula-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-11-0002",
+   "concept": "mean-energy-fermi-sea",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "The average kinetic energy per electron in a 3D free-electron gas at \\(T = 0\\) is:",
+   "options": {
+    "A": "\\(\\tfrac12E_F\\)",
+    "B": "\\(\\tfrac35E_F\\)",
+    "C": "\\(\\tfrac32k_BT\\)",
+    "D": "\\(E_F\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\langle E\\rangle = \\int_0^{E_F}E\\,g(E)dE/\\int_0^{E_F}g(E)dE\\) with \\(g\\propto\\sqrt E\\): \\(\\tfrac35E_F\\).",
+    "whyWrong": {
+     "A": "Would follow from a constant density of states (2D).",
+     "C": "Classical value; zero at T = 0.",
+     "D": "Maximum energy."
+    },
+    "conceptTested": "Ground-state energy of the Fermi gas",
+    "trapUsed": "Using the 2D density of states.",
+    "howToModify": "Ask for the degeneracy pressure (\\(\\tfrac25nE_F\\)).",
+    "howToAvoid": "Weight with \\(g(E)\\propto E^{1/2}\\) in 3D."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-11-0003",
+   "concept": "electronic-heat-capacity",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.1,
+    "c": 0.25
+   },
+   "stem": "The electronic contribution to the heat capacity of a metal at low temperatures is:",
+   "options": {
+    "A": "exactly zero",
+    "B": "\\(\\tfrac32Nk_B\\), independent of \\(T\\)",
+    "C": "proportional to \\(T\\), and small because only electrons within \\(\\sim k_BT\\) of \\(E_F\\) are excited",
+    "D": "proportional to \\(T^3\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Only a fraction \\(\\sim T/T_F\\) of electrons can be excited, each gaining \\(\\sim k_BT\\): \\(C_e = \\frac{\\pi^2}{2}Nk_B\\frac{T}{T_F}\\).",
+    "whyWrong": {
+     "A": "It is small but non-zero.",
+     "B": "Classical Drude prediction that contradicted experiment.",
+     "D": "Phonon (Debye) contribution."
+    },
+    "conceptTested": "Sommerfeld theory of metals",
+    "trapUsed": "Classical equipartition.",
+    "howToModify": "Ask how to separate electronic and lattice terms (plot \\(C/T\\) vs \\(T^2\\)).",
+    "howToAvoid": "Pauli blocking means only electrons near \\(E_F\\) participate."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-11-0004",
+   "concept": "fermi-density-scaling",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.7,
+    "c": 0.25
+   },
+   "stem": "If the electron number density of a free-electron gas is increased by a factor of 8, the Fermi energy:",
+   "options": {
+    "A": "increases 2 times",
+    "B": "is unchanged",
+    "C": "increases 8 times",
+    "D": "increases 4 times"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(E_F\\propto n^{2/3}\\): \\(8^{2/3} = 4\\).",
+    "whyWrong": {
+     "A": "Uses \\(k_F\\propto n^{1/3}\\).",
+     "B": "Ignores density dependence.",
+     "C": "Linear."
+    },
+    "conceptTested": "Fermi-energy scaling",
+    "trapUsed": "Using the wave-vector power.",
+    "howToModify": "Ask how the Fermi velocity changes (×2).",
+    "howToAvoid": "\\(k_F\\propto n^{1/3}\\), \\(E_F\\propto k_F^2\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "concept-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-11-0005",
+   "concept": "degeneracy-pressure",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "A free-electron gas at absolute zero exerts:",
+   "options": {
+    "A": "a finite pressure due to the Pauli exclusion principle",
+    "B": "negative pressure",
+    "C": "pressure only if electrons interact",
+    "D": "no pressure, since thermal motion has ceased"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Electrons fill momentum states up to \\(p_F\\), so they keep moving at \\(T = 0\\): \\(P = \\tfrac25nE_F\\). This degeneracy pressure supports white dwarfs.",
+    "whyWrong": {
+     "B": "No attractive mechanism in a free gas.",
+     "C": "Arises even for non-interacting fermions.",
+     "D": "Classical intuition."
+    },
+    "conceptTested": "Fermi degeneracy pressure",
+    "trapUsed": "Classical intuition.",
+    "howToModify": "Ask for the Chandrasekhar limit concept.",
+    "howToAvoid": "Exclusion forces high-momentum occupation even at T = 0."
+   },
+   "distractorTags": {
+    "B": "sign-error",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-11-0006",
+   "concept": "fermi-temperature",
+   "type": "application",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.3,
+    "c": 0.25
+   },
+   "stem": "Typical Fermi temperatures of conduction electrons in metals are of order:",
+   "options": {
+    "A": "\\(300\\ \\text{K}\\)",
+    "B": "\\(10^4\\text{–}10^5\\ \\text{K}\\)",
+    "C": "\\(10^9\\ \\text{K}\\)",
+    "D": "\\(10\\ \\text{K}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(E_F\\sim\\)2–10 eV ⇒ \\(T_F = E_F/k_B\\sim\\)2–12 × 10⁴ K, so electrons in metals are highly degenerate at room temperature.",
+    "whyWrong": {
+     "A": "Room temperature; would imply non-degenerate electrons.",
+     "C": "Relevant to white-dwarf/nuclear matter scales.",
+     "D": "Far too small."
+    },
+    "conceptTested": "Degeneracy of electrons in metals",
+    "trapUsed": "Order-of-magnitude.",
+    "howToModify": "Ask for \\(T_F\\) of electrons in a semiconductor with \\(n = 10^{22}\\ \\text{m}^{-3}\\) (non-degenerate).",
+    "howToAvoid": "1 eV ≈ 11 600 K."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "guessing",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

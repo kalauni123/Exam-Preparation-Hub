@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Convert legacy files — NeuroMCQ owner tools</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./tools.css">
+  <script type="module" src="./convert-legacy.js"></script>
+</head>
+<body>
+  <header class="header"><div class="header-inner"><a class="brand" href="../">⚛️ NeuroMCQ</a><span class="brand-sub">Owner tools</span></div></header>
+  <main class="container" style="padding-bottom:2rem">
+    <nav class="tool-nav" aria-label="Tools">
+      <a class="chip" href="./validate-bank.html">Validate bank</a>
+      <a class="chip active" href="./convert-legacy.html">Convert legacy files</a>
+      <a class="chip" href="./catalog-stats.html">Catalog stats</a>
+      <a class="chip" href="../tests/engine.test.html">Run tests</a>
+    </nav>
+    <section class="card">
+      <h1>Convert legacy MCQ's-Portal files</h1>
+      <p class="muted">Pick the old <code>database/*.js</code> files (<code>window.xyzCh1 = [ … ]</code>). They are parsed with a small built-in parser — the code in them is never executed. Placeholder questions (“Sample Question…”, “Option A”) are skipped and reported; content that does not match its chapter (for example physics questions filed under an aptitude chapter) is reported so you can skip it or re-assign it.</p>
+      <div id="drop" class="drop">Drop .js files here or <button id="pick" class="btn btn-sm" type="button">choose files</button><input id="files" type="file" accept=".js,.txt" multiple class="hidden"></div>
+      <button id="samples" class="btn btn-block mt-3" type="button">Try the bundled sample files</button>
+    </section>
+    <section class="card">
+      <div class="card-title"><h2>Report</h2><button id="rerun" class="btn btn-sm" type="button" disabled>Apply decisions &amp; re-convert</button></div>
+      <div id="summary" class="mb-3"></div>
+      <div id="mismatches"></div>
+      <div id="log" class="log mt-3">No files converted yet.</div>
+    </section>
+    <section class="card">
+      <div class="card-title"><h2>Output files</h2><button id="zip" class="btn btn-primary btn-sm" type="button" disabled>Download all (ZIP)</button></div>
+      <p class="muted small">Each file goes to <code>data/questions/&lt;category&gt;/&lt;SUBJECT&gt;/&lt;CHAPTER&gt;.json</code>. Legacy imports get ids <code>…-9001</code> upward and <code>needsReview: true</code>. If the chapter already has questions, merge the <code>questions</code> arrays, then run <a href="./validate-bank.html">Validate bank</a>.</p>
+      <ul id="out" class="list"></ul>
+    </section>
+  </main>
+</body>
+</html>

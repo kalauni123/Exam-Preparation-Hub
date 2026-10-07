@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Validate question bank — NeuroMCQ owner tools</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./tools.css">
+  <script type="module" src="./validate-bank.js"></script>
+</head>
+<body>
+  <header class="header"><div class="header-inner"><a class="brand" href="../">⚛️ NeuroMCQ</a><span class="brand-sub">Owner tools</span></div></header>
+  <main class="container" style="padding-bottom:2rem">
+    <nav class="tool-nav" aria-label="Tools">
+      <a class="chip active" href="./validate-bank.html">Validate bank</a>
+      <a class="chip" href="./convert-legacy.html">Convert legacy files</a>
+      <a class="chip" href="./catalog-stats.html">Catalog stats</a>
+      <a class="chip" href="../tests/engine.test.html">Run tests</a>
+    </nav>
+    <section class="card">
+      <h1>Validate the question bank</h1>
+      <p class="muted">Checks <code>data/catalog.json</code> and every chapter file listed in it against the schema: ids, prefixes, options, answer keys, duplicates, chapter/subject/category consistency, placeholder text and chapter-content mismatches. It then fills in <code>questionCount</code> for you.</p>
+      <button id="run" class="btn btn-primary btn-block">Validate the deployed bank</button>
+      <div id="progress" class="progress mt-3 hidden"><span style="width:0%"></span></div>
+    </section>
+    <section class="card">
+      <h2>Check files before uploading</h2>
+      <p class="muted small">Drop chapter JSON files here (e.g. <code>QM1-07.json</code>) to validate them locally against the catalog. Nothing is uploaded.</p>
+      <div id="drop" class="drop">Drop files here or <button id="pick" class="btn btn-sm" type="button">choose files</button><input id="files" type="file" accept=".json" multiple class="hidden"></div>
+    </section>
+    <section class="card">
+      <div class="card-title"><h2>Report</h2><button id="dl" class="btn btn-sm" type="button" disabled>Download updated catalog.json</button></div>
+      <div id="summary" class="mb-3"></div>
+      <div id="log" class="log">Run a validation to see results.</div>
+    </section>
+  </main>
+</body>
+</html>

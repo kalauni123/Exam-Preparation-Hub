@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-13",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-13-0001",
+   "concept": "molecular-field",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.9,
+    "c": 0.25
+   },
+   "stem": "The essential approximation of Weiss mean-field theory is to:",
+   "options": {
+    "A": "solve the model exactly on a lattice",
+    "B": "ignore all interactions",
+    "C": "replace interactions of a spin with its neighbours by an average (molecular) field proportional to the magnetization",
+    "D": "treat spins classically"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(H_{eff} = -(zJ\\langle s\\rangle + h)s_i\\): fluctuations of neighbours about their mean are neglected.",
+    "whyWrong": {
+     "A": "It is an approximation.",
+     "B": "Then there would be no ordering.",
+     "D": "Mean field can be applied to quantum spins too."
+    },
+    "conceptTested": "Mean-field approximation",
+    "trapUsed": "Overly strong or irrelevant simplifications.",
+    "howToModify": "Ask what is neglected (correlations/fluctuations).",
+    "howToAvoid": "Mean field = average neighbours, neglect fluctuations."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-13-0002",
+   "concept": "mean-field-tc",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "In mean-field theory of the Ising model \\(H = -J\\sum_{\\langle ij\\rangle}s_is_j\\) (\\(s=\\pm1\\)) on a square lattice (\\(z = 4\\)), the critical temperature is:",
+   "options": {
+    "A": "\\(k_BT_c = 2.27J\\)",
+    "B": "\\(k_BT_c = J\\)",
+    "C": "\\(k_BT_c = 2J\\)",
+    "D": "\\(k_BT_c = 4J\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Self-consistency \\(m = \\tanh(\\beta zJm)\\) has a non-zero solution when \\(\\beta zJ > 1\\): \\(k_BT_c = zJ = 4J\\). (Exact: 2.27J — mean field overestimates.)",
+    "whyWrong": {
+     "A": "Onsager's exact value, not mean field.",
+     "B": "Uses \\(z = 1\\).",
+     "C": "Uses \\(z = 2\\) (1D)."
+    },
+    "conceptTested": "Mean-field critical temperature",
+    "trapUsed": "Exact vs approximate result.",
+    "howToModify": "Ask for the mean-field \\(T_c\\) on a simple cubic lattice (6J).",
+    "howToAvoid": "Mean-field \\(T_c = zJ/k_B\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "formula-confusion",
+    "C": "careless"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-13-0003",
+   "concept": "curie-weiss",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.7,
+    "c": 0.25
+   },
+   "stem": "Above \\(T_c\\), mean-field theory predicts the magnetic susceptibility follows:",
+   "options": {
+    "A": "\\(\\chi = C/(T-T_c)\\)",
+    "B": "\\(\\chi = C(T-T_c)\\)",
+    "C": "\\(\\chi = Ce^{-T/T_c}\\)",
+    "D": "\\(\\chi = C/T\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Curie–Weiss law \\(\\chi = C/(T-T_c)\\), diverging at \\(T_c\\) (exponent γ = 1).",
+    "whyWrong": {
+     "B": "Inverted.",
+     "C": "No basis.",
+     "D": "Curie law for non-interacting paramagnets."
+    },
+    "conceptTested": "Curie–Weiss law",
+    "trapUsed": "Curie vs Curie–Weiss.",
+    "howToModify": "Ask for the antiferromagnetic form (\\(C/(T+\\Theta)\\)).",
+    "howToAvoid": "Interactions shift the divergence from 0 to \\(T_c\\)."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "guessing",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-13-0004",
+   "concept": "mean-field-accuracy",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "Mean-field theory becomes exact (or most accurate) for:",
+   "options": {
+    "A": "one-dimensional systems",
+    "B": "systems with very many neighbours or long-range interactions (high dimensions)",
+    "C": "systems near \\(T = 0\\) only",
+    "D": "systems without any symmetry"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Averaging over many neighbours suppresses relative fluctuations; above the upper critical dimension (4 for Ising) mean-field exponents are exact.",
+    "whyWrong": {
+     "A": "Worst case: it wrongly predicts a transition in 1D.",
+     "C": "Accuracy depends on fluctuations near \\(T_c\\), not on T → 0.",
+     "D": "Irrelevant."
+    },
+    "conceptTested": "Validity of mean-field theory",
+    "trapUsed": "Low dimensions as distractor.",
+    "howToModify": "Ask for the upper critical dimension of the Ising model (4).",
+    "howToAvoid": "More neighbours → better averaging → better mean field."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-13-0005",
+   "concept": "landau-theory",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.25
+   },
+   "stem": "With Landau free energy \\(F(m) = a(T-T_c)m^2 + bm^4\\) (\\(a,b>0\\)), the equilibrium magnetization below \\(T_c\\) is:",
+   "options": {
+    "A": "\\(m = \\pm\\sqrt{\\dfrac{2b}{a(T_c-T)}}\\)",
+    "B": "\\(m = 0\\)",
+    "C": "\\(m = \\pm\\sqrt{\\dfrac{a(T_c-T)}{2b}}\\)",
+    "D": "\\(m = \\pm\\dfrac{a(T_c-T)}{2b}\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(dF/dm = 2a(T-T_c)m + 4bm^3 = 0\\Rightarrow m^2 = a(T_c-T)/2b\\), giving β = 1/2.",
+    "whyWrong": {
+     "A": "Inverted.",
+     "B": "That is a maximum of \\(F\\) below \\(T_c\\).",
+     "D": "Forgets the square root."
+    },
+    "conceptTested": "Landau theory",
+    "trapUsed": "Choosing the stationary point that is a maximum.",
+    "howToModify": "Ask for the free-energy difference \\(\\Delta F\\) below \\(T_c\\) and the heat-capacity jump.",
+    "howToAvoid": "Check the second derivative to confirm a minimum."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "concept-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-13-0006",
+   "concept": "mean-field-1d",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "Applied to the 1D Ising chain, mean-field theory:",
+   "options": {
+    "A": "predicts a first-order transition",
+    "B": "cannot be applied",
+    "C": "correctly predicts no phase transition",
+    "D": "incorrectly predicts a transition at \\(k_BT_c = 2J\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "With \\(z = 2\\), mean field gives \\(k_BT_c = 2J\\), whereas the exact solution has no transition at \\(T>0\\): fluctuations dominate in low dimensions.",
+    "whyWrong": {
+     "A": "Mean field gives a continuous transition.",
+     "B": "It can be applied, just inaccurately.",
+     "C": "Exact answer, not the mean-field one."
+    },
+    "conceptTested": "Failure of mean field in low dimensions",
+    "trapUsed": "Mixing exact and approximate answers.",
+    "howToModify": "Ask for the lower critical dimension of the Ising model (1).",
+    "howToAvoid": "Mean field always predicts order when \\(zJ > 0\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

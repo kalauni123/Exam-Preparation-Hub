@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NeuroMCQ — Smart MCQ Practice for TU Assistant Professor, NET &amp; Physics</title>
+  <meta name="description" content="Free, offline-ready MCQ practice with spaced repetition, memory maps, score prediction and battles for TU Assistant Professor, NET, BSc and MSc Physics.">
+  <meta name="theme-color" content="#4338ca">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com https://partner.googleadservices.com https://tpc.googlesyndication.com https://www.googletagservices.com https://adservice.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com https://*.gstatic.com; font-src 'self' data:; connect-src 'self' https://*.firebaseio.com wss://*.firebaseio.com https://*.firebasedatabase.app https://*.supabase.co https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com; frame-src https://*.googlesyndication.com https://*.doubleclick.net https://*.google.com; worker-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+  <link rel="preload" href="./vendor/fonts/inter-700.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/screens.css">
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <span style="width:44px" aria-hidden="true"></span>
+      <a class="brand" href="#/home" aria-label="NeuroMCQ home">⚛️ NeuroMCQ</a>
+      <div class="header-actions"><button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode"></button></div>
+    </div>
+  </header>
+  <main class="container">
+    <div id="view" class="view" tabindex="-1">
+      <section class="card" aria-busy="true" aria-label="Loading">
+        <div class="skeleton sk-block"></div>
+        <div class="skeleton sk-line" style="width:80%"></div>
+        <div class="skeleton sk-line" style="width:60%"></div>
+      </section>
+      <noscript><section class="card"><h1>NeuroMCQ needs JavaScript</h1><p>Please enable JavaScript to use the app.</p></section></noscript>
+    </div>
+  </main>
+  <nav id="bottom-nav" class="bottom-nav" aria-label="Main navigation" hidden></nav>
+</body>
+</html>

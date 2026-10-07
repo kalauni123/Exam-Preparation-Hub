@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "QM1-05",
+ "subjectId": "QM1",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "QM1-05-0001",
+   "concept": "step-reflection",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "A particle of energy \\(E > V_0\\) is incident on a potential step of height \\(V_0\\). Quantum mechanically:",
+   "options": {
+    "A": "the transmitted wave decays exponentially",
+    "B": "it is transmitted with certainty, as in classical mechanics",
+    "C": "there is a non-zero probability of reflection",
+    "D": "it is always reflected"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Matching \\(\\psi\\) and \\(\\psi'\\) at the step gives \\(R = \\left(\\frac{k_1-k_2}{k_1+k_2}\\right)^2 > 0\\) whenever \\(k_1 \\neq k_2\\), even though \\(E > V_0\\).",
+    "whyWrong": {
+     "A": "Exponential decay occurs in a classically forbidden region (\\(E<V_0\\)).",
+     "B": "This is the classical expectation that quantum mechanics contradicts.",
+     "D": "Total reflection happens for \\(E < V_0\\)."
+    },
+    "conceptTested": "Reflection at a potential step",
+    "trapUsed": "Classical intuition.",
+    "howToModify": "Ask for \\(R\\) when \\(E \\to V_0^+\\) (answer: \\(R\\to1\\)).",
+    "howToAvoid": "Any abrupt change of wave number reflects part of the wave — as for light at an interface."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-05-0002",
+   "concept": "evanescent-wave",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "For \\(E < V_0\\) at an infinitely wide step, which statement is correct?",
+   "options": {
+    "A": "The wave function vanishes identically inside the step",
+    "B": "Part of the probability current is transmitted into the step",
+    "C": "The wave inside the step is oscillatory with wave number \\(\\sqrt{2m(V_0-E)}/\\hbar\\)",
+    "D": "The reflection coefficient is 1, yet the probability density inside the step is non-zero"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Inside, \\(\\psi \\propto e^{-\\kappa x}\\) with \\(\\kappa=\\sqrt{2m(V_0-E)}/\\hbar\\): non-zero but real (up to a constant phase), so it carries no current, giving \\(R=1\\).",
+    "whyWrong": {
+     "A": "Only for an infinite step does \\(\\psi\\) vanish inside.",
+     "B": "A decaying real exponential carries zero current.",
+     "C": "The wave inside decays; it does not oscillate."
+    },
+    "conceptTested": "Penetration into classically forbidden region",
+    "trapUsed": "Assuming zero penetration because \\(R=1\\).",
+    "howToModify": "Ask for the penetration depth \\(1/\\kappa\\) for an electron with \\(V_0-E = 1\\ \\text{eV}\\) (≈ 0.2 nm).",
+    "howToAvoid": "Total reflection of current does not mean zero probability density."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-05-0003",
+   "concept": "tunneling-width",
+   "type": "application",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.7,
+    "c": 0.25
+   },
+   "stem": "For a thick rectangular barrier the transmission probability is approximately \\(T \\approx e^{-2\\kappa a}\\). If the barrier width \\(a\\) is doubled (other quantities unchanged), the new transmission is approximately:",
+   "options": {
+    "A": "\\(T^2\\)",
+    "B": "\\(\\sqrt{T}\\)",
+    "C": "\\(T/2\\)",
+    "D": "\\(2T\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(e^{-2\\kappa(2a)} = \\left(e^{-2\\kappa a}\\right)^2 = T^2\\) — a dramatic reduction since \\(T \\ll 1\\).",
+    "whyWrong": {
+     "B": "That would be halving the width.",
+     "C": "Assumes linear dependence on width.",
+     "D": "Wrong direction: wider barriers transmit less."
+    },
+    "conceptTested": "Exponential sensitivity of tunnelling",
+    "trapUsed": "Linear thinking about an exponential law.",
+    "howToModify": "Ask what happens if the mass is quadrupled (\\(\\kappa\\) doubles: also \\(T^2\\)).",
+    "howToAvoid": "Rewrite the new exponent in terms of the old one."
+   },
+   "distractorTags": {
+    "B": "formula-confusion",
+    "C": "formula-confusion",
+    "D": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-05-0004",
+   "concept": "step-reflection-coefficient",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.8,
+    "c": 0.25
+   },
+   "stem": "A particle with \\(E = 2V_0\\) meets a potential step of height \\(V_0\\). The reflection coefficient is approximately:",
+   "options": {
+    "A": "\\(0\\)",
+    "B": "\\(0.03\\)",
+    "C": "\\(0.17\\)",
+    "D": "\\(0.50\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(k_2/k_1 = \\sqrt{(E-V_0)/E} = 1/\\sqrt2\\). \\(R = \\left(\\frac{1-1/\\sqrt2}{1+1/\\sqrt2}\\right)^2 = \\left(\\frac{\\sqrt2-1}{\\sqrt2+1}\\right)^2 = (3-2\\sqrt2)^2 \\approx 0.029\\).",
+    "whyWrong": {
+     "A": "Classical answer.",
+     "C": "Forgets to square the amplitude ratio.",
+     "D": "Assumes equal splitting."
+    },
+    "conceptTested": "Quantitative step reflection",
+    "trapUsed": "Forgetting that \\(R\\) is the square of the amplitude ratio.",
+    "howToModify": "Ask for the transmission coefficient (\\(1-R \\approx 0.97\\)).",
+    "howToAvoid": "Write \\(R = |r|^2\\) and \\(T = 1-R\\) as a check."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "formula-confusion",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-05-0005",
+   "concept": "tunneling-applications",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "Quantum tunnelling is NOT the essential mechanism behind which of the following?",
+   "options": {
+    "A": "Alpha decay of heavy nuclei",
+    "B": "Scanning tunnelling microscope",
+    "C": "Photoelectric emission",
+    "D": "Tunnel (Esaki) diode"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Photoemission is driven by photon absorption giving electrons enough energy to go over the work-function barrier; no tunnelling through a barrier is involved.",
+    "whyWrong": {
+     "A": "Gamow explained alpha decay by tunnelling through the Coulomb barrier.",
+     "B": "STM current arises from electrons tunnelling across the vacuum gap.",
+     "D": "Esaki diodes rely on interband tunnelling across a thin junction."
+    },
+    "conceptTested": "Applications of tunnelling",
+    "trapUsed": "Negative ('NOT') phrasing among genuine quantum phenomena.",
+    "howToModify": "Ask which of the list depends exponentially on barrier width (STM).",
+    "howToAvoid": "Ask: does the particle go over the barrier (energy gained) or through it?"
+   },
+   "distractorTags": {
+    "A": "factual-recall",
+    "B": "factual-recall",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "QM1-05-0006",
+   "concept": "delta-potential",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.6,
+    "c": 0.25
+   },
+   "stem": "An attractive delta-function potential \\(V(x) = -\\alpha\\,\\delta(x)\\) in one dimension supports:",
+   "options": {
+    "A": "infinitely many bound states",
+    "B": "two bound states, one even and one odd",
+    "C": "no bound state",
+    "D": "exactly one bound state, with \\(E = -m\\alpha^2/2\\hbar^2\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "The bound state \\(\\psi = \\sqrt{\\kappa}e^{-\\kappa|x|}\\) with \\(\\kappa = m\\alpha/\\hbar^2\\) is the only one; the derivative jump condition fixes \\(\\kappa\\), giving \\(E = -\\hbar^2\\kappa^2/2m = -m\\alpha^2/2\\hbar^2\\).",
+    "whyWrong": {
+     "A": "A zero-range potential cannot support excited states.",
+     "B": "An odd state vanishes at the origin and does not feel the delta potential.",
+     "C": "Any attractive 1D potential has at least one bound state."
+    },
+    "conceptTested": "Delta-function potential",
+    "trapUsed": "Analogy with finite wells that have several states.",
+    "howToModify": "Ask for the transmission coefficient of the delta barrier for scattering states.",
+    "howToAvoid": "An odd function is zero at \\(x=0\\), so it cannot bind to a delta function."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

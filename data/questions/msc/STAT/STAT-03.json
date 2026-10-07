@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-03",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-03-0001",
+   "concept": "partition-function-energy",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.1,
+    "c": 0.25
+   },
+   "stem": "In the canonical ensemble, the mean energy is obtained from the partition function \\(Z\\) by:",
+   "options": {
+    "A": "\\(\\langle E\\rangle = -\\dfrac{\\partial\\ln Z}{\\partial\\beta}\\)",
+    "B": "\\(\\langle E\\rangle = \\dfrac{\\partial\\ln Z}{\\partial\\beta}\\)",
+    "C": "\\(\\langle E\\rangle = -k_BT\\ln Z\\)",
+    "D": "\\(\\langle E\\rangle = Z/\\beta\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "\\(\\langle E\\rangle = \\sum E_ie^{-\\beta E_i}/Z = -\\partial_\\beta\\ln Z\\).",
+    "whyWrong": {
+     "B": "Sign error.",
+     "C": "That is the Helmholtz free energy \\(F\\).",
+     "D": "No such relation."
+    },
+    "conceptTested": "Canonical ensemble relations",
+    "trapUsed": "Confusing \\(\\langle E\\rangle\\) with \\(F\\).",
+    "howToModify": "Ask for heat capacity in terms of \\(Z\\).",
+    "howToAvoid": "Differentiate \\(\\ln Z\\) with respect to \\(\\beta\\) and check the sign with a single level."
+   },
+   "distractorTags": {
+    "B": "sign-error",
+    "C": "formula-confusion",
+    "D": "guessing"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-03-0002",
+   "concept": "free-energy",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "The Helmholtz free energy is related to the canonical partition function by:",
+   "options": {
+    "A": "\\(F = k_BT\\ln Z\\)",
+    "B": "\\(F = -k_BT\\ln Z\\)",
+    "C": "\\(F = -\\ln Z/k_BT\\)",
+    "D": "\\(F = -k_BT Z\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(F = -k_BT\\ln Z\\), the bridge between statistical mechanics and thermodynamics (\\(S = -\\partial F/\\partial T\\), \\(P = -\\partial F/\\partial V\\)).",
+    "whyWrong": {
+     "A": "Sign error.",
+     "C": "Dimension error.",
+     "D": "Missing logarithm."
+    },
+    "conceptTested": "Bridge equation",
+    "trapUsed": "Sign trap.",
+    "howToModify": "Ask for the entropy from \\(F\\).",
+    "howToAvoid": "Lower \\(F\\) ↔ larger \\(Z\\): needs the minus sign."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "C": "unit-error",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-03-0003",
+   "concept": "two-level-high-T",
+   "type": "numerical",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.0,
+    "c": 0.25
+   },
+   "stem": "A two-level system has energies \\(0\\) and \\(\\varepsilon\\). In the limit \\(k_BT \\gg \\varepsilon\\), its mean energy approaches:",
+   "options": {
+    "A": "\\(0\\)",
+    "B": "\\(\\varepsilon\\)",
+    "C": "\\(\\varepsilon/2\\)",
+    "D": "\\(k_BT\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(\\langle E\\rangle = \\frac{\\varepsilon e^{-\\beta\\varepsilon}}{1+e^{-\\beta\\varepsilon}}\\to\\varepsilon/2\\) as both levels become equally populated.",
+    "whyWrong": {
+     "A": "Low-temperature limit.",
+     "B": "Would require population inversion.",
+     "D": "Equipartition does not apply to a bounded spectrum."
+    },
+    "conceptTested": "Saturation of two-level systems",
+    "trapUsed": "Applying equipartition to a finite spectrum.",
+    "howToModify": "Ask for the temperature at which the heat capacity peaks (Schottky anomaly).",
+    "howToAvoid": "At high T all levels are equally occupied."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-03-0004",
+   "concept": "energy-fluctuations",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.4,
+    "c": 0.25
+   },
+   "stem": "In the canonical ensemble, the variance of energy is \\(\\langle(\\Delta E)^2\\rangle =\\):",
+   "options": {
+    "A": "\\(k_B^2T^2/C_V\\)",
+    "B": "\\(0\\)",
+    "C": "\\(k_BTC_V\\)",
+    "D": "\\(k_BT^2C_V\\)"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(\\langle\\Delta E^2\\rangle = \\partial^2\\ln Z/\\partial\\beta^2 = k_BT^2C_V\\). Relative fluctuations scale as \\(1/\\sqrt N\\).",
+    "whyWrong": {
+     "A": "Inverted dependence on \\(C_V\\).",
+     "B": "True only in the microcanonical ensemble.",
+     "C": "Dimension error (one factor of \\(T\\) missing)."
+    },
+    "conceptTested": "Fluctuation–response relation",
+    "trapUsed": "Missing a factor of \\(T\\).",
+    "howToModify": "Ask for the relative fluctuation for an ideal gas (\\(\\sqrt{2/3N}\\)).",
+    "howToAvoid": "Check dimensions: \\(k_BT^2C_V\\) has units of energy squared."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "B": "concept-confusion",
+    "C": "unit-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-03-0005",
+   "concept": "equipartition-diatomic",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.7,
+    "c": 0.25
+   },
+   "stem": "Using equipartition, the molar heat capacity \\(C_V\\) of an ideal diatomic gas at room temperature (rigid rotor, vibrations frozen) is:",
+   "options": {
+    "A": "\\(\\tfrac52R\\)",
+    "B": "\\(\\tfrac72R\\)",
+    "C": "\\(3R\\)",
+    "D": "\\(\\tfrac32R\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "3 translational + 2 rotational quadratic terms, each \\(\\tfrac12R\\): \\(C_V = \\tfrac52R\\).",
+    "whyWrong": {
+     "B": "Includes vibration (2 quadratic terms) — only at high T.",
+     "C": "Dulong–Petit value for solids.",
+     "D": "Monatomic gas."
+    },
+    "conceptTested": "Equipartition theorem",
+    "trapUsed": "Including frozen-out degrees of freedom.",
+    "howToModify": "Ask for \\(\\gamma = C_P/C_V\\) (7/5).",
+    "howToAvoid": "Count only active quadratic terms."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-03-0006",
+   "concept": "schottky-anomaly",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.5,
+    "c": 0.25
+   },
+   "stem": "The heat capacity of a system of independent two-level atoms, plotted against temperature:",
+   "options": {
+    "A": "increases monotonically to a constant",
+    "B": "shows a peak (Schottky anomaly) at \\(k_BT\\) of order the level splitting",
+    "C": "is constant at all temperatures",
+    "D": "diverges at a critical temperature"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "At low T the upper level is inaccessible; at high T both levels are equally populated and adding heat changes nothing. In between, \\(C\\) passes through a maximum near \\(k_BT\\approx0.42\\varepsilon\\).",
+    "whyWrong": {
+     "A": "Behaviour of systems with unbounded spectra.",
+     "C": "Classical equipartition result for quadratic modes.",
+     "D": "Signature of a phase transition, absent here."
+    },
+    "conceptTested": "Schottky heat capacity",
+    "trapUsed": "Phase-transition intuition.",
+    "howToModify": "Ask for the low-temperature behaviour of \\(C\\) (exponentially small).",
+    "howToAvoid": "Bounded spectrum ⇒ heat capacity must vanish at both ends ⇒ peak."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}

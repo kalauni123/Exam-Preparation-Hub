@@ -1,0 +1,272 @@
+{
+ "schemaVersion": 1,
+ "chapterId": "STAT-05",
+ "subjectId": "STAT",
+ "category": "msc",
+ "questions": [
+  {
+   "id": "STAT-05-0001",
+   "concept": "characteristic-speeds",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.8,
+    "c": 0.25
+   },
+   "stem": "For a Maxwell–Boltzmann gas, the most probable speed \\(v_p\\), mean speed \\(\\bar v\\) and rms speed \\(v_{rms}\\) are in the order:",
+   "options": {
+    "A": "all equal",
+    "B": "\\(v_{rms} < \\bar v < v_p\\)",
+    "C": "\\(v_p < \\bar v < v_{rms}\\)",
+    "D": "\\(\\bar v < v_p < v_{rms}\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "\\(v_p : \\bar v : v_{rms} = \\sqrt2 : \\sqrt{8/\\pi} : \\sqrt3 \\approx 1.41 : 1.60 : 1.73\\) (in units of \\(\\sqrt{k_BT/m}\\)).",
+    "whyWrong": {
+     "A": "Different averages of a skewed distribution differ.",
+     "B": "Reversed order.",
+     "D": "Mean speed exceeds the most probable speed (the distribution has a high-speed tail)."
+    },
+    "conceptTested": "Maxwell speed distribution",
+    "trapUsed": "Ordering of averages in a skewed distribution.",
+    "howToModify": "Ask for \\(v_{rms}/v_p\\) (\\(\\sqrt{3/2}\\)).",
+    "howToAvoid": "Memorise √2 < √(8/π) < √3."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "sign-error",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-05-0002",
+   "concept": "rms-temperature-scaling",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.8,
+    "b": -1.3,
+    "c": 0.25
+   },
+   "stem": "If the absolute temperature of an ideal gas is quadrupled, the rms speed of its molecules:",
+   "options": {
+    "A": "is halved",
+    "B": "increases by a factor of 16",
+    "C": "quadruples",
+    "D": "doubles"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(v_{rms} = \\sqrt{3k_BT/m}\\propto\\sqrt T\\); \\(\\sqrt4 = 2\\).",
+    "whyWrong": {
+     "A": "Wrong direction.",
+     "B": "Squares instead of taking the root.",
+     "C": "Treats \\(v\\propto T\\)."
+    },
+    "conceptTested": "Temperature dependence of molecular speeds",
+    "trapUsed": "Forgetting the square root.",
+    "howToModify": "Ask for the change in mean kinetic energy (quadruples).",
+    "howToAvoid": "Kinetic energy ∝ T; speed ∝ √T."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "B": "formula-confusion",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-05-0003",
+   "concept": "classical-limit",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": 0.2,
+    "c": 0.25
+   },
+   "stem": "Maxwell–Boltzmann statistics is a good approximation for a gas when:",
+   "options": {
+    "A": "the thermal de Broglie wavelength is much smaller than the mean interparticle spacing",
+    "B": "the temperature is very low",
+    "C": "the density is very high",
+    "D": "\\(n\\lambda_T^3 \\gg 1\\)"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "When \\(n\\lambda_T^3\\ll1\\), mean occupancies are \\(\\ll1\\), quantum exchange effects are negligible, and both BE and FD reduce to MB.",
+    "whyWrong": {
+     "B": "Low T enlarges \\(\\lambda_T\\) and makes quantum effects important.",
+     "C": "High density also brings quantum degeneracy.",
+     "D": "This is the degenerate (quantum) regime."
+    },
+    "conceptTested": "Validity of classical statistics",
+    "trapUsed": "Reversing the degeneracy criterion.",
+    "howToModify": "Ask to estimate \\(n\\lambda_T^3\\) for electrons in a metal at room temperature (≫ 1).",
+    "howToAvoid": "Classical ⇔ waves don't overlap."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-05-0004",
+   "concept": "mean-kinetic-energy",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.0,
+    "c": 0.25
+   },
+   "stem": "The mean translational kinetic energy of a gas molecule at \\(300\\ \\text{K}\\) is about (\\(k_BT\\approx 0.0259\\ \\text{eV}\\) at 300 K):",
+   "options": {
+    "A": "\\(0.026\\ \\text{eV}\\)",
+    "B": "\\(0.039\\ \\text{eV}\\)",
+    "C": "\\(0.013\\ \\text{eV}\\)",
+    "D": "\\(0.078\\ \\text{eV}\\)"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "\\(\\langle KE\\rangle = \\tfrac32k_BT = 1.5\\times0.0259 \\approx 0.039\\ \\text{eV}\\).",
+    "whyWrong": {
+     "A": "Just \\(k_BT\\).",
+     "C": "\\(\\tfrac12k_BT\\), one degree of freedom.",
+     "D": "\\(3k_BT\\)."
+    },
+    "conceptTested": "Equipartition for translation",
+    "trapUsed": "Wrong multiple of \\(k_BT\\).",
+    "howToModify": "Ask for the rms speed of N\\(_2\\) at 300 K (≈ 517 m/s).",
+    "howToAvoid": "Three translational degrees of freedom × \\(\\tfrac12k_BT\\)."
+   },
+   "distractorTags": {
+    "A": "formula-confusion",
+    "C": "formula-confusion",
+    "D": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-05-0005",
+   "concept": "barometric-formula",
+   "type": "application",
+   "difficulty": {
+    "a": 1.0,
+    "b": -0.2,
+    "c": 0.25
+   },
+   "stem": "In an isothermal atmosphere, the number density of molecules at height \\(h\\) varies as:",
+   "options": {
+    "A": "\\(n_0\\) (independent of height)",
+    "B": "\\(n_0(1 - mgh/k_BT)\\) exactly",
+    "C": "\\(n_0e^{-mgh/k_BT}\\)",
+    "D": "\\(n_0e^{+mgh/k_BT}\\)"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Boltzmann factor for potential energy \\(mgh\\): \\(n(h) = n_0e^{-mgh/k_BT}\\), with scale height \\(k_BT/mg \\approx 8.4\\ \\text{km}\\) for air.",
+    "whyWrong": {
+     "A": "Ignores gravity.",
+     "B": "Only the first-order Taylor expansion.",
+     "D": "Density would grow with altitude."
+    },
+    "conceptTested": "Boltzmann distribution in a field",
+    "trapUsed": "Linearizing an exponential.",
+    "howToModify": "Ask at what height density falls to 1/e (scale height).",
+    "howToAvoid": "Probability ∝ \\(e^{-\\text{energy}/k_BT}\\)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "formula-confusion",
+    "D": "sign-error"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "STAT-05-0006",
+   "concept": "rms-mass-ratio",
+   "type": "numerical",
+   "difficulty": {
+    "a": 0.9,
+    "b": -0.7,
+    "c": 0.25
+   },
+   "stem": "At the same temperature, the ratio of rms speeds \\(v_{rms}(\\mathrm{H_2})/v_{rms}(\\mathrm{O_2})\\) is:",
+   "options": {
+    "A": "1/4",
+    "B": "2",
+    "C": "16",
+    "D": "4"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "\\(v_{rms}\\propto1/\\sqrt m\\); \\(\\sqrt{32/2} = \\sqrt{16} = 4\\).",
+    "whyWrong": {
+     "A": "Inverted.",
+     "B": "Uses \\(\\sqrt{m}\\) ratio of atoms incorrectly.",
+     "C": "Forgets the square root."
+    },
+    "conceptTested": "Mass dependence of molecular speeds",
+    "trapUsed": "Square-root omission.",
+    "howToModify": "Ask why hydrogen escapes from Earth's atmosphere more easily.",
+    "howToAvoid": "Lighter molecules move faster as \\(1/\\sqrt m\\)."
+   },
+   "distractorTags": {
+    "A": "sign-error",
+    "B": "careless",
+    "C": "formula-confusion"
+   },
+   "template": null,
+   "tags": [
+    "tu-assistant-professor",
+    "net-physics",
+    "msc-physics"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}
