@@ -1,1 +1,1388 @@
-{"schemaVersion": 1, "chapterId": "TECH-01", "subjectId": "TECH", "category": "aptitude", "questions": []}
+{
+ "schemaVersion": 1,
+ "chapterId": "TECH-01",
+ "subjectId": "TECH",
+ "category": "aptitude",
+ "questions": [
+  {
+   "id": "TECH-01-0001",
+   "concept": "definitions-of-teaching",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "“Teaching is an intimate contact between a more mature personality and a less mature one which is designed to further the education of the latter.” This definition was given by:",
+   "options": {
+    "A": "N.L. Gage",
+    "B": "Edmund Amidon",
+    "C": "B.O. Smith",
+    "D": "H.C. Morrison"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Morrison's definition rests on two key phrases: “intimate contact” and “more mature – less mature personality”. Teaching is seen as a close personal relationship in which the mature person deliberately furthers the education of the less mature one.",
+    "whyWrong": {
+     "A": "Gage defined teaching as interpersonal influence aimed at changing another person's behaviour potential — no “intimate contact” or “maturity” wording.",
+     "B": "Amidon described teaching as an interactive process, primarily classroom talk between teacher and pupil during definable activities.",
+     "C": "B.O. Smith called teaching “a system of actions intended to induce learning” — a systems view, not a personal-contact view."
+    },
+    "conceptTested": "Morrison's definition of teaching",
+    "trapUsed": "The phrase “more mature person instructs the less mature” also appears in general descriptions of teaching, so candidates may pick any famous name. The examiner relies on you not anchoring the exact keywords.",
+    "howToModify": "When could each wrong option become correct? A: If the stem spoke of “interpersonal influence” or “changing the behaviour potential of another person”. B: If the stem mentioned “interactive process”, “classroom talk” or “definable activities”. C: If the stem said “system of actions” or “intended to induce learning”.",
+    "howToAvoid": "Mature–less mature + intimate contact = Morrison. Match the unique keyword, not the general idea.",
+    "memoryKey": "Morrison = Mature Man Meets Minor."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scholar-theorist",
+    "basic"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0002",
+   "concept": "definitions-of-teaching",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "Which scholar defined teaching as “a form of interpersonal influence aimed at changing the behaviour potential of another person”?",
+   "options": {
+    "A": "Burton",
+    "B": "Clarke",
+    "C": "John Adams",
+    "D": "N.L. Gage"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Gage (1962) stressed interpersonal influence and behaviour potential — teaching changes what the learner is able to do, not only what he does at the moment.",
+    "whyWrong": {
+     "A": "Burton defined teaching as the stimulation, guidance, direction and encouragement of learning — four verbs, no “influence” or “potential”.",
+     "B": "Clarke said teaching refers to activities designed and performed to produce change in student behaviour — “activities designed”, not “interpersonal influence”.",
+     "C": "John Adams is known for describing teaching as a bipolar process (teacher and pupil), not for this definition."
+    },
+    "conceptTested": "Gage's definition of teaching",
+    "trapUsed": "Both Gage and Clarke talk about change in behaviour. The examiner hopes you pick Clarke because “change in behaviour” sounds familiar.",
+    "howToModify": "When could each wrong option become correct? A: If the stem listed “stimulation, guidance, direction and encouragement”. B: If the stem said “activities that are designed and performed to produce change in behaviour”. C: If the question asked who called teaching “bipolar”.",
+    "howToAvoid": "Look for the second keyword: influence + potential = Gage; designed activities + change = Clarke.",
+    "memoryKey": "Gage = Gauge the Potential through Influence."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "definition",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0003",
+   "concept": "definitions-of-teaching",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "“Teaching is the stimulation, guidance, direction and encouragement of learning.” Who gave this definition?",
+   "options": {
+    "A": "Edmund Amidon",
+    "B": "Burton",
+    "C": "H.C. Morrison",
+    "D": "John Dewey"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Burton's definition is a list of four facilitating actions — stimulate, guide, direct, encourage. It presents the teacher as a facilitator of learning rather than a transmitter.",
+    "whyWrong": {
+     "A": "Amidon emphasised teaching as an interactive process of classroom talk.",
+     "C": "Morrison emphasised intimate contact between mature and less mature personalities.",
+     "D": "Dewey is linked with the tri-polar view (teacher, pupil, curriculum/social environment) and with learning through experience and situations."
+    },
+    "conceptTested": "Burton's definition of teaching",
+    "trapUsed": "All four names are genuine educationists with definitions of teaching. The trap is recognition, not reasoning: a list of facilitating verbs can sound “Deweyan”.",
+    "howToModify": "When could each wrong option become correct? A: If “interactive process” or “classroom talk” appeared. C: If “intimate contact” or “mature personality” appeared. D: If the question asked about the tri-polar process or education as life itself.",
+    "howToAvoid": "A list of four “-tion” verbs (stimulation, guidance, direction, encouragement) = Burton.",
+    "memoryKey": "Burton = Boost, Guide, Direct, Encourage (SGDE)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scholar-theorist",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0004",
+   "concept": "definitions-of-teaching",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "“Teaching is an interactive process, primarily involving classroom talk which takes place between teacher and pupil and occurs during certain definable activities.” This definition belongs to:",
+   "options": {
+    "A": "B.O. Smith",
+    "B": "N.L. Gage",
+    "C": "Clarke",
+    "D": "Edmund Amidon"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Amidon (1967), known for classroom interaction analysis, saw teaching as interaction through classroom talk during definable activities.",
+    "whyWrong": {
+     "A": "B.O. Smith described teaching as a system of actions intended to induce learning.",
+     "B": "Gage stressed interpersonal influence on behaviour potential.",
+     "C": "Clarke stressed designed activities producing behaviour change."
+    },
+    "conceptTested": "Amidon's definition of teaching",
+    "trapUsed": "“Interactive” also appears in lists of characteristics of teaching (“teaching is interactive”), so candidates may treat it as general wording rather than a scholar clue.",
+    "howToModify": "When could each wrong option become correct? A: If the stem said “system of actions”. B: If “interpersonal influence” appeared. C: If “activities designed and performed” appeared.",
+    "howToAvoid": "Classroom talk + interactive = Amidon (the interaction-analysis scholar).",
+    "memoryKey": "Amidon = Analyses classroom talk."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scholar-theorist",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0005",
+   "concept": "definitions-of-teaching",
+   "type": "memory",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "“Teaching is showing or helping someone to learn how to do something, giving instructions, guiding in the study of something, providing with knowledge, causing to know or understand.” This definition is associated with:",
+   "options": {
+    "A": "Corder",
+    "B": "Morrison",
+    "C": "Brown",
+    "D": "Burton"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Brown (2000) gives a broad definition ending with “causing to know or understand” — teaching as helping, guiding and enabling understanding.",
+    "whyWrong": {
+     "A": "Corder (1973) saw teaching as developing a set of performance skills in the learner.",
+     "B": "Morrison: intimate contact between mature and less mature personalities.",
+     "D": "Burton: stimulation, guidance, direction and encouragement."
+    },
+    "conceptTested": "Brown's definition of teaching",
+    "trapUsed": "“Guiding” appears in both Brown's and Burton's definitions. An examiner may delete the phrase “causing to know” to make the two harder to separate.",
+    "howToModify": "When could each wrong option become correct? A: If the stem spoke of “performance skills” and syllabuses expressed in terms of skills. B: If “intimate contact” appeared. D: If the four “-tion” words appeared.",
+    "howToAvoid": "“Causing to know or understand” = Brown. If only “guidance” appears with stimulation, direction and encouragement, choose Burton.",
+    "memoryKey": "Brown Brings understanding."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scholar-theorist",
+    "basic"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0006",
+   "concept": "teaching-vs-learning",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Consider the statements: (1) Teaching is a set of events outside the learner designed to support the internal process of learning. (2) Learning can take place without any teaching. (3) Teaching always guarantees learning. Which statements are correct?",
+   "options": {
+    "A": "1 and 3 only",
+    "B": "1 and 2 only",
+    "C": "2 and 3 only",
+    "D": "1, 2 and 3"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Teaching is external; learning is internal (1 true). Learning can be incidental — a child learns from touching a hot stove without any teacher (2 true). Teaching only creates conditions; students may not learn (3 false).",
+    "whyWrong": {
+     "A": "Includes statement 3, which is false because of the word “always”.",
+     "C": "Excludes statement 1, which is the core definition of teaching, and includes the false statement 3.",
+     "D": "Includes statement 3."
+    },
+    "conceptTested": "Teaching versus learning: external events and internal process",
+    "trapUsed": "The absolute word “always” in statement 3 turns a sensible-sounding idea into a false one.",
+    "howToModify": "When could each wrong option become correct? A: If statement 3 read “teaching aims to bring about learning”. D: Only if statement 3 were rewritten without “always”, e.g. “teaching is intended to produce learning”.",
+    "howToAvoid": "In statement questions, test every absolute word (always, never, only). Teaching intends learning; it cannot guarantee it.",
+    "memoryKey": "Teach = outside; Learn = inside; no guarantee."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "multiple-statement",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0007",
+   "concept": "teaching-vs-learning",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Which pair correctly distinguishes teaching from learning?",
+   "options": {
+    "A": "Teaching is internal and incidental; learning is external and planned",
+    "B": "Teaching is always incidental; learning is always planned",
+    "C": "Both are internal processes of the learner",
+    "D": "Teaching is planned and external; learning is internal and may be planned or incidental"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Teaching is a deliberate, planned set of events arranged outside the learner. Learning is a cognitive process inside the learner and can occur both through planned activity and incidentally.",
+    "whyWrong": {
+     "A": "Exactly reverses both features — a classic reversal trap.",
+     "B": "Teaching is deliberate, not incidental; learning is not always planned.",
+     "C": "Teaching is external to the learner."
+    },
+    "conceptTested": "Distinguishing features of teaching and learning",
+    "trapUsed": "Reversal: the examiner swaps internal/external and planned/incidental between the two terms.",
+    "howToModify": "When could each wrong option become correct? C: If the question asked only about learning: “Learning is an internal process”.",
+    "howToAvoid": "Fix one anchor: “Teaching is outside, learning is inside.” Then check every pair against it.",
+    "memoryKey": "T-out, L-in."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "careless",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "matching-pairing",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0008",
+   "concept": "poles-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "Teaching is described as a “bipolar process” by:",
+   "options": {
+    "A": "John Dewey",
+    "B": "B.S. Bloom",
+    "C": "John Adams",
+    "D": "Herbart"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "John Adams viewed teaching as bipolar: the two poles are the teacher and the pupil, both acting on each other.",
+    "whyWrong": {
+     "A": "Dewey viewed teaching as tri-polar — teacher, pupil and curriculum/social environment.",
+     "B": "Bloom is known for the taxonomy of educational objectives, not the poles of teaching.",
+     "D": "Herbart is linked with memory-level teaching and the five formal steps."
+    },
+    "conceptTested": "Bipolar view of teaching (John Adams)",
+    "trapUsed": "Two “John”s — Adams and Dewey. The examiner relies on the shared first name.",
+    "howToModify": "When could each wrong option become correct? A: If the stem said “tri-polar process”. B: If the question asked about classifying objectives into cognitive, affective, psychomotor domains. D: If the question asked about formal steps or apperceptive mass.",
+    "howToAvoid": "Adams = 2 (A, B — two letters at the start); Dewey = 3 (adds the curriculum/environment).",
+    "memoryKey": "Adams Adds two; Dewey Does three."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "factual-recall",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "direct-conceptual",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0009",
+   "concept": "poles-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "In Dewey's tri-polar view of teaching, the third pole besides the teacher and the learner is:",
+   "options": {
+    "A": "The examination",
+    "B": "The curriculum / social environment",
+    "C": "The school administration",
+    "D": "The parents"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Dewey added the curriculum (often described as the social environment or learning situation) as the third pole. Teaching becomes an interaction among teacher, learner and what is taught in its social context.",
+    "whyWrong": {
+     "A": "Examination is a part of evaluation, not one of the three poles.",
+     "C": "Administration is an institutional factor affecting teaching (Ch 4), not a pole.",
+     "D": "Parents influence learning but are not one of Dewey's three poles."
+    },
+    "conceptTested": "Dewey's tri-polar view: the third pole",
+    "trapUsed": "Options that are genuine influences on teaching (exams, administration, parents) are included to look reasonable.",
+    "howToModify": "When could each wrong option become correct? C: If the question asked about factors affecting teaching rather than the poles of teaching. D: If the question asked about parent–teacher cooperation in progressivism.",
+    "howToAvoid": "Poles = who teaches, who learns, what is taught (in what context).",
+    "memoryKey": "Teacher – Taught – Topic."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "direct-conceptual",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0010",
+   "concept": "characteristics-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Which of the following is NOT a characteristic of teaching?",
+   "options": {
+    "A": "Teaching is both formal and informal",
+    "B": "Teaching is highly dominated by communication",
+    "C": "Teaching is both an art and a science",
+    "D": "Teaching is a one-way transmission dominated by the teacher alone"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Teaching is interactive; a “one-way transmission” contradicts the interactive, tri-polar nature of teaching. It is an exaggerated picture of the old teacher-centred style, not a characteristic of teaching.",
+    "whyWrong": {
+     "A": "Teaching occurs in classrooms and informally in corridors, playgrounds and homes.",
+     "B": "Teaching is highly dominated by communication — a listed characteristic.",
+     "C": "Teaching is an art (creativity) and a science (systematic, can be studied and improved)."
+    },
+    "conceptTested": "Characteristics of teaching (NOT-type question)",
+    "trapUsed": "Exception trap: a description of a type of teaching (teacher-dominated lecture) is presented as if it defined all teaching.",
+    "howToModify": "When could each wrong option become correct? A: It would be the answer only if the stem asked “Which is a characteristic?” and the others were wrong.",
+    "howToAvoid": "If an option says “only”, “alone” or “one-way”, it is almost certainly not a general characteristic of teaching.",
+    "memoryKey": "GIFT-CARS: Goal, Interactive, Formal+informal, Tri-polar, Continuous, Art+science, Reflective, Specialised."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "exception-not-incorrect",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0011",
+   "concept": "art-and-science-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.9,
+    "c": 0.25
+   },
+   "stem": "Assertion (A): Teaching is a science. Reason (R): Teaching requires creativity and imagination to handle learners of different natures.",
+   "options": {
+    "A": "Both A and R are true, and R is the correct explanation of A",
+    "B": "Both A and R are true, but R is not the correct explanation of A",
+    "C": "A is true, but R is false",
+    "D": "A is false, but R is true"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Teaching is both an art and a science, so A is true. R is also true, but creativity and imagination explain why teaching is an art. Teaching is a science because it uses systematic techniques that can be studied, described and improved.",
+    "whyWrong": {
+     "A": "R does not explain A; it explains the “art” side.",
+     "C": "R is true; creativity is genuinely needed.",
+     "D": "A is true; teaching has a scientific side."
+    },
+    "conceptTested": "Assertion–Reason on the art and science of teaching",
+    "trapUsed": "Combination trap: two true statements joined by a mismatched “because”. The reason belongs to the other half of the art–science pair.",
+    "howToModify": "When could each wrong option become correct? A: If A were changed to “Teaching is an art”. C: If R were changed to an untrue statement such as “teaching requires no planning”. D: If A said “Teaching is purely a science and not an art”.",
+    "howToAvoid": "Ask: “Does R give the cause of this A?” Creativity → art; systematic study → science.",
+    "memoryKey": "Art = Imagination; Science = Investigation."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "assertion-reason",
+    "highly-challenging"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0012",
+   "concept": "instruction-vs-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Which statement best expresses the relationship between instruction and teaching?",
+   "options": {
+    "A": "Instruction is wider than teaching",
+    "B": "Instruction and teaching are identical",
+    "C": "Instruction is a part of teaching",
+    "D": "Instruction is unrelated to teaching"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Instruction means the delivery of content. It may involve little interaction yet helps achieve teaching objectives. Teaching is wider — it includes planning, interaction, guidance and evaluation.",
+    "whyWrong": {
+     "A": "Reverses the relationship.",
+     "B": "They overlap but are not identical; teaching has wider aims (behavioural change, personality development).",
+     "D": "Instruction serves teaching objectives."
+    },
+    "conceptTested": "Relationship between instruction and teaching",
+    "trapUsed": "Reversal: “instruction” sounds formal and large, so candidates think it contains teaching.",
+    "howToModify": "When could each wrong option become correct? B: If the question used everyday language where the two words are used interchangeably — not in exam terms.",
+    "howToAvoid": "Teaching ⊃ Instruction ⊃ content delivery.",
+    "memoryKey": "Instruction is a slice of the Teaching pie."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "comparison",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0013",
+   "concept": "modes-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Arrange the following modes of teaching from the lowest to the highest according to the depth of change they produce: (1) Instruction (2) Conditioning (3) Indoctrination (4) Training",
+   "options": {
+    "A": "4, 2, 1, 3",
+    "B": "2, 1, 4, 3",
+    "C": "1, 2, 4, 3",
+    "D": "2, 4, 1, 3"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Conditioning builds habits → training shapes conduct and skills → instruction gives knowledge → indoctrination forms beliefs. The depth increases from habit to belief.",
+    "whyWrong": {
+     "A": "Places training below conditioning.",
+     "B": "Places instruction below training.",
+     "C": "Places instruction at the bottom."
+    },
+    "conceptTested": "Hierarchy of modes of teaching by depth of change",
+    "trapUsed": "Sequence trap: students who know indoctrination is “highest” still mix the middle two.",
+    "howToModify": "",
+    "howToAvoid": "Follow the depth of what changes: Habit → Skill → Knowledge → Belief.",
+    "memoryKey": "Can Teachers Instruct Ideas? (Conditioning, Training, Instruction, Indoctrination)."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "multiple-statement",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0014",
+   "concept": "modes-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.9,
+    "c": 0.25
+   },
+   "stem": "Which statement about indoctrination is correct?",
+   "options": {
+    "A": "Teaching is possible without indoctrination, but indoctrination is not possible without teaching",
+    "B": "Indoctrination is possible without teaching",
+    "C": "Indoctrination aims mainly at developing motor skills",
+    "D": "Indoctrination encourages learners to critically evaluate beliefs"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Indoctrination works through teaching (it impresses beliefs on others), so it cannot exist without teaching. But ordinary teaching can proceed without impressing beliefs.",
+    "whyWrong": {
+     "B": "Reverses the dependency.",
+     "C": "Motor skills belong to training.",
+     "D": "Indoctrination imposes beliefs without critical evaluation."
+    },
+    "conceptTested": "Relationship between teaching and indoctrination",
+    "trapUsed": "Reversal of the dependency between teaching and indoctrination.",
+    "howToModify": "When could each wrong option become correct? C: If “indoctrination” were replaced by “training”. D: If “indoctrination” were replaced by “critical pedagogy” or “reflective teaching”.",
+    "howToAvoid": "The narrower activity always depends on the wider one: indoctrination needs teaching, not the other way round.",
+    "memoryKey": "No Indoctrination without Instruction-giving teaching."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "statement-best-option",
+    "highly-challenging"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0015",
+   "concept": "modes-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.9,
+    "c": 0.25
+   },
+   "stem": "A question asks: “Which of the following is ethically undesirable in democratic education?” Which option is the best answer?",
+   "options": {
+    "A": "Training",
+    "B": "Instruction",
+    "C": "Indoctrination",
+    "D": "Conditioning of simple habits such as punctuality"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "In the hierarchy, indoctrination is the “highest” mode, but ethically it imposes beliefs without critical evaluation, which conflicts with democratic, critical education.",
+    "whyWrong": {
+     "A": "Training develops skills and conduct; it is acceptable.",
+     "B": "Instruction gives knowledge; acceptable.",
+     "D": "Conditioning of simple useful habits is generally acceptable, especially for young learners."
+    },
+    "conceptTested": "Ethical evaluation of modes of teaching",
+    "trapUsed": "The examiner switches from a hierarchy question (where indoctrination is “highest”) to an ethics question. Candidates who memorised “indoctrination is highest” may avoid it here.",
+    "howToModify": "When could each wrong option become correct? D: If the stem spoke of conditioning used to manipulate beliefs — but then it becomes indoctrination.",
+    "howToAvoid": "Read what is asked: rank → indoctrination highest; ethics → indoctrination undesirable.",
+    "memoryKey": "Highest in rank, lowest in ethics."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "B": "careless",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "examiner-trap-two-views",
+    "highly-challenging"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0016",
+   "concept": "variables-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "In the analysis of teaching as a system of variables, the teacher is regarded as the:",
+   "options": {
+    "A": "Dependent variable",
+    "B": "Intervening variable",
+    "C": "Extraneous variable",
+    "D": "Independent variable"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "The teacher plans, organises and controls the teaching–learning situation, so the teacher is the independent variable. The student changes because of teaching (dependent); content, methods and environment connect them (intervening).",
+    "whyWrong": {
+     "A": "The student is the dependent variable.",
+     "B": "Content, methods, aids and environment are intervening variables.",
+     "C": "“Extraneous” variables are research terms for uncontrolled influences, not part of this teaching model."
+    },
+    "conceptTested": "Teacher as the independent variable in the teaching system",
+    "trapUsed": "Candidates may think the student is “independent” because modern teaching is learner-centred.",
+    "howToModify": "When could each wrong option become correct? A: If the question asked about the student. B: If the question asked about teaching methods or materials. C: If the question were about research design rather than teaching variables.",
+    "howToAvoid": "Who controls → independent; who changes → dependent; what connects → intervening.",
+    "memoryKey": "Teacher Takes control."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "direct-conceptual",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0017",
+   "concept": "characteristics-of-teaching",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "A teacher of geography takes students to a nearby river and, while they observe erosion, answers their questions informally. This illustrates that teaching:",
+   "options": {
+    "A": "occurs both inside and outside the classroom and can be informal",
+    "B": "is only a formal classroom activity",
+    "C": "is a mechanical process of telling and testing",
+    "D": "does not involve communication"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Teaching is formal and informal and occurs inside and outside the classroom. Informal contact often produces learning that “is more sound and lasts longer”.",
+    "whyWrong": {
+     "B": "Contradicted by the scenario itself.",
+     "C": "Teaching is not mechanical; this scenario shows flexible, responsive teaching.",
+     "D": "The teacher answers questions — teaching is communication-dominated."
+    },
+    "conceptTested": "Formal and informal nature of teaching",
+    "trapUsed": "Application trap: a familiar characteristic (“formal and informal”) is hidden in an unfamiliar field-trip scenario.",
+    "howToModify": "",
+    "howToAvoid": "Translate the scenario into a characteristic word before reading the options.",
+    "memoryKey": "Teaching travels — classroom, corridor, riverbank."
+   },
+   "distractorTags": {
+    "B": "careless",
+    "C": "concept-confusion",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scenario-application",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0018",
+   "concept": "goals-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "The ultimate goal of teaching is the:",
+   "options": {
+    "A": "completion of the syllabus",
+    "B": "preparation of students only for examinations",
+    "C": "all-round development of the learner's personality",
+    "D": "transmission of maximum information"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Teaching aims at bringing desirable changes and the all-round development of personality — in classroom terms, the cognitive, affective and psychomotor domains.",
+    "whyWrong": {
+     "A": "Syllabus completion is an administrative target, not the ultimate goal.",
+     "B": "Examination success is a narrow aim.",
+     "D": "Information transmission belongs to a narrow teacher-centred view."
+    },
+    "conceptTested": "Ultimate goal of teaching",
+    "trapUsed": "Options describe what teachers often do, not what teaching ultimately aims at.",
+    "howToModify": "When could each wrong option become correct? A: If the question asked about a teacher's short-term institutional duty. D: If the question asked about the goal of instruction or the memory level.",
+    "howToAvoid": "“Ultimate” → choose the broadest, learner-centred, whole-person option.",
+    "memoryKey": "Head, Heart, Hand = Whole Person."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "direct-conceptual",
+    "basic"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0019",
+   "concept": "characteristics-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Consider: (1) Effective teaching must include some feedback. (2) There can be teaching without formal communication. (3) Teaching means only organising and supervising. Which are features of teaching?",
+   "options": {
+    "A": "1 and 3 only",
+    "B": "1 and 2 only",
+    "C": "2 and 3 only",
+    "D": "1, 2 and 3"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Feedback is essential for effective teaching (1). Teaching can happen through informal communication, demonstration or example (2). “Only organising and supervising” reduces teaching to management (3 false).",
+    "whyWrong": {
+     "A": "Includes the false statement 3.",
+     "C": "Includes 3 and excludes 1.",
+     "D": "Includes statement 3."
+    },
+    "conceptTested": "Features of teaching: feedback and informal communication",
+    "trapUsed": "Extreme word “only” in statement 3.",
+    "howToModify": "When could each wrong option become correct? A: If statement 3 read “Teaching includes organising learning experiences”. D: Only if statement 3 were reworded without “only”.",
+    "howToAvoid": "Any statement that reduces teaching to one function (“only telling”, “only organising”) is false.",
+    "memoryKey": "Feedback is a must; formality is not."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "multiple-statement",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0020",
+   "concept": "art-and-science-of-teaching",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "Which description best explains why teaching is called an “art”?",
+   "options": {
+    "A": "It uses systematic techniques that can be measured and improved",
+    "B": "It follows fixed laws that never change",
+    "C": "It depends only on textbooks",
+    "D": "It needs creativity and sensitivity to handle learners of different nature and background"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "The art side of teaching is creative handling of varied learners and situations. The science side is the systematic, describable repertoire of techniques.",
+    "whyWrong": {
+     "A": "This explains the science side.",
+     "B": "Teaching is characterised by frequent change and innovation; no fixed unchanging laws.",
+     "C": "Teaching depends on far more than textbooks."
+    },
+    "conceptTested": "Why teaching is an art",
+    "trapUsed": "Mixing the art and science explanations.",
+    "howToModify": "When could each wrong option become correct? A: If the stem asked why teaching is a “science”.",
+    "howToAvoid": "Art = creativity; Science = system.",
+    "memoryKey": "Artist creates; Scientist systematises."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "careless",
+    "C": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "definition",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0021",
+   "concept": "phases-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "Which phase of teaching corresponds to the teacher planning objectives, content and methods before entering the classroom?",
+   "options": {
+    "A": "Post-active phase",
+    "B": "Interactive phase",
+    "C": "Pre-active phase",
+    "D": "Evaluative phase"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "In the classic division of teaching operations, the pre-active phase is planning before teaching; the interactive phase is classroom teaching; the post-active phase is evaluation and reflection after teaching.",
+    "whyWrong": {
+     "A": "Post-active = after teaching (evaluation, reflection).",
+     "B": "Interactive = during classroom teaching.",
+     "D": "“Evaluative” is a function of teaching (diagnostic, prescriptive, evaluative), not one of these three phases."
+    },
+    "conceptTested": "Pre-active, interactive and post-active phases of teaching",
+    "trapUsed": "Look-alike: “evaluative function” and “post-active phase” both concern evaluation; examiners mix the function list and the phase list.",
+    "howToModify": "When could each wrong option become correct? A: If the stem described checking results and reflecting after the class. B: If the stem described questioning and explaining during the lesson. D: If the question asked about the functions of teaching.",
+    "howToAvoid": "Phases = Pre → Inter → Post. Functions = Diagnose → Prescribe → Evaluate. Don't mix the lists.",
+    "memoryKey": "Pre = Plan; Inter = Interact; Post = Ponder."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "direct-conceptual",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0022",
+   "concept": "definitions-of-teaching",
+   "type": "memory",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "“Teaching is a system of actions intended to induce learning.” This systems view of teaching was given by:",
+   "options": {
+    "A": "H.C. Morrison",
+    "B": "B.O. Smith",
+    "C": "Burton",
+    "D": "Ryburn"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "B.O. Smith described teaching as “a system of actions intended to induce learning”, emphasising purposeful, organised actions.",
+    "whyWrong": {
+     "A": "Morrison: intimate contact between mature and less mature persons.",
+     "C": "Burton: stimulation, guidance, direction, encouragement.",
+     "D": "Ryburn described teaching as a relationship that helps the child develop all his powers; he is not linked with the “system of actions” wording."
+    },
+    "conceptTested": "B.O. Smith's systems view of teaching",
+    "trapUsed": "“Induce learning” sounds like “stimulation of learning” (Burton).",
+    "howToModify": "When could each wrong option become correct? A: If “intimate contact” appeared. C: If the four facilitating verbs appeared. D: If the stem spoke of “relationship which helps the child to develop all his powers”.",
+    "howToAvoid": "“System” = Smith. Both begin with S.",
+    "memoryKey": "Smith's System."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scholar-theorist",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0023",
+   "concept": "instruction-vs-teaching",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "A lecturer delivers well-prepared content to 200 students through a microphone with almost no interaction, yet students still reach the learning objectives through notes. Which term best describes this activity?",
+   "options": {
+    "A": "Indoctrination",
+    "B": "Conditioning",
+    "C": "Reflective teaching",
+    "D": "Instruction"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Instruction is the delivery of content; it may involve little teacher–learner interaction but still helps achieve objectives.",
+    "whyWrong": {
+     "A": "Nothing in the scenario imposes beliefs without critical evaluation.",
+     "B": "Conditioning builds habits through stimulus–response and reinforcement.",
+     "C": "Reflective teaching involves examining one's own practice or problem-centred learning; neither is described."
+    },
+    "conceptTested": "Identifying instruction in a scenario",
+    "trapUsed": "The large class and lecture format tempt candidates to think of any teacher-centred label.",
+    "howToModify": "When could each wrong option become correct? A: If the lecturer insisted students accept a political or religious belief without question. B: If the lecturer rewarded and repeated responses to form habits. C: If the lecturer analysed afterwards why students struggled and changed his method.",
+    "howToAvoid": "Little interaction + content delivery = instruction.",
+    "memoryKey": "Instruction = Information delivery."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scenario-application",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0024",
+   "concept": "characteristics-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.1,
+    "b": -0.4,
+    "c": 0.25
+   },
+   "stem": "Which of the following is described as the “main function” of teaching?",
+   "options": {
+    "A": "Conducting examinations",
+    "B": "Maintaining discipline",
+    "C": "Providing guidance and training",
+    "D": "Completing administrative records"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Among its characteristics, teaching's main function is to provide guidance and training; other activities support this.",
+    "whyWrong": {
+     "A": "Examinations are part of evaluation, one component of teaching.",
+     "B": "Discipline is part of classroom management.",
+     "D": "Records are administrative duties."
+    },
+    "conceptTested": "Main function of teaching",
+    "trapUsed": "All options are real teacher tasks; only one is the core function.",
+    "howToModify": "When could each wrong option become correct? A: If the question asked about the evaluative function. B: If the question asked about a teacher's management role.",
+    "howToAvoid": "“Main function” → guidance (helping learners learn).",
+    "memoryKey": "Teacher = Guide first."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "D": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "direct-conceptual",
+    "moderate"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0025",
+   "concept": "characteristics-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.3,
+    "b": 0.9,
+    "c": 0.25
+   },
+   "stem": "Statement I: Teaching has a transformative purpose — it aims to change the existing state of the learner's knowledge base. Statement II: Because teaching is transformative, no single approach can be the best for all situations.",
+   "options": {
+    "A": "Both statements are true, and II follows from I",
+    "B": "Both statements are true, but II does not follow from I",
+    "C": "Statement I is true, Statement II is false",
+    "D": "Statement I is false, Statement II is true"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Both statements are true. But “no single approach is best” follows from the diversity of learners, contexts and competing ideologies, not from the transformative purpose itself.",
+    "whyWrong": {
+     "A": "II is true but its reason is the variety of contexts, not transformation.",
+     "C": "II is true; teaching is characterised by frequent change and many approaches.",
+     "D": "I is true."
+    },
+    "conceptTested": "Transformative purpose of teaching and the absence of a single best approach",
+    "trapUsed": "Combination trap in statement form: two truths linked by a false logical connection.",
+    "howToModify": "When could each wrong option become correct? A: If II read “Because teaching is transformative, it must change learners' knowledge” — that would follow. C: If II said “one approach is always best”. D: If I said “teaching aims to preserve existing knowledge unchanged”.",
+    "howToAvoid": "Check truth first, then check whether the stated link is the real cause.",
+    "memoryKey": "True + True ≠ Cause."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "C": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "statement-based",
+    "highly-challenging"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0026",
+   "concept": "goals-of-teaching",
+   "type": "application",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "A teacher believes: “If my students have not learned, I have not really taught.” This belief emphasises that teaching is:",
+   "options": {
+    "A": "independent of learning outcomes",
+    "B": "a mechanical routine",
+    "C": "limited to classroom management",
+    "D": "purposive and goal-oriented towards learning"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Teaching is purposive: it is organised for the success of learning. The teacher measures teaching by its effect on learning.",
+    "whyWrong": {
+     "A": "The belief connects teaching to outcomes.",
+     "B": "A mechanical routine ignores results.",
+     "C": "Classroom management is only a part."
+    },
+    "conceptTested": "Teaching as purposive and goal-oriented",
+    "trapUsed": "The option “independent of learning outcomes” sounds sophisticated (teaching and learning are different processes), but the belief in the stem links teaching to its results.",
+    "howToModify": "When could each wrong option become correct? A: If the teacher said “My job is to cover the syllabus whether or not students learn”.",
+    "howToAvoid": "Teaching is for learning — goal-oriented.",
+    "memoryKey": "No learning, no real teaching."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "careless",
+    "C": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "scenario-application",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0027",
+   "concept": "education-teaching-learning",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Which statement about education, teaching and learning is correct?",
+   "options": {
+    "A": "Education includes only the planned activities, whereas learning may also be incidental",
+    "B": "Learning includes only planned activities, whereas education may be incidental",
+    "C": "Teaching is wider than education",
+    "D": "Learning occurs only in school"
+   },
+   "answer": "A",
+   "explanation": {
+    "whyCorrect": "Education is the planned process; learning occurs both through planned activity and incidentally, and throughout life.",
+    "whyWrong": {
+     "B": "Reverses the two terms.",
+     "C": "Education is wider than teaching.",
+     "D": "Much learning happens outside school; lifelong learning is a key paradigm."
+    },
+    "conceptTested": "Education, teaching and learning compared",
+    "trapUsed": "Reversal between “education” and “learning”.",
+    "howToModify": "",
+    "howToAvoid": "Education = planned; learning = planned + incidental.",
+    "memoryKey": "Education is planned; Learning just happens too."
+   },
+   "distractorTags": {
+    "B": "concept-confusion",
+    "C": "concept-confusion",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "statement-best-option",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0028",
+   "concept": "education-teaching-learning",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 0.9,
+    "b": -1.2,
+    "c": 0.25
+   },
+   "stem": "“Education is the manifestation of the perfection already in man.” This statement was made by:",
+   "options": {
+    "A": "Rabindranath Tagore",
+    "B": "Swami Vivekananda",
+    "C": "Mahatma Gandhi",
+    "D": "Sri Aurobindo"
+   },
+   "answer": "B",
+   "explanation": {
+    "whyCorrect": "Swami Vivekananda saw education as bringing out the perfection already present in a person.",
+    "whyWrong": {
+     "A": "Tagore emphasised learning in and from nature.",
+     "C": "Gandhi proposed basic education through productive craft.",
+     "D": "Aurobindo proposed integral education."
+    },
+    "conceptTested": "Vivekananda's view of education",
+    "trapUsed": "All four are Eastern thinkers with spiritual emphasis.",
+    "howToModify": "When could each wrong option become correct? A: If the stem spoke of learning in nature and freedom. C: If the stem spoke of craft-centred basic education. D: If the stem spoke of integral education.",
+    "howToAvoid": "“Manifestation of perfection already in man” = Vivekananda.",
+    "memoryKey": "Vivekananda = Visible perfection within."
+   },
+   "distractorTags": {
+    "A": "factual-recall",
+    "C": "factual-recall",
+    "D": "factual-recall"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "direct-conceptual",
+    "basic"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0029",
+   "concept": "education-teaching-learning",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Which of the following is a product of teaching that is NOT a product of mere maturation?",
+   "options": {
+    "A": "Growth in height",
+    "B": "Change of voice at puberty",
+    "C": "Natural increase in muscle strength with age",
+    "D": "Development of the ability to solve quadratic equations"
+   },
+   "answer": "D",
+   "explanation": {
+    "whyCorrect": "Solving quadratic equations is a learned skill brought about by teaching and practice. The others result from biological maturation.",
+    "whyWrong": {
+     "A": "Height increases through growth, not learning.",
+     "B": "Voice change is maturation.",
+     "C": "Muscle strength with age is maturation (although training can add to it)."
+    },
+    "conceptTested": "Learning versus maturation",
+    "trapUsed": "Candidates may think “development” in any form equals learning.",
+    "howToModify": "When could each wrong option become correct? C: If the stem said “strength gained through a planned training programme”.",
+    "howToAvoid": "Maturation = biology; learning = experience or practice.",
+    "memoryKey": "Grow by age, learn by practice."
+   },
+   "distractorTags": {
+    "A": "concept-confusion",
+    "B": "concept-confusion",
+    "C": "concept-confusion"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "exception-not-incorrect",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  },
+  {
+   "id": "TECH-01-0030",
+   "concept": "process-of-teaching",
+   "type": "conceptual",
+   "difficulty": {
+    "a": 1.2,
+    "b": 0.3,
+    "c": 0.25
+   },
+   "stem": "Which of the following best describes the process of teaching in order?",
+   "options": {
+    "A": "Evaluation → Planning → Instruction → Preparation",
+    "B": "Instruction → Planning → Evaluation → Preparation",
+    "C": "Planning → Preparation → Instruction/Intervention → Evaluation",
+    "D": "Preparation → Evaluation → Planning → Instruction"
+   },
+   "answer": "C",
+   "explanation": {
+    "whyCorrect": "Teaching moves from planning what to teach, to preparing materials, to instruction/intervention in class, to evaluation of results.",
+    "whyWrong": {
+     "A": "Puts evaluation first.",
+     "B": "Instruction before planning is illogical.",
+     "D": "Evaluation before planning and instruction."
+    },
+    "conceptTested": "Sequence of the teaching process",
+    "trapUsed": "Sequence options that place evaluation early, since “diagnostic evaluation” can happen early.",
+    "howToModify": "",
+    "howToAvoid": "Diagnostic testing is part of planning; the final step of the process is evaluation of outcomes.",
+    "memoryKey": "Plan, Prepare, Perform, Prove."
+   },
+   "distractorTags": {
+    "A": "careless",
+    "B": "careless",
+    "D": "careless"
+   },
+   "template": null,
+   "tags": [
+    "ugc-net-paper-1",
+    "teaching-aptitude",
+    "sequence-order",
+    "advanced"
+   ],
+   "source": "AI-generated, verify before publishing",
+   "legacyId": null,
+   "needsReview": false
+  }
+ ]
+}
